@@ -1,0 +1,144 @@
+/*Шрифт*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/*Общий стиль*/
+html{
+height: 100%;
+}
+
+hr{
+border: none;
+color: #002366;
+background-color: #002366;
+height: 1px;
+}
+
+body {
+background: linear-gradient(180deg, #FFFFFF, #82AAEB) no-repeat, #82AAEB;
+background-repeat: repeat-x;
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+color: #002366;		
+margin: 0 20px;
+}
+
+main {
+margin-top: 100px;	
+}
+
+div {position: relative;}
+
+/*Заголовки*/
+h1 {
+font-size: 72px;
+line-height: 98px;
+}
+
+/*Размер шрифта обычного текста*/
+p {
+font-size: 36px;
+font-weight: 500;
+margin-top: 4px; /* Отступ сверху */
+margin-bottom: 4px; /* Отступ снизу */	
+}
+
+/*Ссылки*/
+a{
+text-decoration: none;
+}
+
+a:visited{
+color:#ffffff;
+}
+
+common_button a:active{
+color:#ffffff;
+}
+
+
+/*GK Head на фоне*/
+.gk_head_background{
+position:fixed;
+width: 613px;
+height: 935px;
+right: -300px;
+bottom: -500px;
+background: url(images/gk_head.png) no-repeat;
+opacity: 15%;
+z-index: 0;
+}
+
+
+.nav_panel{
+position: fixed;
+left:0;
+top:0;
+width: 100%;
+height: 100px;
+border: 0;
+z-index: 10;
+}
+
+
+
+/*Навигационные кнопки*/
+#nav_panel{
+	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #82AAEB;
+	width: 96%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2% 0 2%;
+	overflow:hidden;
+	position: absolute;
+	left:0;
+}
+.nav_buttons{
+	width: 90%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5% 0 5%;
+	overflow:hidden; 
+}
+
+#other_buttons{
+display:flex;
+justify-content:center;
+margin-bottom:10px;
+}
+
+/*Отступ текста в центре кнопки вниз*/
+.common_button center{
+	margin-top: 7px;
+}
+
+/*Оформление кнопки*/
+.common_button {
+text-decoration: none;
+width:300px;
+height: 60px;
+border-radius: 14px;
+background: #002366;
+color: #FFFFFF;	
+font-family: Nunito;
+font-weight: 600;
+font-size: 36px;
+vertical-align: 50px;
+margin: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+/*Курсор над кнопкой*/
+.common_button:hover {
+background: #4169E1;
+}
+
+/*Кнопка нажата*/
+.common_button:active {
+background: #93bbfc;
+color:#002366;
+}

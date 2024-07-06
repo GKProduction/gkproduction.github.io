@@ -14,8 +14,8 @@ height: 1px;
 }
 
 body {
-background: linear-gradient(180deg, #FFFFFF, #82AAEB) no-repeat, #82AAEB;
-background-repeat: repeat-x;
+/* background: linear-gradient(180deg, #FFFFFF, #82AAEB) no-repeat, #82AAEB; */
+/* background-repeat: repeat-x; */
 font-family: 'Nunito', sans-serif;
 font-style: normal;
 color: #002366;		
@@ -45,6 +45,9 @@ margin-bottom: 4px; /* Отступ снизу */
 /*Ссылки*/
 a{
 text-decoration: none;
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+color: #002366;		
 }
 
 a:visited{
@@ -118,7 +121,7 @@ margin-bottom:10px;
 /*Оформление кнопки*/
 .common_button {
 text-decoration: none;
-width:300px;
+width:20%;
 height: 60px;
 border-radius: 14px;
 background: #002366;
@@ -126,7 +129,7 @@ color: #FFFFFF;
 font-family: Nunito;
 font-weight: 600;
 font-size: 36px;
-vertical-align: 50px;
+vertical-align:middle;
 margin: 5px;
 padding-left: 10px;
 padding-right: 10px;
@@ -142,3 +145,5 @@ background: #4169E1;
 background: #93bbfc;
 color:#002366;
 }
+
+/**/

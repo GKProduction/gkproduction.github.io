@@ -34,7 +34,11 @@
 	if (!document.createElement("canvas").getContext)
 	{window.open("http://www.clickteam.com/html5-fallback", "_self");}
 	</script>
-
+	
+	<!-- VK Bridge -->
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script> vkBridge.send('VKWebAppInit');</script>
+	
 	<!-- EXTRASOURCES -->
 	<!-- Loads the Javascript code -->
 	<script src="data/Runtime.js"></script>

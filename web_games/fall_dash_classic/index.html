@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
 	<title>Fall Dash: Classic</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 	<style type="text/css">
 	body {
@@ -22,31 +21,41 @@
 	}
 	</style>
 
+	<!-- Yandex Games SDK -->
+	<script src="/sdk.js"></script>
+	<script>
+	YaGames.init()
+	.then(ysdk => {
+	console.log('Yandex SDK initialized');
+	window.ysdk = ysdk;
+	});
+	</script>
+	
+	<!-- VK Bridge -->
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script>vkBridge.send('VKWebAppInit');</script>
+
 	<!-- Enables full-screen on iOS devices -->
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="HandheldFriendly" content="true" />
 
+	<!-- If canvas not supported by browser -->
 	<script>
 	// Detection of old browsers that do not support the canvas element
 	// Falls back to a default page
 	if (!document.createElement("canvas").getContext)
 	{window.open("http://www.clickteam.com/html5-fallback", "_self");}
 	</script>
-	
-	<!-- VK Bridge -->
-	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-	<script> vkBridge.send('VKWebAppInit');</script>
-	
-	<!-- EXTRASOURCES -->
-	<!-- Loads the Javascript code -->
+
+	<!-- Loads the game runtime -->
 	<script src="data/Runtime.js"></script>
 </head>
 
 <body>
 	<!-- Your browser does not support Canvas -->
-	<div style="display: inline-block; text-align: left;">
+	<div style="display: inline-block; text-align: center;">
 	<canvas id="game">
 	Your browser does not support Canvas.
 	</canvas>
@@ -66,6 +75,5 @@
 	}
 	// RUNTIMESTARTEND
 	</script>
-
 </body>
 </html>

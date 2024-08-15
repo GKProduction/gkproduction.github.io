@@ -88,7 +88,14 @@
 
 <body>
 	<!-- Canvas -->
-	<div style="display: inline-block; -webkit-user-select: none; text-align: left;">
+	<div style="display: inline-block; text-align: center;
+	/* Disable long-tap context menu */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;">
 	<!-- Your browser does not support Canvas -->
 	<canvas id="game">
 	Your browser does not support Canvas.

@@ -9,22 +9,15 @@
 	<!-- Page style -->
 	<style type="text/css">
 	body {
-	text-align: center;
-	margin: 0;
-	padding: 0;
-
 	/* Background */
 	background-color: #000000;
 	background: url(background.png) repeat;
 	background-size: 100%;
-
-	/* Lock long tap context menu */
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;	
+	
+	/* Misc */
+	text-align: center;
+	margin: 0;
+	padding: 0;
 	}
 	</style>
 
@@ -78,9 +71,19 @@
 </head>
 
 <body>
-
+	<!-- Canvas -->
+	<div style="display:
+	inline-block;
+	text-align: center;
+	
+	/* Lock long tap context menu */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;">
 	<!-- Your browser does not support Canvas -->
-	<div style="display: inline-block; text-align: center;">
 	<canvas id="game">
 	Your browser does not support Canvas.
 	</canvas>

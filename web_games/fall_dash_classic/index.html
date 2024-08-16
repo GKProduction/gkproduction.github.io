@@ -8,9 +8,6 @@
 
 	<!-- Page style -->
 	<style>
-	/* Import fonts */
-	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
-	
 	body {
 	/* Background */
 	background-color: #000000;
@@ -23,15 +20,19 @@
 	padding: 0;
 	}
 	
-	html{
 	/* Disable long-tap context menu */
+	html, body, canvas, #canvas{
+	-webkit-tap-highlight-color: transparent !important;
+	-webkit-text-size-adjust: none !important;
 	-webkit-touch-callout: none !important;
 	-webkit-user-select: none !important;
 	-khtml-user-select: none !important;
 	-moz-user-select: none !important;
 	-ms-user-select: none !important;
+	-o-user-select: none !important;
 	user-select: none !important;
 	touch-action: none !important;
+	overflow: hidden !important;
 	}
 	</style>
 
@@ -40,9 +41,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	<meta name="HandheldFriendly" content="true" />
-	<script>
-	document.addEventListener('gesturestart', function (e){e.preventDefault();});
-	</script>
+	<script>document.addEventListener('gesturestart', function (e){e.preventDefault();});</script>
 
 	<!-- Yandex Games SDK -->
 	<script src="/sdk.js"></script>

@@ -21,18 +21,20 @@
 	}
 	
 	/* Disable long-tap context menu */
-	html, body, canvas, #canvas{
-	-webkit-tap-highlight-color: transparent !important;
-	-webkit-text-size-adjust: none !important;
-	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	-khtml-user-select: none !important;
-	-moz-user-select: none !important;
-	-ms-user-select: none !important;
-	-o-user-select: none !important;
-	user-select: none !important;
-	touch-action: none !important;
-	overflow: hidden !important;
+	*, html, body, canvas, #canvas{
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	touch-action: manipulation;
+	touch-action-delay: none;
+	overflow: hidden;
 	}
 	</style>
 
@@ -92,6 +94,8 @@
 </head>
 
 <body>
+	<center><font size="46" color="white">Тест 1</font></center>
+
 	<!-- Canvas -->
 	<div style="display: inline-block; text-align: center">
 	<!-- Your browser does not support Canvas -->

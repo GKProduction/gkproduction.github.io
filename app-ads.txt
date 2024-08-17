@@ -1,4 +1,3 @@
-google.com, pub-9497180570212058, DIRECT, f08c47fec0942fa0
 yandex.com, 103305543, DIRECT
 betweendigital.com, 43554, RESELLER
 openx.com, 541177349, RESELLER, 6a698e2ec38604c6
@@ -272,5 +271,31 @@ empower.net, 63cb0332e4b01718f069d4cb, RESELLER
 google.com, pub-7983651257838282, RESELLER, f08c47fec0942fa0
 opera.com,pub9443931419968, RESELLER, 55a0c5fd61378de3
 improvedigital.com, 2320, RESELLER
-rubiconproject.com, 26440, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 26442, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 26440, DIRECT, 0bfd66d529a55807
+smartadserver.com, 3172, RESELLER, 060d053dcf45cbf3
+rubiconproject.com, 20086, RESELLER, 0bfd66d529a5
+adform.com, 2904, RESELLER
+appnexus.com, 14416, RESELLER
+orangeclickmedia.com, C-1054, RESELLER
+spinx.biz, 1373698864, RESELLER
+display.io, 201090, RESELLER
+admanmedia.com, 34, RESELLER
+visiblemeasures.com, 1009, RESELLER
+peak226.com, 12900, RESELLER
+dauup.com, 34109, RESELLER
+rhythmone.com, 3948367200, RESELLER, a670c89d4a324e47
+rubiconproject.com, 14558, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 25386, RESELLER, 0bfd66d529a55807
+adform.com, 2742, RESELLER
+instreamatic.com, 78, RESELLER
+vidoomy.com, 2704434, RESELLER
+adswizz.com, entravision, RESELLER
+video.unrulymedia.com, 2979066401945419350, RESELLER
+blueseasx.com, 203620, RESELLER, 7998eac5087f6110
+rubiconproject.com, 26132, RESELLER, 0bfd66d529a55807
+outbrain.com, 00ab8f68679cc060c8bbc1035e70030614, RESELLER
+pangleglobal.com, 82832, RESELLER
+bigo.sg, 196, RESELLER
+openx.com, 537045659, RESELLER, 6a698e2ec38604c6
+appnexus.com, 7597, RESELLER, f5ab79cb980f11d1

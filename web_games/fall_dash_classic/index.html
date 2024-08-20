@@ -4,8 +4,8 @@
 	<!-- Metadata -->
 	<title>Fall Dash: Classic</title>
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+	
 	<!-- Page style -->
 	<style>
 	body {
@@ -18,46 +18,37 @@
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	}
 	
 	/* Disable long-tap context menu */
-	html, body, canvas, #canvas{
-	-webkit-tap-highlight-color: transparent !important;
-	-webkit-text-size-adjust: none !important;
-	-webkit-touch-callout: none !important;
-	-webkit-user-select: none !important;
-	-khtml-user-select: none !important;
-	-moz-user-select: none !important;
-	-ms-user-select: none !important;
-	-o-user-select: none !important;
-	user-select: none !important;
-	touch-action: none !important;
-	overflow: hidden !important;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	}
 	</style>
 
 	<!-- Fullscreen on iOS devices -->
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, target-densitydpi=device-dpi, width=device-width" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="HandheldFriendly" content="true" />
-	<script>document.addEventListener('gesturestart', function (e){e.preventDefault();});</script>
-
-	<!-- Yandex Games SDK -->
-	<script src="/sdk.js"></script>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+	<meta name="HandheldFriendly" content="true"/>
+	
+	<!-- Disable context menu -->
 	<script>
-	YaGames.init()
-	.then(ysdk => {
-	console.log('Yandex SDK initialized');
-	window.ysdk = ysdk;
-	});
+	document.addEventListener('contextmenu', event => event.preventDefault());
 	</script>
-
-	<!-- VK Bridge -->
-	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-	<script>vkBridge.send('VKWebAppInit');</script>
-
-	<!-- Lock arrows keys -->
+	
+	<!-- Workaround for disable double click zoom on iOS -->
+	<script>
+	document.addEventListener('touchend', function (event) {
+	event.preventDefault();
+	$(event.target).trigger('click');
+	}, false);
+	</script>
+	
+	<!-- Disable arrows keys for scrolling -->
 	<script>
 	document.addEventListener('keydown', function(event) {
 	switch(event.key) {
@@ -69,15 +60,27 @@
 	break;
 	default:
 	// Do nothing for other keys
-	break;
-	}
+	break;}
 	});
 	</script>
+
+	<!----------------------------------------------->
 	
-	<!-- Disable right-click context menu -->
+	<!-- Yandex Games SDK -->
+	<script src="/sdk.js"></script>
 	<script>
-	document.addEventListener('contextmenu', event => event.preventDefault());
+	YaGames.init()
+	.then(ysdk => {
+	console.log('Yandex SDK initialized');
+	window.ysdk = ysdk;
+	});
 	</script>
+
+	<!-- VK Bridge SDK -->
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script>vkBridge.send('VKWebAppInit');</script>
+
+	<!----------------------------------------------->
 
 	<!-- If canvas not supported by browser -->
 	<script>

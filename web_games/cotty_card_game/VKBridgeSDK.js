@@ -3,6 +3,8 @@
 
 // ================ Начало ================
 // Инициализация SDK
+
+var init_complete=false;
 function VKGInit() {
     vkBridge.send('VKWebAppInit')
     .then((data) => {
@@ -10,7 +12,8 @@ function VKGInit() {
             // Приложение инициализировано
             console.log('🟦Init complete');
             info_event = "VKG: Init complete";
-        } else {
+            init_complete=true;
+        } else if (!init_complete){
             // Ошибка
             console.log('🟦Init error (no data result)');
             info_event = "VKG: Init error";

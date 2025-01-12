@@ -1,5 +1,5 @@
 // Работа с VK Bridge SDK в старых играх GKProduction v1.0
-// "use strict";
+"use strict";
 
 // ================ Начало ================
 // Инициализация SDK
@@ -71,10 +71,10 @@ function VKGLoadNativeAd(type) {
         if (data.result) {
             // Предзагруженные материалы есть
             console.log('🟦', type, ' ad is loaded');
-            if type === ('interstitial') {
+            if (type === ('interstitial')) {
                 info_event = "VKG: Fullscreen Ad is loaded";
             }
-            if type === ('reward') {
+            if (type === ('reward')) {
                 info_event = "VKG: Video Ad is loaded";
             }
         } else {
@@ -86,10 +86,10 @@ function VKGLoadNativeAd(type) {
     .catch((error) => {
         // Ошибка
         console.log('🟦VKG: Load ', type, ' ad error: ', error);
-        if type === ('interstitial') {
+        if (type === ('interstitial')) {
             info_event = "VKG: Fullscreen Ad is not loaded";
         }
-        if type === ('reward') {
+        if (type === ('reward')) {
             info_event = "VKG: Video Ad is not loaded";
         }
     });
@@ -106,19 +106,19 @@ function VKGShowNativeAd(type) {
         if (data.result) {
             // Реклама была показана
             console.log('🟦', type, ' ad is showing');
-            if type === ('interstitial') {
+            if (type === ('interstitial')) {
                 info_event = "VKG: Fullscreen Ad is showing";
             }
-            if type === ('reward') {
+            if (type === ('reward')) {
                 info_event = "VKG: Video Ad is showing";
             }
         } else {
             // Ошибка
             console.log('🟦VKG: Show ', type, ' ad error: ', error);
-            if type === ('interstitial') {
+            if (type === ('interstitial')) {
                 info_event = "VKG: Fullscreen Ad is not showing";
             }
-            if type === ('reward') {
+            if (type === ('reward')) {
                 info_event = "VKG: Video Ad is not showing";
             }
         }
@@ -126,10 +126,10 @@ function VKGShowNativeAd(type) {
     .catch((error) => {
         // Ошибка
         console.log('🟦VKG: Show ', type, ' ad error: ', error);
-        if type === ('interstitial') {
+        if (type === ('interstitial')) {
             info_event = "VKG: Fullscreen Ad is not showing";
         }
-        if type === ('reward') {
+        if (type === ('reward')) {
             info_event = "VKG: Video Ad is not showing";
         }
     });

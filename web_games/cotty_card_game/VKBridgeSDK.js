@@ -5,7 +5,7 @@
 // Инициализация SDK
 
 var init_complete=false;
-function VKGInit() {
+//function VKGInit() {
     vkBridge.send('VKWebAppInit')
     .then((data) => {
         if (data.result) {
@@ -24,7 +24,7 @@ function VKGInit() {
         console.log('🟦Init error ', error);
         info_event = "VKG: Init error";
     });
-}
+//}
 
 // ================ Реклама ================
 // Показать баннер

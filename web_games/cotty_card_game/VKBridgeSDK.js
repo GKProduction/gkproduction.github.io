@@ -1,5 +1,5 @@
 // Работа с VK Bridge SDK в старых играх GKProduction v1.0
-"use strict";
+// "use strict";
 
 // ================ Начало ================
 // Инициализация SDK

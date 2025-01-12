@@ -4,7 +4,7 @@
 // ================ Начало ================
 // Инициализация SDK
 function VKGInit() {
-    bridge.send('VKWebAppInit')
+    vkBridge.send('VKWebAppInit')
     .then((data) => {
         if (data.result) {
             // Приложение инициализировано
@@ -26,7 +26,7 @@ function VKGInit() {
 // ================ Реклама ================
 // Показать баннер
 function VKGShowBannerAd() {
-    bridge.send('VKWebAppShowBannerAd', {
+    vkBridge.send('VKWebAppShowBannerAd', {
         banner_location: 'top'
     })
     .then((data) => {
@@ -45,7 +45,7 @@ function VKGShowBannerAd() {
 
 // Скрыть баннер
 function VKGHideBannerAd() {
-    bridge.send('VKWebAppHideBannerAd')
+    vkBridge.send('VKWebAppHideBannerAd')
     .then((data) => {
         if (data.result) {
             // Баннерная реклама скрыта
@@ -64,7 +64,7 @@ function VKGHideBannerAd() {
 function VKGLoadNativeAd(type) {
     // type="interstitial" (Межстраничная)
     // type="reward" (Видео)
-    bridge.send('VKWebAppCheckNativeAds', {
+    vkBridge.send('VKWebAppCheckNativeAds', {
         ad_format: type /* Тип рекламы */
     })
     .then((data) => {
@@ -99,7 +99,7 @@ function VKGLoadNativeAd(type) {
 function VKGShowNativeAd(type) {
     // type="interstitial" (Межстраничная)
     // type="reward" (Видео)
-    bridge.send('VKWebAppShowNativeAds', {
+    vkBridge.send('VKWebAppShowNativeAds', {
         ad_format: type /* Тип рекламы */
     })
     .then((data) => {

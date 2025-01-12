@@ -4,15 +4,23 @@
 // ================ Начало ================
 // Инициализация SDK
 function VKGInit() {
-    vkBridge.send('VKWebAppInit')
-    .then(() => {
-        console.log('🟦Init complete');
-        info_event = "VKG: Init complete";
+    bridge.send('VKWebAppInit')
+    .then((data) => {
+        if (data.result) {
+            // Приложение инициализировано
+            console.log('🟦Init complete');
+            info_event = "VKG: Init complete";
+        } else {
+            // Ошибка
+            console.log('🟦Init error ', error);
+            info_event = "VKG: Init error";
+        }
     })
-    .catch(error => {
+    .catch((error) => {
+        // Ошибка
         console.log('🟦Init error ', error);
         info_event = "VKG: Init error";
-    })
+    });
 }
 
 // ================ Реклама ================

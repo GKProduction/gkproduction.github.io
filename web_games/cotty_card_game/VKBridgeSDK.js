@@ -12,7 +12,7 @@ function VKGInit() {
             info_event = "VKG: Init complete";
         } else {
             // Ошибка
-            console.log('🟦Init error ', error);
+            console.log('🟦Init error (no data result)');
             info_event = "VKG: Init error";
         }
     })

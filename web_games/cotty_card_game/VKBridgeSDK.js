@@ -10,9 +10,9 @@ function VKGInit() {
     .then((data) => {
         if (data.result) {
             // Приложение инициализировано
-            console.log('🟦Init complete');
             info_event = "VKG: Init complete";
             init_complete=true;
+            console.log('🟦Init complete');
         } else if (!init_complete){
             // Ошибка
             console.log('🟦Init error (no data result)');

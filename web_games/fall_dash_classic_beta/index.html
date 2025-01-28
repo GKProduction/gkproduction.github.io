@@ -10,7 +10,13 @@
 	<!-- Page style -->
 	<style>
 	/*Fonts*/
-	@import url('fonts/Upheaval Pro.ttf');
+	@font-face {
+	font-family: 'UpheavalPro';
+	src: url('fonts/UpheavalPro.woff2') format('woff2'),
+	url('fonts/UpheavalPro.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
 	
 	/*Background*/
 	body {
@@ -72,23 +78,15 @@
 	});
 	</script>
 
-	<!-- Переключатель полноэкранного режима -->
-	<script src="scripts/FullscreenSwitch.js"></script>
-
 	<!-- Возвращение ответов функций для модуля Collection of API -->
 	<script src="scripts/CallbackCatcher.js"></script>
-	
-	<!-- Newgrounds API -->
-	<script src="scripts/NewgroundsAPI.js"></script>
-	<script src="scripts/NewgroundsSDK.js"></script>
+
+	<!-- Переключатель полноэкранного режима -->
+	<script src="scripts/FullscreenSwitch.js"></script>
 	
  	<!-- VK Bridge SDK -->
  	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
 	<script src="scripts/VKBridgeSDK.js"></script>
-	
-	<!-- Yandex Games SDK -->
-	<script src="sdk.js"></script>
-	<script src="scripts/YandexGamesSDK.js"></script>
 	
 	<!-- If canvas not supported by browser -->
 	<script>

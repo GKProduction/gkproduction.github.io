@@ -1,25 +1,26 @@
+<!-- GKProduction Web Game Page Template v1.0 -->
 <!DOCTYPE html>
 <html>
 <head>
 	<!-- Metadata -->
-	<title>Fall Dash: Classic</title>
-	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<title>Fall Dash: Classic</title> <!-- Tab Title -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/> <!-- Icon -->
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
-	
+
 	<!-- Page style -->
 	<style>
+	/*Background*/
 	body {
-	/* Background */
-	background-color: #000000;
-	background: url(background.png) repeat;
+	background-color: #000000; 		/*color*/
+	background: url(background.png) repeat; 	/*image*/
 	background-size: 100%;
-	
+
 	/* Misc */
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	* {
 	/* Disable long-tap context menu */
 	-webkit-touch-callout: none;
@@ -33,17 +34,17 @@
 	</style>
 
 	<!-- Fullscreen on iOS devices -->
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width"/>
-	<meta name="mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-	<meta name="HandheldFriendly" content="true"/>
-	
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="HandheldFriendly" content="true">
+
 	<!-- Disable context menu -->
 	<script>
 	document.addEventListener('contextmenu', event => event.preventDefault());
 	</script>
-	
+
 	<!-- Workaround for disable double click zoom on iOS -->
 	<script>
 	document.addEventListener('touchend', function (event) {
@@ -51,7 +52,7 @@
 	$(event.target).trigger('click');
 	}, false);
 	</script>
-	
+
 	<!-- Disable arrows keys for scrolling -->
 	<script>
 	document.addEventListener('keydown', function(event) {
@@ -68,24 +69,16 @@
 	});
 	</script>
 
-	<!----------------------------------------------->
+	<!-- Возвращение ответов функций для модуля Collection of API -->
+	<script src="scripts/CallbackCatcher.js"></script>
+
+	<!-- Переключатель полноэкранного режима -->
+	<script src="scripts/FullscreenSwitch.js"></script>
 	
-	<!-- Yandex Games SDK -->
-	<script src="/sdk.js"></script>
-	<script>
-	YaGames.init()
-	.then(ysdk => {
-	console.log('Yandex SDK initialized');
-	window.ysdk = ysdk;
-	});
-	</script>
-
-	<!-- VK Bridge SDK -->
-	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-	<script>vkBridge.send('VKWebAppInit');</script>
-
-	<!----------------------------------------------->
-
+ 	<!-- VK Bridge SDK -->
+ 	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script src="scripts/VKBridgeSDK.js"></script>
+	
 	<!-- If canvas not supported by browser -->
 	<script>
 	// Detection of old browsers that do not support the canvas element

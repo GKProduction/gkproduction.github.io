@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Dash: Classic (PREVIEW)</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <style>
+/*Fonts*/
+@font-face {
+font-family: 'Tahoma';
+src: url('fonts/Tahoma.woff2') format('woff2'),
+url('fonts/Tahoma.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'UpheavalPro';
+src: url('fonts/UpheavalPro.woff2') format('woff2'),
+url('fonts/UpheavalPro.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'UpheavalPro';
+    font-size: 28px;
+    letter-spacing: 2.5px; /* Расстояние между символами */
+}
+
+p, .footer-content {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+	
+	
+        body {
+            margin: 0;
+            padding: 0;
+            /* font-family: UpheavalPro, sans-serif; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            background: url(background.png) repeat;
+            background-size: 100%;
+        }
+        .container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+	background-color: rgba(16, 16, 18, 0.8); /* Белый цвет с прозрачностью 80% */
+	padding: 20px;
+	border-radius: 10px; /* Опционально: скругление углов */
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+.logo img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Максимальная ширина логотипа */
+}
+
+			.gallery-container, .buttons-container {
+			    padding: 0 20px; /* Отступы по бокам */
+			}
+
+.gallery-container {
+    width: 100%;
+    /*overflow: hidden;*/ /* Скрываем лишнее */
+    overflow-x: auto; /* Добавляем прокрутку внутри контейнера */
+    padding: 10px 0; /* Отступы для визуального комфорта */
+}
+        .gallery {
+	display: flex;
+	overflow-x: auto;
+	gap: 32px;
+	padding: 10px 0;
+	scroll-snap-type: x mandatory; /* Плавная прокрутка с привязкой */
+    width: max-content; /* Ширина галереи равна ширине всех изображений */
+    margin: 0 auto; /* Центрирование галереи */
+        }
+        .gallery img {
+	scroll-snap-align: start; /* Привязка к началу изображения */
+	width: auto;
+	height: 150px;
+	object-fit: contain;
+	transition: transform 0.2s;
+	cursor: zoom-in;
+        }
+        .gallery img:hover {
+            transform: scale(1/*.1*/);
+        }
+        .description {
+            text-align: justify;
+            margin-bottom: 40px; /* Увеличиваем отступ */
+            color: white;
+        }
+        
+.buttons-container {
+    width: 100%;
+    /*overflow: hidden;*/ /* Скрываем лишнее */
+    overflow-x: auto; /* Добавляем прокрутку внутри контейнера */
+    padding: 10px 0; /* Отступы для визуального комфорта */
+    padding-top: 0px;
+}
+
+.buttons {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 0px 0;
+    scroll-snap-type: x mandatory; /* Плавная прокрутка */
+    width: max-content; /* Ширина кнопок равна ширине всех элементов */
+    margin: 0 auto; /* Центрирование кнопок */
+    
+}
+
+.buttons a {
+    scroll-snap-align: center; /* Плавная прокрутка */
+}
+
+.buttons a img {
+width: 64px;
+height: 64px;
+cursor: pointer;
+}
+        
+.buttons-title {
+    text-align: center; /* Центрирование текста */
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Уменьшаем отступ */
+}
+
+
+.source-code {
+    text-align: center; /* Центрирование содержимого */
+    margin-top: 40px; /* Отступ сверху */
+    color: white;
+}
+
+.source-code h2 {
+    margin-bottom: 20px; /* Отступ между заголовком и изображением */
+}
+
+.source-code img {
+    width: 128px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.footer-content {
+    text-align: center;
+    margin-top: 40px; /* Отступ сверху */
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+}
+
+.footer-link {
+    color: inherit; /* Цвет текста такой же, как у родителя */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+.footer-link:hover,
+.footer-link:visited,
+.footer-link:active {
+    color: inherit; /* Сохраняем цвет текста при всех состояниях */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+#fullscreen-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Логотип -->
+        <div class="logo">
+            <img src="logo.png" alt="Логотип">
+        </div>
+
+        <!-- Галерея изображений -->
+	<div class="gallery-container">
+	        <div class="gallery">
+	            <img src="screenshots/1.png" alt="Изображение 1">
+	            <img src="screenshots/2.png" alt="Изображение 2">
+	            <img src="screenshots/3.png" alt="Изображение 3">
+	            <img src="screenshots/4.png" alt="Изображение 4">
+	            <img src="screenshots/5.png" alt="Изображение 5">
+	        </div>
+</div>
+
+        <!-- Описание -->
+        <div class="description">
+            <p>The classic edition of Fall Dash, first released in 2016 as an experimental game.</p>
+            <p>Fall through outer space, avoid obstacles, gain speed and points. Fly down as far as possible.</p>
+
+<h2>How to play</h2>
+<p>Gain FTL speed. The higher your speed, the more points you get. Get as many as you can!
+Beware of obstacles, don't fly off the screen or you will lose.</p>
+
+        </div>
+        <!-- Кнопки-ссылки -->
+        
+	<div class="buttons-title">
+	<h2>Play game</h2>
+	</div>
+        
+        <div class="buttons-container">
+        <div class="buttons">
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 1"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 2"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 3"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 4"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 5"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 6"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 7"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 8"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 9"></a>
+            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 10"></a>
+        </div>
+        </div>
+        
+<div class="source-code">
+    <h2>Source code</h2>
+    <a href="https://example.com" target="_blank">
+        <img src="source-image.png" alt="Source code" width="128" height="64">
+    </a>
+</div>
+
+    <!-- Футер -->
+    <div class="footer-content">
+        <p><a href="https://gkproduction.github.io" class="footer-link">
+        ©GKProduction 2016-2025
+        </a>
+        </p>
+    </div>
+    </div>
+
+    <script>
+        // Функция для открытия изображения во весь экран
+        function openFullImage(src) {
+            window.open(src, '_blank');
+        }
+    </script>
+    
+    
+<div id="fullscreen-overlay">
+    <span id="close-btn">&times;</span>
+    <img id="fullscreen-image" src="" alt="Увеличенное изображение">
+</div>
+
+<script>
+    // Функция для открытия изображения в полноэкранном режиме
+    function openFullImage(src) {
+        const overlay = document.getElementById('fullscreen-overlay');
+        const fullscreenImage = document.getElementById('fullscreen-image');
+        fullscreenImage.src = src;
+        overlay.style.display = 'flex';
+    }
+
+    // Функция для закрытия полноэкранного режима
+    document.getElementById('close-btn').addEventListener('click', () => {
+        document.getElementById('fullscreen-overlay').style.display = 'none';
+    });
+
+    // Закрытие при клике вне изображения
+    document.getElementById('fullscreen-overlay').addEventListener('click', (e) => {
+        if (e.target === document.getElementById('fullscreen-overlay')) {
+            document.getElementById('fullscreen-overlay').style.display = 'none';
+        }
+    });
+</script>
+
+
+<script>
+    // Добавляем обработчик клика на изображения в галерее
+    document.querySelectorAll('.gallery img').forEach(img => {
+        img.addEventListener('click', () => {
+            openFullImage(img.src);
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -93,7 +93,7 @@ p, .footer-content {
 	cursor: zoom-in;
         }
         .gallery img:hover {
-            /*transform: scale(1.1);*/
+            transform: scale(1.1);
         }
         .description {
             text-align: justify;
@@ -199,7 +199,28 @@ cursor: pointer;
     cursor: pointer;
 }
 
+/* Кнопка языка */
+#language-switcher {
+    position: fixed; /* Фиксированное положение */
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Чтобы кнопка была поверх других элементов */
+}
 
+#language-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#language-button:hover {
+    background-color: #0056b3;
+}
 
     </style>
 </head>
@@ -208,72 +229,73 @@ cursor: pointer;
 
 <!-- Кнопка переключения языка -->
 <div id="language-switcher">
-    <button id="language-button">EN</button>
+<button id="language-button">EN</button>
 </div>
 
-    <div class="container">
-        <!-- Логотип игры -->
+<!-- Область страницы -->
+<div class="container">
+	<!-- Логотип игры -->
 	<div class="logo">
-	<img src="logo.png" alt="Логотип">
+	<img src="logo.png" alt="Fall Dash: Classic">
 	</div>
 
-        <!-- Галерея изображений -->
+	<!-- Галерея скриншотов -->
 	<div class="gallery-container">
-	        <div class="gallery">
-	            <img src="screenshots/1.png" alt="Изображение 1">
-	            <img src="screenshots/2.png" alt="Изображение 2">
-	            <img src="screenshots/3.png" alt="Изображение 3">
-	            <img src="screenshots/4.png" alt="Изображение 4">
-	            <img src="screenshots/5.png" alt="Изображение 5">
-	        </div>
-</div>
-
-        <!-- Описание -->
-        <div class="description">
-            <p>The classic edition of Fall Dash, first released in 2016 as an experimental game.</p>
-            <p>Fall through outer space, avoid obstacles, gain speed and points. Fly down as far as possible.</p>
-
-<h2>How to play</h2>
-<p>Gain FTL speed. The higher your speed, the more points you get. Get as many as you can!
-Beware of obstacles, don't fly off the screen or you will lose.</p>
-
-        </div>
-        <!-- Кнопки-ссылки -->
-        
-	<div class="buttons-title">
-	<h2>Play game</h2>
+		<div class="gallery">
+		<img src="screenshots/1.png" alt="1">
+		<img src="screenshots/2.png" alt="2">
+		<img src="screenshots/3.png" alt="3">
+		<img src="screenshots/4.png" alt="4">
+		<img src="screenshots/5.png" alt="5">
+		</div>
 	</div>
-        
-        <div class="buttons-container">
-        <div class="buttons">
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 1"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 2"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 3"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 4"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 5"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 6"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 7"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 8"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 9"></a>
-            <a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 10"></a>
-        </div>
-        </div>
-        
-<div class="source-code">
-    <h2>Source code</h2>
-    <a href="https://example.com" target="_blank">
-        <img src="source-image.png" alt="Source code" width="128" height="64">
-    </a>
-</div>
 
-    <!-- Футер -->
-    <div class="footer-content">
-        <p><a href="https://gkproduction.github.io" class="footer-link">
-        ©GKProduction 2016-2025
-        </a>
-        </p>
-    </div>
-    </div>
+	<!-- Описание игры -->
+	<div class="description">
+		<p data-key="description.text1"></p>
+		<p data-key="description.text2"></p>
+		<h2 data-key="description.how_to_play_title"></h2>
+		<p data-key="description.how_to_play_text"></p>
+	</div>
+
+	<!-- Ссылки на игру -->
+	<div class="buttons-title">
+	<h2 data-key="play_game.title"></h2>
+	</div>
+
+	<div class="buttons-container">
+		<div class="buttons">
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 1"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 2"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 3"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 4"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 5"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 6"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 7"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 8"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 9"></a>
+		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 10"></a>
+		</div>
+	</div>
+
+	<!-- Исходный код -->
+	<div class="source-code">
+		<div>
+		<h2 data-key="source.title"></h2>
+		</div>
+		
+		<a href="https://example.com" target="_blank">
+		<img src="source-image.png" alt="Source code" width="128" height="64">
+		</a>
+	</div>
+
+	<!-- Копирайт -->
+	<div class="footer-content">
+	<p><a href="https://gkproduction.github.io" class="footer-link">
+	©GKProduction 2016-2025
+	</a></p>
+	</div>
+</div>
 
     <script>
         // Функция для открытия изображения во весь экран
@@ -319,6 +341,45 @@ Beware of obstacles, don't fly off the screen or you will lose.</p>
         });
     });
 </script>
+
+<!-- Локализация страницы -->
+<script>
+    let currentLang = 'ru-RU'; // Текущий язык (по умолчанию русский)
+    let translations = {}; // Объект для хранения текстов
+
+    // Функция для загрузки JSON
+    async function loadTranslations(lang) {
+        const response = await fetch(`languages/${lang}.json`); // Загружаем JSON-файл для текущего языка
+        translations = await response.json(); // Парсим JSON
+        updateText(); // Обновляем текст на странице
+    }
+
+    // Функция для обновления текста на странице
+    function updateText() {
+        // Находим все элементы с атрибутом data-key
+        document.querySelectorAll('[data-key]').forEach(element => {
+            const key = element.getAttribute('data-key'); // Получаем ключ из атрибута
+            if (translations[key]) {
+                element.textContent = translations[key]; // Обновляем текст элемента
+            }
+        });
+    }
+
+    // Функция для переключения языка
+    function switchLanguage() {
+        currentLang = currentLang === 'ru-RU' ? 'en-US' : 'ru-RU'; // Меняем язык
+        loadTranslations(currentLang); // Загружаем переводы для нового языка
+        document.getElementById('language-button').textContent = currentLang === 'ru-RU' ? 'EN' : 'RU'; // Меняем текст на кнопке
+    }
+
+    // Обработчик клика на кнопку
+    document.getElementById('language-button').addEventListener('click', switchLanguage);
+
+    // Загружаем переводы при загрузке страницы
+    loadTranslations(currentLang);
+</script>
+
+
 
 </body>
 </html>

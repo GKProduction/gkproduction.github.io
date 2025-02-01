@@ -1,15 +1,9 @@
 {
-	"description": {
-		"how_to_play_text": "Gain FTL speed. The higher your speed, the more points you get. Get as many as you can!\nBeware of obstacles, don't fly off the screen or you will lose.",
-		"how_to_play_title": "How to play",
-		"text1": "The classic edition of Fall Dash, first released in 2016 as an experimental game.",
-		"text2": "Fall through outer space, avoid obstacles, gain speed and points. Fly down as far as possible."
-	},
-	"play_game": {
-		"title": "Play game"
-	},
-	"source": {
-		"title": "Source code"
-	},
-	"test_string": "TEST"
+	"description.about1": "The classic edition of Fall Dash, first released in 2016 as an experimental game.",
+	"description.about2": "Fall through outer space, avoid obstacles, gain speed and points. Fly down as far as possible.",
+	"description.about_title": "About game",
+	"description.how_to_play_text": "Gain FTL speed. The higher your speed, the more points you get. Get as many as you can!\nBeware of obstacles, don't fly off the screen or you will lose.",
+	"description.how_to_play_title": "How to play",
+	"play_game.title": "Play game",
+	"source.title": "Source code"
 }

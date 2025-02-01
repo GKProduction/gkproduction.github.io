@@ -1,0 +1,249 @@
+/*Fonts*/
+@font-face {
+font-family: 'Tahoma';
+src: url('fonts/Tahoma.woff2') format('woff2'),
+url('fonts/Tahoma.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'UpheavalPro';
+src: url('fonts/UpheavalPro.woff2') format('woff2'),
+url('fonts/UpheavalPro.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'UpheavalPro';
+    font-size: 28px;
+    letter-spacing: 2.5px; /* Расстояние между символами */
+}
+
+p, .footer-content {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+	
+	
+        body {
+            margin: 0;
+            padding: 0;
+            /* font-family: UpheavalPro, sans-serif; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            background: url(background.png) repeat;
+            background-size: 100%;
+        }
+        .container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+	background-color: rgba(16, 16, 18, 0.8); /* Белый цвет с прозрачностью 80% */
+	padding: 20px;
+	border-radius: 10px; /* Опционально: скругление углов */
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+.logo img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Максимальная ширина логотипа */
+}
+
+
+
+.gallery-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.gallery img {
+    scroll-snap-align: start;
+    width: auto;
+    height: 150px;
+    object-fit: contain;
+    cursor: zoom-in;
+    border: 2px solid white; /* Белая рамка */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Плавные переходы */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.8); /* Подсветка белым цветом */
+}
+
+        .description {
+            text-align: justify;
+            margin-bottom: 40px; /* Увеличиваем отступ */
+            color: white;
+        }
+        
+.buttons-container {
+    width: 100%;
+    /*overflow: hidden;*/ /* Скрываем лишнее */
+    overflow-x: auto; /* Добавляем прокрутку внутри контейнера */
+    padding: 10px 0; /* Отступы для визуального комфорта */
+    padding-top: 0px;
+}
+
+.buttons {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 0px 0;
+    scroll-snap-type: x mandatory; /* Плавная прокрутка */
+    width: max-content; /* Ширина кнопок равна ширине всех элементов */
+    margin: 0 auto; /* Центрирование кнопок */
+    
+}
+
+.buttons a {
+    scroll-snap-align: center; /* Плавная прокрутка */
+}
+
+.buttons a img {
+width: 64px;
+height: 64px;
+cursor: pointer;
+}
+        
+.buttons-title {
+    text-align: center; /* Центрирование текста */
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Уменьшаем отступ */
+}
+
+
+.source-code {
+    text-align: center; /* Центрирование содержимого */
+    margin-top: 40px; /* Отступ сверху */
+    color: white;
+}
+
+.source-code h2 {
+    margin-bottom: 20px; /* Отступ между заголовком и изображением */
+}
+
+.source-code img {
+    width: 128px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.footer-content {
+    text-align: center;
+    margin-top: 40px; /* Отступ сверху */
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+}
+
+.footer-link {
+    color: inherit; /* Цвет текста такой же, как у родителя */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+.footer-link:hover,
+.footer-link:visited,
+.footer-link:active {
+    color: inherit; /* Сохраняем цвет текста при всех состояниях */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+#fullscreen-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    
+    object-fit: contain;
+    border: 2px solid white; /* Белая рамка толщиной 2px */
+    box-sizing: border-box; /* Чтобы рамка не увеличивала размер изображения */
+}
+
+#close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* Кнопка языка */
+#language-switcher {
+    position: fixed; /* Фиксированное положение */
+    bottom: 30px; /* Расположение снизу */
+    left: 30px; /* Расположение слева */
+    z-index: 1000; /* Чтобы кнопка была поверх других элементов */
+}
+
+#language-button {
+    background: none;
+    border: none;
+    padding: 0; /* Убираем отступы */
+    cursor: pointer;
+    height: 36px; /* Фиксированная высота кнопки */
+    width: auto; /* Ширина кнопки автоматическая */
+    display: inline-flex; /* Чтобы кнопка занимала только нужное место */
+    align-items: center; /* Выравниваем содержимое по центру */
+    justify-content: center; /* Выравниваем содержимое по центру */
+    position: relative; /* Для позиционирования псевдоэлемента */
+    overflow: hidden; /* Чтобы псевдоэлемент не выходил за пределы кнопки */
+    transition: transform 0.2s ease;
+}
+
+#language-button img {
+    width: auto; /* Ширина изображения автоматическая */
+    height: 32px; /* Фиксированная высота изображения */
+    border: 2px solid #00008B; /* Синяя обводка вокруг изображения */
+    transition: transform 0.2s ease;
+    position: relative; /* Чтобы изображение было ниже псевдоэлемента */
+    z-index: 0; /* Убедимся, что изображение ниже подсветки */
+}
+
+#language-button::before {
+    content: ''; /* Обязательно для псевдоэлемента */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); /* Начальный цвет (прозрачный) */
+    transition: background-color 0.2s ease;
+    z-index: 1; /* Подсветка над изображением */
+}
+
+#language-button:hover::before {
+    background-color: rgba(255, 255, 255, 0.2); /* Подсветка белым цветом с прозрачностью */
+}
+
+#language-button:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+}

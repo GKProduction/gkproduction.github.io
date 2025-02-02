@@ -1,3 +1,5 @@
+/* Пока что тут бардак, но изменения будут */
+
 /*Fonts*/
 @font-face {
 font-family: 'Tahoma';
@@ -35,7 +37,7 @@ p, .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #f4f4f4;
+            background-color: #000000;
             background: url(background.png) repeat;
             background-size: 100%;
         }
@@ -96,31 +98,51 @@ p, .footer-content {
         
 .buttons-container {
     width: 100%;
-    /*overflow: hidden;*/ /* Скрываем лишнее */
-    overflow-x: auto; /* Добавляем прокрутку внутри контейнера */
-    padding: 10px 0; /* Отступы для визуального комфорта */
+    overflow-x: auto;
+    padding: 10px 0;
     padding-top: 0px;
 }
 
 .buttons {
     display: flex;
-    overflow-x: auto;
     gap: 10px;
-    padding: 0px 0;
-    scroll-snap-type: x mandatory; /* Плавная прокрутка */
-    width: max-content; /* Ширина кнопок равна ширине всех элементов */
-    margin: 0 auto; /* Центрирование кнопок */
-    
+    scroll-snap-type: x mandatory;
+    width: max-content;
+    margin: 0 auto;
 }
 
-.buttons a {
-    scroll-snap-align: center; /* Плавная прокрутка */
+.button-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    /*border: 2px solid white;*/
 }
 
-.buttons a img {
-width: 64px;
-height: 64px;
-cursor: pointer;
+.button-icon,
+.button-hover-icon {
+    width: auto; /* Размер изображений */
+    height: 64px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.button-hover-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.2s ease; /* Плавное увеличение */
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.button-link:hover .button-hover-icon {
+    transform: scale(1.1); /* Увеличение при наведении */
 }
         
 .buttons-title {
@@ -142,8 +164,6 @@ cursor: pointer;
 }
 
 .source-code img {
-    width: 128px;
-    height: 64px;
     cursor: pointer;
 }
 

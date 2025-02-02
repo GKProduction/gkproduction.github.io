@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fall Dash: Classic (PREVIEW)</title>
+    <title>Fall Dash: Classic</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="stylesheet" href="styles.css">
 </head>
-
+<!-- Пока что тут бардак, но изменения будут -->
 <body>
+
 <!-- Кнопка переключения языка -->
 <div id="language-switcher">
     <button id="language-button">
-        <img id="language-flag" src="languages/ru-RU.png" alt="Switch language" draggable="false">
+        <img id="language-flag" src="languages/en-US.png" alt="Switch language" draggable="false">
     </button>
 </div>
 
@@ -52,21 +53,39 @@
 
 	<!-- Ссылки на игру -->
 	<div class="buttons-title">
-	<h2 data-key="play_game.title"></h2>
+	<h2 style ="font-size: 56px; margin-bottom: 16px;" data-key="play_game.title"></h2>
 	</div>
 
 	<div class="buttons-container">
 		<div class="buttons">
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 1"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 2"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 3"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 4"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 5"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 6"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 7"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 8"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 9"></a>
-		<a href="https://example.com" target="_blank"><img src="button.png" alt="Кнопка 10"></a>
+			<a href="https://play.google.com/store/apps/details?id=ru.gkproduction.falldashclassic" target="_blank" class="button-link">
+				<img src="button_mobile.png" alt="Google Play" class="button-icon">
+				<img src="../../images/platforms/google_play.png" class="button-hover-icon">
+			</a>
+			<a href="https://www.rustore.ru/catalog/app/ru.gkproduction.falldashclassic" target="_blank" class="button-link">
+				<img src="button_mobile.png" alt="RuStore" class="button-icon">
+				<img src="../../images/platforms/rustore.png" class="button-hover-icon">
+			</a>
+			<a href="https://www.newgrounds.com/portal/view/945991" target="_blank" class="button-link">
+				<img src="button_web.png" alt="Newgrounds" class="button-icon">
+				<img src="../../images/platforms/newground.png" class="button-hover-icon">
+			</a>
+			<a href="https://vk.com/app52094450" target="_blank" class="button-link">
+				<img src="button_web.png" alt="VK Games" class="button-icon">
+				<img src="../../images/platforms/vkontakte.png" class="button-hover-icon">
+			</a>
+			<a href="https://gamejolt.com/games/fall_dash_classic/934213" target="_blank" class="button-link">
+				<img src="button_pc.png" alt="Game Jolt" class="button-icon">
+				<img src="../../images/platforms/game_jolt.png" class="button-hover-icon">
+			</a>
+			<a href="https://vkplay.ru/play/game/fall_dash_classic" target="_blank" class="button-link">
+				<img src="button_pc.png" alt="VK Play" class="button-icon">
+				<img src="../../images/platforms/vk_play.png" class="button-hover-icon">
+			</a>
+			<a href="https://gkproduction.itch.io/fall_dash_classic" target="_blank" class="button-link">
+				<img src="button_pc.png" alt="itch.io" class="button-icon">
+				<img src="../../images/platforms/itch_io.png" class="button-hover-icon">
+			</a>
 		</div>
 	</div>
 
@@ -75,10 +94,14 @@
 		<div>
 		<h2 data-key="source.title"></h2>
 		</div>
+
+		<!-- <a href="https://github.com/GKProduction/Fall-Dash-Classic" target="_blank" class="button-link"> -->
+			<!-- <img src="source.png" alt="GitHub" style="width: 166px;" class="button-icon"> -->
+			<!-- <img src="../../images/platforms/github_full.png" class="button-hover-icon"> -->
+		<!-- </a> -->
 		
-		<a href="https://example.com" target="_blank">
-		<img src="source-image.png" alt="Source code" width="128" height="64">
-		</a>
+		<h3 style="font-size: 20px" data-key="source.coming_soon"></p>
+		
 	</div>
 
 	<!-- Копирайт -->
@@ -193,6 +216,5 @@
         switchLanguage(newLang);
     });
 </script>
-
 </body>
 </html>

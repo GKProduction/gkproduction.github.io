@@ -122,7 +122,8 @@ p, .footer-content {
 }
 
 .button-icon,
-.button-hover-icon {
+.button-hover-icon,
+.source-button-hover-icon {
     width: auto; /* Размер изображений */
     height: 64px;
     user-drag: none;
@@ -133,7 +134,8 @@ p, .footer-content {
     -ms-user-select: none;
 }
 
-.button-hover-icon {
+.button-hover-icon,
+.source-button-hover-icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -144,7 +146,11 @@ p, .footer-content {
 .button-link:hover .button-hover-icon {
     transform: scale(1.1); /* Увеличение при наведении */
 }
-        
+
+.button-link:hover .source-button-hover-icon {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
 .buttons-title {
     text-align: center; /* Центрирование текста */
     color: white;

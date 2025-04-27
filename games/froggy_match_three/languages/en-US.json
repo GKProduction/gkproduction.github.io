@@ -1,0 +1,13 @@
+{
+	"description.about1": "Gather everyone together to... save!",
+	"description.about2": "Your task is to save the toys, as well as Lorenzi, who ended up in the thick of things completely by accident. Gather the characters in rows, and save them all!",
+	"description.about3": "Watch out, because if you have any difficulties with gathering... Thomas in a van with a gun and matches will be right there... but it depends, oddly enough, on you.",
+	"description.about_title": "About game",
+	"images.logo": "logo_en.png",
+	"play_game.android": "📱 Play on Android",
+	"play_game.title": "Play game",
+	"play_game.web": "🌐 Play on browser",
+	"play_game.windows": "🖥️ Play on Windows",
+	"source.coming_soon": "Coming soon...",
+	"source.title": "Source code"
+}

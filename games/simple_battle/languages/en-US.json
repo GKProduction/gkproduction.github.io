@@ -1,0 +1,16 @@
+{
+	"description.about1": "A simple multiplayer shooting game. Play with friends or with bots.",
+	"description.about2": "Travel to the Gray Planetoids, where mayhem now reigns. Fight a bunch of enemies, aim, shoot, move, push, mine!",
+	"description.about3": "Travel to the Gray Planetoids, where mayhem now reigns. Fight a bunch of enemies, aim, shoot, move, push, mine!",
+	"description.about_title": "About the game",
+	"description.how_to_play_text1": "Simple concept - Just go, just shoot;",
+	"description.how_to_play_text2": "Campaign - Complete all levels and defeat the bosses;",
+	"description.how_to_play_text3": "Multiplayer - Play with friends or with random players;",
+	"description.how_to_play_text4": "Various game modes with different gameplay;",
+	"description.how_to_play_text5": "Dynamic battles - you'll be blown away as you plunge into a barrage of projectiles.",
+	"description.how_to_play_title": "Features of the game",
+	"play_game.android": "📱 Play on Android",
+	"play_game.web": "🌐 Play on browser",
+	"play_game.windows": "🖥️ Play on Windows",
+	"source.title": "Source code"
+}

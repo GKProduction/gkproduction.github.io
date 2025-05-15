@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "Хэй, %character%, как дела?\n\nРад видеть тебя!",
+		"stats": "У вас %coins% монет."
+	},
+	"language": {
+		"mslcid": "1049",
+		"name": "Русский"
+	},
+	"menu": {
+		"change_language": "Сменить язык",
+		"game_name": "Супер-дупер игра",
+		"quit": "Выход",
+		"select_character": "Выбери персонажа",
+		"start": "Начать игру"
+	},
+	"names": {
+		"ivan": "Иван",
+		"maria": "Мария"
+	}
+}

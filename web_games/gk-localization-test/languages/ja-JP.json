@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "こんにちは、%character%、元気ですか？\n\n会えて嬉しいです！",
+		"stats": "あなたは%coins%コインを持っています。"
+	},
+	"language": {
+		"mslcid": "1041",
+		"name": "日本語"
+	},
+	"menu": {
+		"change_language": "言語を変更",
+		"game_name": "スーパーデュパーゲーム",
+		"quit": "終了",
+		"select_character": "キャラクターを選択",
+		"start": "ゲームを開始"
+	},
+	"names": {
+		"ivan": "イワン",
+		"maria": "マリア"
+	}
+}

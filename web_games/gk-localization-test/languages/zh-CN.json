@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "嘿，%character%，你好吗？\n\n很高兴见到你！",
+		"stats": "你有%coins%枚硬币。"
+	},
+	"language": {
+		"mslcid": "2052",
+		"name": "中文(简体)"
+	},
+	"menu": {
+		"change_language": "更改语言",
+		"game_name": "超级游戏",
+		"quit": "退出",
+		"select_character": "选择角色",
+		"start": "开始游戏"
+	},
+	"names": {
+		"ivan": "伊万",
+		"maria": "玛丽亚"
+	}
+}

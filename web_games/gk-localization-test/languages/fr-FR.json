@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "Salut, %character%, comment ça va?\n\nContent de te voir!",
+		"stats": "Vous avez %coins% pièces."
+	},
+	"language": {
+		"mslcid": "1036",
+		"name": "Français"
+	},
+	"menu": {
+		"change_language": "Changer de langue",
+		"game_name": "Jeu super-duper",
+		"quit": "Quitter",
+		"select_character": "Sélectionner un personnage",
+		"start": "Commencer le jeu"
+	},
+	"names": {
+		"ivan": "Ivan",
+		"maria": "Maria"
+	}
+}

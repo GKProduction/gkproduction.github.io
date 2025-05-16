@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "안녕, %character%, 잘 지내?\n\n만나서 반가워!",
+		"stats": "당신은 %coins% 동전을 가지고 있습니다."
+	},
+	"language": {
+		"mslcid": "1042",
+		"name": "한국어"
+	},
+	"menu": {
+		"change_language": "언어 변경",
+		"game_name": "슈퍼-두퍼 게임",
+		"quit": "종료",
+		"select_character": "캐릭터 선택",
+		"start": "게임 시작"
+	},
+	"names": {
+		"ivan": "이반",
+		"maria": "마리아"
+	}
+}

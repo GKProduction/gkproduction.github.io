@@ -1,0 +1,21 @@
+{
+	"game": {
+		"hey": "Olá, %character%, como estás?\n\nBom ver-te!",
+		"stats": "Tens %coins% moedas."
+	},
+	"language": {
+		"mslcid": "2070",
+		"name": "Português (Portugal)"
+	},
+	"menu": {
+		"change_language": "Mudar idioma",
+		"game_name": "Jogo super-duper",
+		"quit": "Sair",
+		"select_character": "Selecionar personagem",
+		"start": "Iniciar jogo"
+	},
+	"names": {
+		"ivan": "Ivan",
+		"maria": "Maria"
+	}
+}

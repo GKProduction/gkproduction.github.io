@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('ComicSans.woff2') format('woff2'),
+        url('ComicSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS Bold';
+    src: url('ComicSansBold.woff2') format('woff2'),
+        url('ComicSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS Italic';
+    src: url('ComicSansItalic.woff2') format('woff2'),
+        url('ComicSansItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS Bold Italic';
+    src: url('ComicSansBoldItalic.woff2') format('woff2'),
+        url('ComicSansBoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FixedsysExcelsior';
+    src: url('FixedsysExcelsior.woff2') format('woff2'),
+        url('FixedsysExcelsior.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Russo One';
+    src: url('RussoOne.woff2') format('woff2'),
+        url('RussoOne.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('Tahoma.woff2') format('woff2'),
+        url('Tahoma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma Bold';
+    src: url('TahomaBold.woff2') format('woff2'),
+        url('TahomaBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

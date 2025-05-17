@@ -1,0 +1,205 @@
+{
+	"language": {
+		"name": "English"
+	},
+	"login": {
+		"text": "Sign in to %platform% to earn achievements and submit highscores.",
+		"logging_in": "Logging in...",
+		"log_in": "Log in",
+		"login_failed": "Login failed!",
+		"welcome": "Welcome, %nickname%!",
+		"skip": "Skip",
+		"cancel": "Cancel",
+		"token": "Game Token",
+		"username": "Username"
+	},
+	"achievements": {
+		"1": "Where It All Started",
+		"2": "The Gang Boss",
+		"3": "Unauthorized Entry",
+		"4": "From Another World",
+		"5": "The Lord of the Elements",
+		"6": "Time to Return Home",
+		"7": "An Unexpected Finale",
+		"8": "Welcome to Warp Zone!",
+		"9": "Easy",
+		"10": "Norman",
+		"11": "Hard",
+		"12": "Difficult",
+		"13": "Wind",
+		"14": "Wind+",
+		"15": "Fire",
+		"16": "Spikes",
+		"17": "Insane",
+		"18": "Endless",
+		"achievement": "Achievement:"
+	},
+	"misc": {
+		"loading": "Wait...",
+		"no_save_data": "No game saves!"
+	},
+	"characters": {
+		"alistair": "Alistair",
+		"jack": "Jack",
+		"mage": "Mage",
+		"robot": "Robot Helper",
+		"roach": "Roach"
+	},
+	"difficulty_level": {
+		"1": "Easy",
+		"2": "Norman",
+		"3": "Hard",
+		"4": "Difficult",
+		"5": "Wind",
+		"6": "Wind+",
+		"7": "Fire",
+		"8": "Spikes",
+		"9": "Insane",
+		"10": "Endless"
+	},
+	"results": {
+		"to_the_menu": "Menu",
+		"game_complete": "Game Completed!"
+	},
+	"hostiles": {
+		"airport_security": "Airport security",
+		"boss_stickman": "Stickman Boss of an abandoned building",
+		"fireice": "Fireice",
+		"living_gate": "The Living Gate",
+		"nice_elias": "Nice Elias",
+		"pitch": "Chubby Pitch",
+		"stickman_with_gun": "Stickman with a gun",
+		"norman": "Norman"
+	},
+	"fight_actions": {
+		"attack": "Attack",
+		"auto_mode": "Auto",
+		"healing": "Heal",
+		"special_attack": "Spec. attack"
+	},
+	"fight_actions_description": {
+		"attack": "Normal damage from %dmg1% to %dmg2%.",
+		"healing": "Heals from %hp1% to %hp2%.\nCosts 9 PP.",
+		"special_attack": "Deals a lot of damage from %dmg3% to %dmg4%.\nCosts 7 PP."
+	},
+	"level0": {
+		"controls1": "Use the",
+		"controls2": "keys for movement",
+		"enter_door": "Space — Enter the door",
+		"pause": "— Pause the game",
+		"toggle_fullscreen": "— Toggle fullscreen mode",
+		"time": "— Show timer"
+	},
+	"level1": {
+		"about_easy_blocks": "These blocks only appear on Easy difficulty.",
+		"about_flag": "Flag is a checkpoint. From now on, you will be able to continue the game after quit or when your character dies.",
+		"about_heart": "This is a heart. It heals you from 50 to 120 health points, depending on your luck.",
+		"about_hp": "HP (Health Points) is your health. You can lose it in various situations, e.g. being hit by fire or wounded in battle.",
+		"about_pp": "PP (Power Points) is your power. You can use PP in battles to deal more damage or for healing.",
+		"beware_of_fire": "Be careful! Fire!",
+		"beware_of_spikes": "Beware of spikes!",
+		"collect_coins": "Gather coins, they will come in handy.",
+		"first_hostile": "And here is your first hostile!\nGet closer to start the battle.",
+		"first_hostile_victory": "Wonderful, you've won! Go ahead.",
+		"level_end_mobile": "Exit ahead!\nEnter the door.",
+		"level_end_pc": "Exit ahead!\nPress Space to enter the door.",
+		"welcome": "Level 1\n\nWelcome to the Mystery Chamber!\nBut is this really a chamber?"
+	},
+	"level2": {
+		"about_how_coins_increase_attack": "For every 20 coins, your normal attack damage increases by 1.",
+		"about_how_coins_increase_healing": "For every 100 coins, you can recover 2 more health in combat.",
+		"about_how_coins_increase_special_attack": "For every 10 coins, your special attack damage increases by 1.",
+		"about_potion": "It's a potion. Refills Power Points by 50-100 points.",
+		"before_boss": "Before battles, especially boss fights, make sure to maximize your HP and PP, and don't skip hearts and potions!",
+		"door_enter_hint": "(Space — Enter the door)",
+		"level_name": "Level 2",
+		"risky_place": "There's something interesting, but it's risky to reach it.",
+		"task": "You need to go up."
+	},
+	"level3": {
+		"about_ladder": "To climb a ladder, press and hold the jump button.",
+		"sign": "frie kar! teik it\nif u wona",
+		"level_name": "Level 3\nAbandoned Building's Yard",
+		"about_springs": "You can jump much higher on springs if you jump right before touching the spring from the side."
+	},
+	"level4": {
+		"cafe": "Cafe \"In The Bushes\"",
+		"controls": "You decided to look for an airport to return home.\n\nControls:\nGas - up;\nTurns - left, right;\nBrake - down.\nThis rust bucket can't go in reverse.",
+		"level_name": "Level 4"
+	},
+	"level5": {
+		"level_name": "Level 5. Airport",
+		"service_entrance": "Service\nEntrance",
+		"service_elevator": "Service\nElevator"
+	},
+	"level6": {
+		"level_name": "Level 6. Hellish Construction",
+		"under_construction": "Under construction. You are not allowed to be here.",
+		"about_construction": "Judging by the temperature, construction is in full swing.",
+		"no_entry": "No Entry!"
+	},
+	"level7": {
+		"level_name": "Level 7. Climbing to the Top",
+		"text1": "You'd better turn around and go back.",
+		"text2": "It's better not to be late for the plane.",
+		"text3": "The adventure didn't go according to plan. Your target is the plane.",
+		"text4": "It is the last warning."
+	},
+	"main_menu": {
+		"continue": "Continue",
+		"game_stats": "In-Game Time: %time%\nLevel: %level%\nCharacter: %character%\nWeapon: %weapon%\nDifficulty: %difficulty%",
+		"new_game": "New Game",
+		"quit_game": "Quit",
+		"select_character": "Choose your character",
+		"select_difficulty": "Choose the difficulty",
+		"select_weapon": "Choose your weapon",
+		"selection_confirming": "Confirmation of your choices",
+		"selection_confirming_text": "Think carefully about your choices, because you won't be able to change them later.",
+		"locked_insane": "Complete \"Insane\" to unlock.",
+		"locked_special_difficulties": "Complete the game on \"Wind\" difficulty to unlock new difficulty levels.",
+		"loop": "Loop"
+	},
+	"weapons": {
+		"broom": "Broom",
+		"box_glove": "Box-Glove",
+		"cryogun": "Cryogun",
+		"evil": "Evil",
+		"fire": "Fire",
+		"fireice": "Fireice",
+		"flamethrower": "Flamethrower",
+		"happiness": "Happiness",
+		"ice": "Ice",
+		"something": "???",
+		"star_rod": "Star Rod",
+		"strength": "Strength",
+		"unavailable": "Unavailable"
+	},
+	"weapons_description": {
+		"broom": "Could once fly",
+		"box_glove": "Hits pretty hard",
+		"cryogun": "Chills the ardor of hostiles",
+		"evil": "Exudes something sinister",
+		"fire": "The essence of flame resides within this wand",
+		"flamethrower": "Burns with fire",
+		"happiness": "The power of happiness resides within this wand",
+		"ice": "The essences of ice resides within this wand",
+		"unavailable": "Prohibited weapon",
+		"star_rod": "Emits magic",
+		"strength": "A wand that exudes power",
+		"fireice": "The combined powers of fire and ice",
+		"something": "What is this?"
+	},
+	"credits": {
+		"developer": "Game by\nGleb Kapustin (GKProduction)",
+		"game_name": "Mystery Chamber Classic",
+		"graphics": "Graphics\nGleb Kapustin (GKProduction)",
+		"music": "Music Composer\nVladimir Nagorny (VNGames)",
+		"special_thanks": "Special Thanks\nGleb Kapustin (GKProduction)",
+		"testing": "Testing & Feedback\nBritish Villain\nLame Comedian\nSome Guy\nJerks\nThe Misunderstood Genius",
+		"game_engine": "Made with\nClickteam Fusion 2.5",
+		"localization": "Localization Control:\nsaikoistyping"
+	},
+	"level8": {
+		"level_name": "Level 8. Top of the Mountain"
+	}
+}

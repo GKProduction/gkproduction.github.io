@@ -136,7 +136,8 @@
 		"level_name": "Level 6. Hellish Construction",
 		"under_construction": "Under construction. You are not allowed to be here.",
 		"about_construction": "Judging by the temperature, construction is in full swing.",
-		"no_entry": "No Entry!"
+		"no_entry": "No Entry!",
+		"about_wall": "First get here on a different difficulty level, then the wall will fall."
 	},
 	"level7": {
 		"level_name": "Level 7. Climbing to the Top",

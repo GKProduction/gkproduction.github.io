@@ -3,13 +3,415 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mystery Chamber: Classic</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <title>Mystery Chamber Classic</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="styles.css">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const gallery = document.querySelector('.gallery');
+            const galleryItems = document.querySelectorAll('.gallery img');
+
+            // Функция для открытия изображения
+            function setupImageClickHandler(img) {
+                img.addEventListener('click', () => {
+                    openFullImage(img.src);
+                });
+            }
+
+            // Добавляем обработчики для изначальных изображений
+            galleryItems.forEach(setupImageClickHandler);
+        });
+    </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(102047594, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/102047594" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 </head>
-
 <body>
-<center>Coming soon...</center>
-</body>
 
+    <!-- Кнопка переключения языка -->
+    <div id="language-switcher">
+        <button id="language-button">
+            <img id="language-flag" src="languages/en-US.png" alt="Switch language" draggable="false">
+        </button>
+    </div>
+
+    <!-- Область страницы -->
+    <div class="container">
+        <!-- Логотип игры -->
+        <div class="logo">
+		<img id="logo-image" src="logo_en.png" alt="Mystery Chamber Classic" data-key="images.logo">
+		</div>
+		
+        <!-- Галерея скриншотов -->
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="screenshots/1.png" alt="1">
+                <img src="screenshots/2.png" alt="2">
+                <img src="screenshots/3.png" alt="3">
+                <img src="screenshots/4.png" alt="4">
+                <img src="screenshots/5.png" alt="5">
+                <img src="screenshots/6.png" alt="6">
+                <img src="screenshots/7.png" alt="7">
+                <img src="screenshots/8.png" alt="8">
+                <img src="screenshots/9.png" alt="9">
+                <img src="screenshots/10.png" alt="10">
+                <img src="screenshots/11.png" alt="11">
+                <img src="screenshots/12.png" alt="12">
+                <img src="screenshots/13.png" alt="13">
+            </div>
+        </div>
+
+        <!-- Описание игры -->
+        <div class="description">
+            <h2 data-key="description.about_title"></h2>
+            <p data-key="description.about1"></p>
+            <p data-key="description.about2"></p>
+	  
+	  <img class="text_image" src="images/story.png" alt="story">
+	  
+            <p data-key="description.about3"></p>
+			
+            <h2 data-key="description.features.title"></h2>
+            <ul class="custom-list">
+                <li data-key="description.features.1"></li>
+                <li data-key="description.features.2"></li>
+                <li data-key="description.features.3"></li>
+                <li data-key="description.features.4"></li>
+                <li data-key="description.features.5"></li>
+                <li data-key="description.features.6"></li>
+                <li data-key="description.features.7"></li>
+            </ul>
+        </div>
+
+        <!-- Ссылки на игру -->
+        <div class="buttons-title">
+            <h2 id="play_game_title" style="margin-bottom: 16px;" data-key="play_game.windows"></h2>
+        </div>
+
+        <div class="buttons-section">
+            <div class="buttons-panel">
+                <div class="buttons">
+                    <a href="https://gamejolt.com/games/mystery-chamber-classic/94510" target="_blank" class="button-link">
+                        <img src="button_pc.png" alt="Game Jolt" class="button-icon">
+                        <img src="../../images/platforms/game_jolt.png" class="button-hover-icon">
+                    </a>
+                    <a href="https://vkplay.ru/play/game/mystery_chamber_2015" target="_blank" class="button-link">
+                        <img src="button_pc.png" alt="VK Play" class="button-icon">
+                        <img src="../../images/platforms/vk_play.png" class="button-hover-icon">
+                    </a>
+                    <a href="https://gkproduction.itch.io/mystery-chamber-classic" target="_blank" class="button-link">
+                        <img src="button_pc.png" alt="itch.io" class="button-icon">
+                        <img src="../../images/platforms/itch_io.png" class="button-hover-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="buttons-title">
+            <h2 id="play_game_title" style="margin-bottom: 16px;" data-key="play_game.android"></h2>
+        </div>
+
+        <div class="buttons-section">
+            <div class="buttons-panel">
+                <div class="buttons">
+                    <a href="https://play.google.com/store/apps/details?id=ru.gkproduction.mysterychamber2015classic" target="_blank" class="button-link">
+                        <img src="button_mobile.png" alt="Google Play" class="button-icon">
+                        <img src="../../images/platforms/google_play.png" class="button-hover-icon">
+                    </a>
+                    <a href="https://www.rustore.ru/catalog/app/ru.gkproduction.mysterychamber2015classic" target="_blank" class="button-link">
+                        <img src="button_mobile.png" alt="RuStore" class="button-icon">
+                        <img src="../../images/platforms/rustore.png" class="button-hover-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+		
+		<div class="buttons-title">
+            <h2 id="play_game_title" style="margin-bottom: 16px;" data-key="play_game.web"></h2>
+        </div>
+
+        <div class="buttons-section">
+            <div class="buttons-panel">
+                <div class="buttons">
+                    <a href="https://www.newgrounds.com/portal/view/project/6429354" target="_blank" class="button-link">
+                        <img src="button_web.png" alt="Newgrounds" class="button-icon">
+                        <img src="../../images/platforms/newground.png" class="button-hover-icon">
+                    </a>
+					<a href="https://vk.com/app53519217" target="_blank" class="button-link">
+                        <img src="button_web.png" alt="VK Games" class="button-icon">
+                        <img src="../../images/platforms/vkontakte.png" class="button-hover-icon">
+                    </a>
+					<a href="https://yandex.ru/games/app/438240" target="_blank" class="button-link">
+                        <img src="button_web.png" alt="Yandex Games" class="button-icon">
+                        <img src="../../images/platforms/yandex_games.png" class="button-hover-icon">
+                    </a>
+					<a href="https://gamejolt.com/games/mystery-chamber-classic/94510" target="_blank" class="button-link">
+                        <img src="button_web.png" alt="Game Jolt" class="button-icon">
+                        <img src="../../images/platforms/game_jolt.png" class="button-hover-icon">
+                    </a>
+					<a href="https://gkproduction.itch.io/mystery-chamber-classic" target="_blank" class="button-link">
+                        <img src="button_web.png" alt="itch.io" class="button-icon">
+                        <img src="../../images/platforms/itch_io.png" class="button-hover-icon">
+                    </a>
+					
+                </div>
+            </div>
+        </div>
+
+        <!-- Исходный код -->
+        <div class="source-code-section">
+            <h2 style="margin-bottom: 0px;" id="source_title" data-key="source.title"></h2>
+            <div class="source-code-panel">
+                <div class="source-buttons">
+                    <div id="countdown-timer"></div>
+					
+					<!-- <a href="SOURCE-CODE-LINK-GITHUB" target="_blank" class="button-link">
+                        <img src="../../images/platforms/github_full_bg.png" alt="GitHub" style="width: 166px;" class="button-icon">
+                        <img src="../../images/platforms/github_full.png" class="source-button-hover-icon">
+                    </a>
+                    <a href="SOURCE-CODE-LINK-STEAM" target="_blank" class="button-link">
+                        <img src="../../images/platforms/steam_workshop_bg.png" alt="Steam Workshop" style="width: 166px;" class="button-icon">
+                        <img src="../../images/platforms/steam_workshop.png" class="source-button-hover-icon">
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Копирайт -->
+        <div class="footer-content">
+            <p>
+                <a href="https://gkproduction.github.io" class="footer-link">
+                    ©GKProduction 2016-2025
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div id="fullscreen-overlay">
+        <span id="close-btn">&times;</span>
+        <button id="prev-btn" class="nav-btn">
+        <img src="button_left.png">
+        </button>
+        <div class="fullscreen-gallery">
+            <img id="fullscreen-image" src="" alt="Увеличенное изображение">
+        </div>
+        <button id="next-btn" class="nav-btn">
+        <img src="button_right.png">
+        </button>
+    </div>
+
+    <script>
+		
+		
+		
+        // Управление галереей
+        const gallery = document.querySelector('.gallery');
+        const galleryItems = document.querySelectorAll('.gallery img');
+        let currentImageIndex = 0;
+        const images = Array.from(galleryItems).map(img => img.src);
+
+        // Функция для открытия изображения в полноэкранном режиме
+        function openFullImage(src) {
+            const overlay = document.getElementById('fullscreen-overlay');
+            const fullscreenImage = document.getElementById('fullscreen-image');
+            currentImageIndex = images.indexOf(src);
+            fullscreenImage.src = src;
+            overlay.style.display = 'flex';
+        }
+
+        // Функции для навигации
+        function showNextImage() {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            document.getElementById('fullscreen-image').src = images[currentImageIndex];
+        }
+
+        function showPrevImage() {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            document.getElementById('fullscreen-image').src = images[currentImageIndex];
+        }
+
+        // Обработчики событий
+        document.getElementById('next-btn').addEventListener('click', showNextImage);
+        document.getElementById('prev-btn').addEventListener('click', showPrevImage);
+        document.getElementById('close-btn').addEventListener('click', () => {
+            document.getElementById('fullscreen-overlay').style.display = 'none';
+        });
+
+        // Закрытие при клике вне изображения
+        document.getElementById('fullscreen-overlay').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('fullscreen-overlay')) {
+                document.getElementById('fullscreen-overlay').style.display = 'none';
+            }
+        });
+
+        // Управление с клавиатуры
+        document.addEventListener('keydown', (e) => {
+            const overlay = document.getElementById('fullscreen-overlay');
+            if (overlay.style.display === 'flex') {
+                if (e.key === 'ArrowRight') showNextImage();
+                if (e.key === 'ArrowLeft') showPrevImage();
+                if (e.key === 'Escape') overlay.style.display = 'none';
+            }
+        });
+
+        // Свайпы на мобильных устройствах
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const fullscreenImage = document.getElementById('fullscreen-image');
+
+        fullscreenImage.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        fullscreenImage.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+
+        function handleSwipe() {
+            const threshold = 50; // Минимальное расстояние свайпа
+            if (touchStartX - touchEndX > threshold) {
+                showNextImage(); // Свайп влево
+            } else if (touchEndX - touchStartX > threshold) {
+                showPrevImage(); // Свайп вправо
+            }
+        }
+    </script>
+
+    <!-- Локализация страницы -->
+    <script>
+	
+	//Язык
+    let currentLang = 'en-US'; // Язык по умолчанию
+    const supportedLanguages = ['en-US', 'ru-RU']; // Поддерживаемые языки
+    const cisLanguages = ['ru', 'ru-RU', 'uk', 'be']; // Языки СНГ (русский, украинский, белорусский)
+	
+    // Функция для загрузки JSON
+    async function loadTranslations(lang) {
+        const response = await fetch(`languages/${lang}.json`); // Загружаем JSON-файл для текущего языка
+        translations = await response.json(); // Парсим JSON
+        updateContent(); // Обновляем текст и изображение на странице
+    }
+
+    // Функция для обновления текста и изображения на странице
+    function updateContent() {
+    document.querySelectorAll('[data-key]').forEach(element => {
+        const key = element.getAttribute('data-key');
+        if (translations[key]) {
+            if (element.tagName === 'IMG') {
+			
+				const userAgent = navigator.userAgent.toLowerCase();
+				const isAndroid = userAgent.includes("android");
+
+				if (isAndroid) {
+					element.src = translations[key+'_mobile']; // Путь для Android
+				} else {
+					element.src = translations[key+'_pc']; // Путь для других устройств
+				}
+				
+				
+				//element.src = translations[key]; // Путь для других устройств
+				
+            } else {
+                element.textContent = translations[key];
+            }
+        }
+    });
+    
+    // Обновляем изображение кнопки языка
+    const flagElement = document.getElementById('language-flag');
+    flagElement.src = `languages/${currentLang}.png`;
+}
+
+    // Функция для переключения языка
+    function switchLanguage(lang) {
+        if (supportedLanguages.includes(lang)) {
+            currentLang = lang;
+            loadTranslations(currentLang); // Загружаем переводы для нового языка
+        }
+    }
+
+    // Функция для определения языка браузера
+    function detectBrowserLanguage() {
+        const browserLang = navigator.language || navigator.languages[0]; // Основной язык браузера
+
+        // Проверяем, является ли язык браузера русским или другим языком СНГ
+        if (cisLanguages.includes(browserLang)) {
+            return 'ru-RU'; // Переключаем на русский
+        }
+        return 'en-US'; // По умолчанию английский
+    }
+
+    // Инициализация языка при загрузке страницы
+    const initialLang = detectBrowserLanguage(); // Определяем язык браузера
+    switchLanguage(initialLang); // Устанавливаем язык
+
+    // Обработчик клика на кнопку
+    document.getElementById('language-button').addEventListener('click', () => {
+        const newLang = currentLang === 'ru-RU' ? 'en-US' : 'ru-RU'; // Переключаем язык
+        switchLanguage(newLang);
+    });
+	
+	// Отсчёт
+		function startCountdown() {
+		  // Укажите целевую дату (год, месяц (-1!!!), день, час, минуты)
+		  const targetDate = new Date(2025, 5, 6, 12, 0); // 6 июня 2025, 12:00
+		  
+		  const countdownElement = document.getElementById("countdown-timer");
+		  const timerInterval = setInterval(updateTimer, 1000);
+
+		  // Функция для добавления ведущего нуля
+		  function addLeadingZero(num) {
+			return num < 10 ? `0${num}` : num;
+		  }
+
+		  function updateTimer() {
+			const currentTime = new Date();
+			const timeDifference = targetDate - currentTime;
+
+			// Если время истекло
+			if (timeDifference <= 0) {
+			  clearInterval(timerInterval);
+			  countdownElement.setAttribute('data-key', 'soon');
+			  loadTranslations(currentLang);
+			  return;
+			}
+
+			// Рассчёт дней, часов, минут, секунд
+			const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+			const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+			const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+			// Форматирование с ведущими нулями и вывод
+			countdownElement.innerHTML = `
+			  ${addLeadingZero(days)}:${addLeadingZero(hours)}:${addLeadingZero(minutes)}:${addLeadingZero(seconds)}
+			`;
+		  }
+
+		  updateTimer(); // Первоначальный вызов
+		}
+
+		// Запуск после загрузки страницы
+		window.onload = startCountdown;
+		
+</script>
+
+</body>
 </html>

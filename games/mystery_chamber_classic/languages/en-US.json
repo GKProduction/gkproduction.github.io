@@ -1,0 +1,22 @@
+{
+	"description.about_title": "About the game",
+	"description.about1": "The first game in the Mystery Chamber series of games. A simple platformer with turn-based battles, first released back in 2015.",
+	"description.about2": "One day, Roach invites his friends Jack, Alistair, and Mage to visit. While chatting, Jack leaned against a wall when suddenly it opened! It turned out to be a secret passage to the Mystery Chamber, but only one could enter it. Onward to adventure! And don't forget to take the weapon from the Mage.",
+	"description.about3": "You have to get out of the abandoned building, pass through its surroundings and go through the city to eventually reach the airport. Make your way through the concrete rooms of the abandoned building, collect coins, fight off the stickmen blocking your way, jump on springs, go from level to level, drive a car, jump through windows, find secrets and make it to the finale.",
+	"description.features.title": "Features of the game",
+	"description.features.1": "Uncomplicated platformer - You can walk and jump. Classic;",
+	"description.features.2": "Turn-based battles - Fight stickmen and other characters;",
+	"description.features.3": "Pixel drawn graphics - Rough and comical;",
+	"description.features.4": "Lots of gray - Do you like gray? This game is for you, because half of the game you'll spend in concrete walls;",
+	"description.features.5": "Rusty but good - Take a ride in someone's leftover rusty car through a city;",
+	"description.features.6": "Ending you deserve - No spoilers this time;",
+	"description.features.7": "Secrets - Even a simple platformer like this one has to have secrets.",
+	"play_game.android": "📱 Play on Android",
+	"play_game.web": "🌐 Play on browser",
+	"play_game.windows": "🖥️ Play on Windows",
+	"source.title": "Source code",
+	"images.logo_pc": "logo_en.png",
+	"images.logo_mobile": "logo_en_cut.png",
+	"images.logo": "logo_en_cut.png",
+	"soon": "Soon"
+}

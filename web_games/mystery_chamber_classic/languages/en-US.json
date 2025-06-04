@@ -190,16 +190,6 @@
 		"fireice": "The combined powers of fire and ice",
 		"something": "What is this?"
 	},
-	"credits": {
-		"developer": "Game by\nGleb Kapustin (GKProduction)",
-		"game_name": "Mystery Chamber Classic",
-		"graphics": "Graphics\nGleb Kapustin (GKProduction)",
-		"music": "Music Composer\nVladimir Nagorny (VNGames)",
-		"special_thanks": "Special Thanks\nGleb Kapustin (GKProduction)",
-		"testing": "Testing & Feedback\nBritish Villain\nLame Comedian\nSome Guy\nJerks\nThe Misunderstood Genius",
-		"game_engine": "Made with\nClickteam Fusion 2.5",
-		"localization": "Localization Control:\nsaikoistyping"
-	},
 	"level8": {
 		"level_name": "Level 8. Top of the Mountain"
 	}

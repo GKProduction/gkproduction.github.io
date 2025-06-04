@@ -190,16 +190,6 @@
 		"fireice": "Объединённые силы огня и льда",
 		"something": "Это что?"
 	},
-	"credits": {
-		"developer": "Автор игры:\nГлеб Капустин (GKProduction)",
-		"game_name": "Тайная Комната Classic",
-		"graphics": "Графика:\nГлеб Капустин (GKProduction)",
-		"music": "Музыка:\nВладимир Нагорный (VNGames)",
-		"special_thanks": "Особые благодарности:\nГлеб Капустин (GKProduction)",
-		"testing": "Тестирование:\nЗлодей британец\nТак себе шутник\nКакой-то мужик\nГовнюки\nНедопонятный гений",
-		"game_engine": "Разработано с помощью\nClickteam Fusion 2.5",
-		"localization": "Контроль локализации:\nsaikoistyping"
-	},
 	"level8": {
 		"level_name": "Уровень 8. Вершина горы"
 	}

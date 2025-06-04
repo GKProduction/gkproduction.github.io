@@ -153,19 +153,19 @@
                         <img src="button_web.png" alt="Newgrounds" class="button-icon">
                         <img src="../../images/platforms/newground.png" class="button-hover-icon">
                     </a>
-					<a href="https://vk.com/app53519217" target="_blank" class="button-link">
+		<a href="https://vk.com/app53519217" target="_blank" class="button-link">
                         <img src="button_web.png" alt="VK Games" class="button-icon">
                         <img src="../../images/platforms/vkontakte.png" class="button-hover-icon">
                     </a>
-					<a href="https://yandex.ru/games/app/438240" target="_blank" class="button-link">
-                        <img src="button_web.png" alt="Yandex Games" class="button-icon">
-                        <img src="../../images/platforms/yandex_games.png" class="button-hover-icon">
-                    </a>
-					<a href="https://gamejolt.com/games/mystery-chamber-classic/94510" target="_blank" class="button-link">
+		<!-- <a href="https://yandex.ru/games/app/438240" target="_blank" class="button-link"> -->
+                        <!-- <img src="button_web.png" alt="Yandex Games" class="button-icon"> -->
+                        <!-- <img src="../../images/platforms/yandex_games.png" class="button-hover-icon"> -->
+                    <!-- </a> -->
+		<a href="https://gamejolt.com/games/mystery-chamber-classic/94510" target="_blank" class="button-link">
                         <img src="button_web.png" alt="Game Jolt" class="button-icon">
                         <img src="../../images/platforms/game_jolt.png" class="button-hover-icon">
                     </a>
-					<a href="https://gkproduction.itch.io/mystery-chamber-classic" target="_blank" class="button-link">
+		<a href="https://gkproduction.itch.io/mystery-chamber-classic" target="_blank" class="button-link">
                         <img src="button_web.png" alt="itch.io" class="button-icon">
                         <img src="../../images/platforms/itch_io.png" class="button-hover-icon">
                     </a>
@@ -179,7 +179,7 @@
             <h2 style="margin-bottom: 0px;" id="source_title" data-key="source.title"></h2>
             <div class="source-code-panel">
                 <div class="source-buttons">
-                    <div id="countdown-timer"></div>
+                 <div id="countdown-timer"></div>
 					
 					<!-- <a href="SOURCE-CODE-LINK-GITHUB" target="_blank" class="button-link">
                         <img src="../../images/platforms/github_full_bg.png" alt="GitHub" style="width: 166px;" class="button-icon">
@@ -371,7 +371,7 @@
 	// Отсчёт
 		function startCountdown() {
 		  // Укажите целевую дату (год, месяц (-1!!!), день, час, минуты)
-		  const targetDate = new Date(2025, 5, 6, 12, 0); // 6 июня 2025, 12:00
+		  const targetDate = new Date(2025, 5, 13, 16, 0); // 13 июня 2025, 16:00
 		  
 		  const countdownElement = document.getElementById("countdown-timer");
 		  const timerInterval = setInterval(updateTimer, 1000);
@@ -401,7 +401,7 @@
 
 			// Форматирование с ведущими нулями и вывод
 			countdownElement.innerHTML = `
-			  ${addLeadingZero(days)}:${addLeadingZero(hours)}:${addLeadingZero(minutes)}:${addLeadingZero(seconds)}
+			  ${addLeadingZero(days)} days, ${addLeadingZero(hours)}:${addLeadingZero(minutes)}:${addLeadingZero(seconds)}
 			`;
 		  }
 

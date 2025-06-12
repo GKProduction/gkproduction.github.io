@@ -184,7 +184,7 @@ ul.custom-list {
     right: -3px; /* Изменено с -5px на -1px */
     bottom: -3px; /* Изменено с -5px на -1px */
     border: 3px solid transparent; /* Изменено с 6px на 1px */
-    /* border-image: url('panel.png') 3 fill / 3px repeat; /* Изменено с 6 fill / 6px stretch */
+    border-image: url('panel2.png') 1 fill / 1px repeat; /* Изменено с 6 fill / 6px stretch */
     background: transparent;
     pointer-events: none;
     z-index: 0;

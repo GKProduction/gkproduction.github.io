@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Consenti",
+		"birthday": "Inserisci la tua data di nascita",
+		"confirm": "Conferma",
+		"description": "Potrebbero essere raccolti i seguenti dati:\n- Statistiche di utilizzo;\n- Analisi;\n- Informazioni sul dispositivo;\n- Dati sui temi pubblicitari e sui clic.",
+		"not_allow": "Non consentire",
+		"privacy_policy": "Informativa sulla privacy",
+		"question": "Consentire alla rete pubblicitaria di raccogliere informazioni per personalizzare gli annunci?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Froggy Dorato",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Coccodrillo goffo di plastica. Adora ringhiare e rosicchiare.\n\nAbilità:\n- Mangia i coltelli mentre salta;\n- Respinge i coltelli quando subisce danni.",
+		"froggy": "Rana giocattolo che ha perso un occhio. Per qualche ragione, a Carolina Voitekhovna, suocera del re Froggold II, non piace.\n\nAbilità:\n- Doppio salto;\n- Guadagna furia subendo danni.",
+		"golden_froggy": "Una spaventosa interpretazione di Froggy nata dalla paura di qualcuno.\n\nAbilità:\n- Gravità ridotta;\n- Invincibilità temporanea dopo aver subito danni.",
+		"kitty": "Pantofola faidatè a forma di gatto. Indossa sempre un cappello di Capodanno e adora le farfalle.\n\nAbilità:\n- Devia i coltelli roteando;\n- Posizione sdraiata."
+	},
+	"discord": {
+		"game_over": "Game Over",
+		"gameplay": "Saltando sui coltelli",
+		"how_to_play": "Imparando come si gioca",
+		"in_game": "In partita",
+		"in_main_menu": "Nel menu principale",
+		"prologue": "Prologo",
+		"results": "Osservando i risultati",
+		"victory": "Vittoria"
+	},
+	"game": {
+		"bite": "Morso!",
+		"continue": "Continua",
+		"highscore": "Highscore",
+		"hint": "Salta sui coltelli!",
+		"mega_rage": "MEGA-FURIA!!",
+		"pause": "Pausa",
+		"rage": "Furia!",
+		"respawn_offer": "Continuare senza perdere il punteggio?",
+		"score": "Punteggio"
+	},
+	"gamejolt": {
+		"achievement": "Trofeo ricevuto!",
+		"game_token": "Gettone di gioco",
+		"log_in": "Accedi",
+		"logging_in": "Accedendo...",
+		"login_failed": "Accesso fallito!",
+		"skip": "Salta",
+		"text": "Accedi a Game Jolt per ottenere trofei e mostrare il tuo highscore.",
+		"username": "Nome utente",
+		"welcome": "Benvenuto"
+	},
+	"how_to_play": {
+		"text_1": "Controlla il tuo personaggio utilizzando le frecce direzionali o WASD. Cammina e salta.",
+		"text_1_mobile": "Controlla il tuo personaggio utilizzando le frecce. Cammina e salta.",
+		"text_2": "Attenzione ai coltelli. Saltaci sopra o passaci sotto. Non colpire la punta del coltello!",
+		"text_3": "Ottieni punti schivando coltelli con successo.",
+		"text_4": "Infuriati e... mordi Carolina!",
+		"text_5": "Aumenta il tuo moltiplicatore di punteggio mordendo Carolina!",
+		"text_6": "Un moltiplicatore più alto significa più punti e più danno accumulato.",
+		"text_7": "Il moltiplicatore si abbassa subendo danni.",
+		"text_8": "Se la tua vita raggiunge lo zero, perderai.",
+		"text_9": "Sconfiggi Carolina!"
+	},
+	"language": {
+		"name": "Italiano"
+	},
+	"main_menu": {
+		"back": "Indietro",
+		"community": "Comunità di GKProduction",
+		"credits": "Crediti",
+		"misc": "Varie",
+		"more_games": "Più giochi",
+		"no": "No",
+		"play_game": "Gioca",
+		"quit_game": "Esci dal gioco",
+		"quit_to_menu": "Esci e torna al Menu principale",
+		"select": "Seleziona",
+		"settings": "Impostazioni",
+		"shop": "Negozio",
+		"yes": "Sì"
+	},
+	"select_character": {
+		"random": "Random",
+		"thank_you": "Grazie per l'acquisto!",
+		"title": "Seleziona un personaggio"
+	},
+	"settings": {
+		"change_language": "Cambia lingua",
+		"error": "Si è verificato un errore.",
+		"functional_keys": "F11 - On/Off schermo intero\nF1 - Nascondi/Mostra HUD",
+		"game_progress": "Progressi di gioco",
+		"reset_progress": "Reset progressi",
+		"restore_failed": "Impossibile ripristinare i progressi.",
+		"restore_progress": "Ripristina i progressi",
+		"restore_successfully": "I progressi sono stati ripristinati.",
+		"save_failed": "Impossibile salvare i progressi.",
+		"save_progress": "Salva progressi",
+		"save_successfully": "I progressi sono stati salvati con successo."
+	},
+	"shop": {
+		"about_coins_purchases": "(Qualsiasi acquisto rimuove le pubblicità)",
+		"buy": "Compra",
+		"coming_soon": "Aspettatevi cappelli e outfit nella versione 3.0!",
+		"free": "Gratis",
+		"free_full": "Gratis",
+		"how_to_get_free_coins": "Guarda il video e ricevi 100 monete.",
+		"more_coins": "Compra monete",
+		"need_coins": "Hai bisogno di monete?",
+		"restoring_coins": "Raccolta di monete...",
+		"section_bonuses": "Bonus",
+		"section_characters": "Personaggi",
+		"section_hats": "Cappelli",
+		"section_upgrades": "Upgrade",
+		"sold_out": "Venduto",
+		"video_loading": "Caricamento del video...",
+		"video_loading_error": "Impossibile mostrare video.",
+		"video_rejected": "Il video è stato rifiutato.",
+		"wait": "Attendere...",
+		"you_got_coins": "Hai ricevuto %coins% monete!"
+	},
+	"update_teaser": {
+		"expect": "In arrivo nell'aggiornamento 3.0",
+		"features": "- Campagna narrativa;  \n- Nuove modalità di gioco;  \n- Cappelli;  \n- Outfit;  \n- Più bonus;  \n- Più coltelli.  "
+	}
+}

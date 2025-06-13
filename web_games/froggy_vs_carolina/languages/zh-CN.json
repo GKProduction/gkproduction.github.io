@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "允许",
+		"birthday": "请输入您的出生日期",
+		"confirm": "确认",
+		"description": "可能会收集以下数据：\n- 使用统计；\n- 分析数据；\n- 设备信息；\n- 广告主题和点击数据。",
+		"not_allow": "不允许",
+		"privacy_policy": "隐私政策",
+		"question": "允许广告网络收集信息以个性化广告吗？"
+	},
+	"character": {
+		"crocco": "鳄鱼",
+		"froggy": "青蛙",
+		"golden_froggy": "金蛙",
+		"kitty": "猫咪"
+	},
+	"character_description": {
+		"crocco": "一只塑料的、笨拙的鳄鱼。喜欢咆哮和咀嚼。\n\n能力：\n- 跳跃时吃刀；\n- 刀受到损坏时会被扔掉。",
+		"froggy": "一只失去一只眼睛的玩具青蛙。蛙王二世的岳母 Karolina Vojtechovna 感到很不高兴。\n\n能力\n- 双跳；\n- 受到伤害时获得愤怒值。",
+		"golden_froggy": "青蛙的恐怖形象，由他人的恐惧幻化而成。\n\n能力\n- 降低重力；\n- 受到伤害后暂时无敌。",
+		"kitty": "一只自制的猫形拖鞋。总是戴着圣诞帽，对蝴蝶情有独钟。\n\n能力\n- 旋转刀劈；\n- 卧姿。"
+	},
+	"discord": {
+		"game_over": "游戏结束",
+		"gameplay": "跳过刀",
+		"how_to_play": "了解有关如何玩的信息",
+		"in_game": "在游戏中",
+		"in_main_menu": "在主菜单中",
+		"prologue": "序幕",
+		"results": "观察结果",
+		"victory": "胜利"
+	},
+	"game": {
+		"bite": "咬！",
+		"continue": "继续",
+		"highscore": "高分",
+		"hint": "跳过刀！",
+		"mega_rage": "狂怒！！",
+		"pause": "暂停",
+		"rage": "愤怒！",
+		"respawn_offer": "重生不失分？",
+		"score": "分数"
+	},
+	"gamejolt": {
+		"achievement": "成果已收到！",
+		"game_token": "游戏代币",
+		"log_in": "登录",
+		"logging_in": "在登录...",
+		"login_failed": "登录失败！",
+		"skip": "跳过",
+		"text": "登录 Game Jolt 即可获得成就并提交高分。",
+		"username": "用户名",
+		"welcome": "欢迎"
+	},
+	"how_to_play": {
+		"text_1": "使用箭头或 WASD 控制您的角色。行走和跳跃。",
+		"text_1_mobile": "使用箭头控制你的角色。行走和跳跃。",
+		"text_2": "小心刀子。跳过它们或钻到它们下面。不要碰到刀尖！",
+		"text_3": "成功躲避刀具即可获得积分。",
+		"text_4": "生气了然后……咬卡罗琳！",
+		"text_5": "通过咬卡罗莱纳来增加你的分数乘数！",
+		"text_6": "更大的乘数意味着更多的分数和更多的累积伤害。",
+		"text_7": "受到伤害时倍数会下降。",
+		"text_8": "如果你的生命值为零，你就输了。",
+		"text_9": "击败卡罗莱纳！"
+	},
+	"language": {
+		"name": "英语"
+	},
+	"main_menu": {
+		"back": "后退",
+		"community": "GK制作社区",
+		"credits": "制作人员",
+		"misc": "各种各样的",
+		"more_games": "更多游戏",
+		"no": "不",
+		"play_game": "玩",
+		"quit_game": "退出游戏",
+		"quit_to_menu": "退出到标题屏幕",
+		"select": "选择",
+		"settings": "设置",
+		"shop": "店铺",
+		"yes": "是的"
+	},
+	"select_character": {
+		"random": "随机的",
+		"thank_you": "感谢您的购买！",
+		"title": "选择角色"
+	},
+	"settings": {
+		"change_language": "改变语言",
+		"error": "发生了错误。",
+		"functional_keys": "F11 - 切换全屏模式 F3 - 隐藏/显示 HUD\nF1 - 隐藏/显示界面",
+		"game_progress": "游戏进度",
+		"reset_progress": "重置进度",
+		"restore_failed": "无法恢复进度。",
+		"restore_progress": "恢复进度",
+		"restore_successfully": "进展已经恢复。",
+		"save_failed": "无法保存进度。",
+		"save_progress": "保存进度",
+		"save_successfully": "进度已成功保存。"
+	},
+	"shop": {
+		"about_coins_purchases": "（任何购买都会删除广告）",
+		"buy": "买",
+		"coming_soon": "期待3.0版本中的帽子和服装！",
+		"free": "自由的",
+		"free_full": "自由的",
+		"how_to_get_free_coins": "观看视频即可获得100个硬币。",
+		"more_coins": "买硬币",
+		"need_coins": "需要硬币吗？",
+		"restoring_coins": "正在收集硬币...",
+		"section_bonuses": "奖金",
+		"section_characters": "人物",
+		"section_hats": "帽子",
+		"section_upgrades": "升级",
+		"sold_out": "售罄",
+		"video_loading": "视频加载中...",
+		"video_loading_error": "无法显示视频。",
+		"video_rejected": "视频已被拒绝。",
+		"wait": "请稍候...",
+		"you_got_coins": "你获得了%coins%枚硬币！"
+	},
+	"update_teaser": {
+		"expect": "期待3.0更新",
+		"features": "- 剧情战役;  \n- 新游戏模式;  \n- 帽子;  \n- 服装;  \n- 更多奖励;  \n- 更多刀具.  "
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Erlauben",
+		"birthday": "Geben Sie Ihr Geburtsdatum an",
+		"confirm": "Bestätigen",
+		"description": "Folgende Daten können erhoben werden:\n- Nutzungsstatistiken;\n- Analysedaten;\n- Geräteinformationen;\n- Daten zu Werbethemen und Klicks.",
+		"not_allow": "Nicht erlauben",
+		"privacy_policy": "Datenschutzrichtlinie",
+		"question": "Der Werbenetzwerk erlauben, Informationen zur Personalisierung von Werbung zu sammeln?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Goldener Froggy",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Plastik- und massiver Krokodil. Liebt es zu knurren und zu nagen.\n\nFähigkeiten:\n- Messer beim Springen essen;\n- Messer wegwerfen, wenn Schaden erleidet.",
+		"froggy": "Ein Spielzeugfrosch, der ein Auge verloren hat. Aus irgendeinem Grund mag ihn Carolina Voitekhovna, die Schwiegermutter von König Froggold II, nicht.\n\nFähigkeiten:\n- Doppelsprung;\n- Wutgewinn durch Schadensaufnahme.",
+		"golden_froggy": "Froggys erschreckendes Bild, das durch jemandes Angst geschaffen wurde.\n\nFähigkeiten:\n- Reduzierte Schwerkraft;\n- Vorübergehende Unverwundbarkeit nach Schadensaufnahme.",
+		"kitty": "Selbstgemachter Pantoffel in Form einer Katze. Sie trägt immer eine Neujahrsmütze und mag Schmetterlinge.\n\nFähigkeiten:\n- Abwehr von Messern durch Rotation;\n- Liegende Position."
+	},
+	"discord": {
+		"game_over": "Spiel vorbei",
+		"gameplay": "Springt über Messer",
+		"how_to_play": "Lerne, wie man spielt",
+		"in_game": "Im Spiel",
+		"in_main_menu": "Im Hauptmenü",
+		"prologue": "Prolog",
+		"results": "Ergebnisse ansehen",
+		"victory": "Sieg"
+	},
+	"game": {
+		"bite": "Beiß!",
+		"continue": "Fortsetzen",
+		"highscore": "Höchstpunktzahl",
+		"hint": "Springe über die Messer!",
+		"mega_rage": "MEGA-WUT!!",
+		"pause": "Pause",
+		"rage": "Wut!",
+		"respawn_offer": "Ohne Punktverlust wiederbeleben?",
+		"score": "Punkte"
+	},
+	"gamejolt": {
+		"achievement": "Erfolg erhalten!",
+		"game_token": "Spiel-Token",
+		"log_in": "Einloggen",
+		"logging_in": "Einloggen...",
+		"login_failed": "Anmeldung fehlgeschlagen!",
+		"skip": "Überspringen",
+		"text": "Melde dich bei Game Jolt an, um Erfolge zu verdienen und Höchstpunkte einzureichen.",
+		"username": "Benutzername",
+		"welcome": "Willkommen"
+	},
+	"how_to_play": {
+		"text_1": "Steuere deinen Charakter mit Pfeilen oder WASD. Gehe und springe.",
+		"text_1_mobile": "Steuere deinen Charakter mit Pfeilen. Gehe und springe.",
+		"text_2": "Hüte dich vor Messern. Springe über sie oder gehe unter ihnen durch. Berühre nicht die Messerspitze!",
+		"text_3": "Erhalte Punkte für erfolgreiches Ausweichen von Messern.",
+		"text_4": "Werde wütend und... beiße Caroline!",
+		"text_5": "Erhöhe deinen Punktmultiplikator, indem du Caroline beißt!",
+		"text_6": "Ein größerer Multiplikator bedeutet mehr Punkte und mehr angesammelter Schaden.",
+		"text_7": "Der Multiplikator sinkt bei Schadensaufnahme.",
+		"text_8": "Wenn deine Gesundheit auf null fällt, verlierst du.",
+		"text_9": "Besiege Caroline!"
+	},
+	"language": {
+		"name": "Deutsch"
+	},
+	"main_menu": {
+		"back": "Zurück",
+		"community": "GKProduction Community",
+		"credits": "Credits",
+		"misc": "Verschiedenes",
+		"more_games": "Weitere Spiele",
+		"no": "Nein",
+		"play_game": "Spielen",
+		"quit_game": "Spiel beenden",
+		"quit_to_menu": "Zum Titelbildschirm beenden",
+		"select": "Auswählen",
+		"settings": "Einstellungen",
+		"shop": "Shop",
+		"yes": "Ja"
+	},
+	"select_character": {
+		"random": "Zufällig",
+		"thank_you": "Danke für Ihren Einkauf!",
+		"title": "Charakter auswählen"
+	},
+	"settings": {
+		"change_language": "Sprache ändern",
+		"error": "Ein Fehler ist aufgetreten.",
+		"functional_keys": "F11 - Vollbildmodus umschalten\nF1 - HUD ausblenden/einblenden",
+		"game_progress": "Spielverlauf",
+		"reset_progress": "Fortschritt zurücksetzen",
+		"restore_failed": "Wiederherstellung des Fortschritts fehlgeschlagen.",
+		"restore_progress": "Fortschritt wiederherstellen",
+		"restore_successfully": "Fortschritt wurde wiederhergestellt.",
+		"save_failed": "Speichern des Fortschritts fehlgeschlagen.",
+		"save_progress": "Fortschritt speichern",
+		"save_successfully": "Fortschritt erfolgreich gespeichert."
+	},
+	"shop": {
+		"about_coins_purchases": "(Jeder Kauf entfernt Werbung)",
+		"buy": "Kaufen",
+		"coming_soon": "Freut euch auf Hüte und Outfits in Version 3.0!",
+		"free": "Frei",
+		"free_full": "Kostenlos",
+		"how_to_get_free_coins": "Sehen Sie sich das Video an und erhalten Sie 100 Münzen.",
+		"more_coins": "Münzen kaufen",
+		"need_coins": "Münzen benötigt?",
+		"restoring_coins": "Münzen werden gesammelt...",
+		"section_bonuses": "Bonusse",
+		"section_characters": "Charaktere",
+		"section_hats": "Hüte",
+		"section_upgrades": "Upgrades",
+		"sold_out": "Ausverkauft",
+		"video_loading": "Video wird geladen...",
+		"video_loading_error": "Video konnte nicht angezeigt werden.",
+		"video_rejected": "Das Video wurde abgelehnt.",
+		"wait": "Warten Sie...",
+		"you_got_coins": "Sie haben %coins% Münzen erhalten!"
+	},
+	"update_teaser": {
+		"expect": "Erwartet es im Update 3.0",
+		"features": "- Handlungskampagne;  \n- Neue Spielmodi;  \n- Hüte;  \n- Outfits;  \n- Mehr Boni;  \n- Mehr Messer.  "
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Zezwól",
+		"birthday": "Podaj swoją datę urodzenia",
+		"confirm": "Potwierdź",
+		"description": "Mogą być zbierane następujące dane:\n- Statystyki użytkowania;\n- Analityka;\n- Informacje o urządzeniu;\n- Dane dotyczące tematów reklam i kliknięć.",
+		"not_allow": "Nie zezwalaj",
+		"privacy_policy": "Polityka prywatności",
+		"question": "Zezwolić sieci reklamowej na zbieranie informacji w celu personalizacji reklam?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Golden Froggy",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Plastikowy krokodyl. Uwielbia ryczeć i gryźć.\n\nUmiejętności:\n- Zjada noże w trakcie skoku;\n- Przy zadaniu obrażeń odrzuca noże",
+		"froggy": "Zabawkowa żabka bez oka. Z nieznajomego powodu, Carolina Voitekhovna, teściowa Króla Froggold'a II go nie lubi.\n\nUmiejętności:\n- Podwójny skok;\n- Po otrzymaniu obrażeń zwiększa poziom rage'u.",
+		"golden_froggy": "Przerażający obraz Froggy'ego stworzony przez czyjś strach.\n\nUmiejętności:\n- Nie działa na niego grawitacja;\n- Chwilowa nieśmiertelność po otrzymaniu obrażeń.",
+		"kitty": "Ręcznie zrobiony klapek w kształcie kotka. Zawsze nosi noworoczną czapkę. Uwielbia motyle.\n\nUmiejętności:\n- Potrafi wygiąć noże;\n- Może być w pozycji leżącej"
+	},
+	"discord": {
+		"game_over": "Przegrana",
+		"gameplay": "Przeskakuje noże",
+		"how_to_play": "Uczy się grać",
+		"in_game": "W grze",
+		"in_main_menu": "W menu głównym",
+		"prologue": "Prolog",
+		"results": "Ogląda wyniki",
+		"victory": "Wygrana"
+	},
+	"game": {
+		"bite": "Gryź!",
+		"continue": "Kontynuuj",
+		"highscore": "Rekord",
+		"hint": "Przeskakuj noże!",
+		"mega_rage": "MEGA-RAGE!!",
+		"pause": "Pauza",
+		"rage": "Rage!",
+		"respawn_offer": "Wznów bez utraty postępu?",
+		"score": "Wynik"
+	},
+	"gamejolt": {
+		"achievement": "Otrzymano osiągnięcie!",
+		"game_token": "Token do gier",
+		"log_in": "Zaloguj",
+		"logging_in": "Logowanie...",
+		"login_failed": "Logowanie się nie powiodło.",
+		"skip": "Pomiń",
+		"text": "Zaloguj się do Gamejolt aby otrzymać osiągnięcia i dodawać swoje rekordy.",
+		"username": "Nazwa użytkownika",
+		"welcome": "Witaj"
+	},
+	"how_to_play": {
+		"text_1": "Steruj postacią klawiszami WASD albo strzałkami. Możesz poruszać się i skakać.",
+		"text_1_mobile": "Steruj postacią strzałkami. Możesz poruszać się i skakać.",
+		"text_2": "Uważaj na noże. Przeskakuj je albo przechodź pod nimi. Nie dotknij końcówki noża!",
+		"text_3": "Punkty dostaniesz za omijanie noży.",
+		"text_4": "Puść emocje i.. pogryź Carolinę!",
+		"text_5": "Gryząc Carolinę zwiększasz podwajanie punktów!",
+		"text_6": "Wyższe podwajanie punktów skutkuje większą ilością punktów oraz większymi obrażeniami.",
+		"text_7": "Podwajanie punktów zmniejsza się po zranieniu postaci.",
+		"text_8": "Jeśli Twoje zdrowie zejdzie do zera - przegrasz.",
+		"text_9": "Pokonaj Carolinę!"
+	},
+	"language": {
+		"name": "Polski"
+	},
+	"main_menu": {
+		"back": "Powrót",
+		"community": "Społeczność GKProduction",
+		"credits": "Podziękowania",
+		"misc": "Pozostałe",
+		"more_games": "Więcej gier",
+		"no": "Nie",
+		"play_game": "Graj",
+		"quit_game": "Wyjdź z gry",
+		"quit_to_menu": "Wyjdź do ekranu tytułowego",
+		"select": "Wybierz",
+		"settings": "Ustawienia",
+		"shop": "Sklep",
+		"yes": "Tak"
+	},
+	"select_character": {
+		"random": "Losowa",
+		"thank_you": "Dziękujemy za zakup!",
+		"title": "Wybierz postać"
+	},
+	"settings": {
+		"change_language": "Zmień język",
+		"error": "Wystąpił błąd.",
+		"functional_keys": "F11 - Tryb pełnoekranowy\nF1 - Ukryj/Pokaż HUD",
+		"game_progress": "Postęp",
+		"reset_progress": "Resetuj postęp",
+		"restore_failed": "Przywracanie postępu się nie udało.",
+		"restore_progress": "Przywróć postęp",
+		"restore_successfully": "Postęp został przywrócony",
+		"save_failed": "Zapisywanie postępu się nie udało.",
+		"save_progress": "Zapisz postęp",
+		"save_successfully": "Postęp został zapisany."
+	},
+	"shop": {
+		"about_coins_purchases": "(Jakikolwiek zakup usuwa reklamy)",
+		"buy": "Kup",
+		"coming_soon": "Spodziewajcie się kapeluszy i strojów w wersji 3.0!",
+		"free": "Darmo",
+		"free_full": "Za darmo",
+		"how_to_get_free_coins": "Obejrzyj film i zdobądź 100 monet.",
+		"more_coins": "Kup monety",
+		"need_coins": "Potrzebujesz monet",
+		"restoring_coins": "Zbieranie monet...",
+		"section_bonuses": "Bonusy",
+		"section_characters": "Postacie",
+		"section_hats": "Czapki",
+		"section_upgrades": "Ulepszenia",
+		"sold_out": "Wyprzedane",
+		"video_loading": "Ładowanie wideo...",
+		"video_loading_error": "Wyświetlanie filmu się nie powiodło.",
+		"video_rejected": "Film został odrzucony.",
+		"wait": "Poczekaj...",
+		"you_got_coins": "Otrzymałeś %coins% monet!"
+	},
+	"update_teaser": {
+		"expect": "W nadchodzącej aktualizacji 3.0",
+		"features": "- Kampania fabularna;  \n- Nowe tryby gry;  \n- Kapelusze;  \n- Stroje;  \n- Więcej bonusów;  \n- Więcej noży.  "
+	}
+}

@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "許可する",
+		"birthday": "生年月日を入力してください",
+		"confirm": "確認",
+		"description": "以下のデータが収集される場合があります：\n- 使用統計；\n- 分析；\n- デバイス情報；\n- 広告トピックとクリックデータ。",
+		"not_allow": "許可しない",
+		"privacy_policy": "プライバシーポリシー",
+		"question": "広告ネットワークが広告をパーソナライズするための情報を収集することを許可しますか？"
+	},
+	"character": {
+		"crocco": "クロッコ",
+		"froggy": "フロギー",
+		"golden_froggy": "ゴールデン・フロギー",
+		"kitty": "キティ"
+	},
+	"character_description": {
+		"crocco": "プラスチック製の大きいワニのおもちゃ。 泣くことと''何か''噛むことが大好き。\n\n能力:\n- ジャンプしたときに口をナイフに当てると食べる。;\n- ナイフが刺さると叫び、向かってきているナイフをすべて地面に落とす。",
+		"froggy": "片目がないカエルのおもちゃ。片目は何らかの理由で無くなった, キャロライナ・ヴォイテホフナ(フロッグゴールド二世の義母)が嫌い。\n\n能力:\n- 2連ジャンプ;\n- ナイフが刺さると、怒りメーターが増える。",
+		"golden_froggy": "誰かのフロギーへの恐怖が具現化した幻影。\n\n能力:\n- 低重力;\n- ダメージを受けると何秒か体が透明になり、ダメージを受けなくなる。",
+		"kitty": "猫の形をした手作りスリッパ。彼女はいつもクリスマスの帽子を着用しており、蝶が好き。\n\n能力:\n- 回転し、ナイフから身を守る。;\n- 横たわり、ナイフを避ける。"
+	},
+	"discord": {
+		"game_over": "ゲームオーバー",
+		"gameplay": "ナイフを飛んで避ける",
+		"how_to_play": "プレイする方法",
+		"in_game": "プレイ中に",
+		"in_main_menu": "メインメニューの中で",
+		"prologue": "プロローグ",
+		"results": "リザルト",
+		"victory": "勝利"
+	},
+	"game": {
+		"bite": "噛みつけ！",
+		"continue": "コンティニュー",
+		"highscore": "ハイスコア",
+		"hint": "ヒント",
+		"mega_rage": "ブチギレ！",
+		"pause": "一時停止",
+		"rage": "怒り！",
+		"respawn_offer": "スコアを失わず、スポーンしますか？",
+		"score": "スコア"
+	},
+	"gamejolt": {
+		"achievement": "実績",
+		"game_token": "ゲーミング・トークン",
+		"log_in": "ログイン",
+		"logging_in": "ログイン中…",
+		"login_failed": "ログイン失敗",
+		"skip": "スキップ",
+		"text": "Game Joltにサインインして実績を獲得し、ハイスコアを投稿しよう。",
+		"username": "ユーザー名",
+		"welcome": "ようこそ"
+	},
+	"how_to_play": {
+		"text_1": "矢印キーまたはW,A,S,Dキーで操作してみよう。",
+		"text_1_mobile": "左下の矢印で操作してみよう。",
+		"text_2": "ナイフが刺さらないように、ナイフを飛び越えたりナイフの下をくぐったりして避けよう！",
+		"text_3": "通り過ぎたナイフはポイントに加算されます。",
+		"text_4": "キャロライナに怒りをぶつけ、噛みつけ！",
+		"text_5": "噛みつけば噛みつくほど、貰えるポイントが増えていきます。",
+		"text_6": "なのでいっぱい噛みつこう",
+		"text_7": "ダメージを受けると攻撃力が下がってしまいます。",
+		"text_8": "HPが0以下になってしまうと、ゲームオーバーになります。",
+		"text_9": "キャロライナを倒せ！"
+	},
+	"language": {
+		"name": "日本語"
+	},
+	"main_menu": {
+		"back": "戻る",
+		"community": "GKProduction コミュニティ",
+		"credits": "クレジット",
+		"misc": "その他",
+		"more_games": "他のゲーム",
+		"no": "いいえ",
+		"play_game": "プレイ",
+		"quit_game": "ゲームをやめる",
+		"quit_to_menu": "タイトル画面に戻る",
+		"select": "選択",
+		"settings": "設定",
+		"shop": "ショップ",
+		"yes": "はい"
+	},
+	"select_character": {
+		"random": "ランダム",
+		"thank_you": "ご購入ありがとうございます！",
+		"title": "キャラクター選択"
+	},
+	"settings": {
+		"change_language": "言語の変更",
+		"error": "エラー発生",
+		"functional_keys": "F11 - フルスクリーンにする。\nF1 - スコアやお金等の値を表示の切り替えできる",
+		"game_progress": "ゲームデータ",
+		"reset_progress": "ゲームデータをリセット…",
+		"restore_failed": "ゲームデータのロードに失敗しました。",
+		"restore_progress": "ゲームデータをロード",
+		"restore_successfully": "ゲームデータをロードできました！",
+		"save_failed": "ゲームデータのセーブに失敗しました。",
+		"save_progress": "ゲームデータをセーブ",
+		"save_successfully": "ゲームデータはちゃんとセーブできました！"
+	},
+	"shop": {
+		"about_coins_purchases": "(この中のどれかを一つでもご購入いただければ、広告が消えます。)",
+		"buy": "購入",
+		"coming_soon": "バージョン3.0で帽子と衣装をお楽しみに！",
+		"free": "無料",
+		"free_full": "無料",
+		"how_to_get_free_coins": "ビデオを視聴して 100 コインを獲得しましょう。",
+		"more_coins": "コインを課金",
+		"need_coins": "コインが必要ですか？",
+		"restoring_coins": "コインを集めています...",
+		"section_bonuses": "ボーナス！",
+		"section_characters": "キャラクターの衣装",
+		"section_hats": "帽子",
+		"section_upgrades": "アップグレード",
+		"sold_out": "売り切れ",
+		"video_loading": "動画を読み込み中...",
+		"video_loading_error": "広告がロードされませんでした",
+		"video_rejected": "動画は拒否されました。",
+		"wait": "お待ちください...",
+		"you_got_coins": "%coins%コインを獲得しました！"
+	},
+	"update_teaser": {
+		"expect": "アップデート3.0で登場予定",
+		"features": "- ストーリーキャンペーン;  \n- 新しいゲームモード;  \n- 帽子;  \n- 衣装;  \n- さらにボーナス;  \n- さらにナイフ.  "
+	}
+}

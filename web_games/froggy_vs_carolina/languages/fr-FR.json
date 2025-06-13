@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Autoriser",
+		"birthday": "Indiquez votre date de naissance",
+		"confirm": "Confirmer",
+		"description": "Les données suivantes peuvent être collectées :\n- Statistiques d'utilisation ;\n- Analytique ;\n- Informations sur l'appareil ;\n- Données sur les thèmes publicitaires et les clics.",
+		"not_allow": "Ne pas autoriser",
+		"privacy_policy": "Politique de confidentialité",
+		"question": "Autoriser le réseau publicitaire à collecter des informations pour personnaliser les publicités ?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Golden Froggy",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Crocodile en plastique et massif. Aime grogner et ronger.\n\nCapacités:\n- Manger des couteaux en sautant;\n- Jeter des couteaux en recevant des dégâts.",
+		"froggy": "Une grenouille jouet qui a perdu un œil. Pour une raison quelconque, Carolina Voitekhovna, la belle-mère du roi Froggold II, ne l'aime pas.\n\nCapacités:\n- Double saut;\n- Gain de rage en prenant des dégâts.",
+		"golden_froggy": "L'image effrayante de Froggy créée par la peur de quelqu'un.\n\nCapacités:\n- Gravité réduite;\n- Invincibilité temporaire après avoir subi des dégâts.",
+		"kitty": "Pantoufle faite maison en forme de chat. Elle porte toujours un chapeau de Nouvel An et aime les papillons.\n\nCapacités:\n- Déviation des couteaux par rotation;\n- Position couchée."
+	},
+	"discord": {
+		"game_over": "Game Over",
+		"gameplay": "Sauter par-dessus les couteaux",
+		"how_to_play": "Apprenez à jouer",
+		"in_game": "En jeu",
+		"in_main_menu": "Dans le menu principal",
+		"prologue": "Prologue",
+		"results": "Regarder les résultats",
+		"victory": "Victoire"
+	},
+	"game": {
+		"bite": "Mords!",
+		"continue": "Continuer",
+		"highscore": "Meilleur score",
+		"hint": "Saute par-dessus les couteaux!",
+		"mega_rage": "MEGA-RAGE!!",
+		"pause": "Pause",
+		"rage": "Rage!",
+		"respawn_offer": "Ressusciter sans perdre de score?",
+		"score": "Score"
+	},
+	"gamejolt": {
+		"achievement": "Succès obtenu!",
+		"game_token": "Jeton de jeu",
+		"log_in": "Connexion",
+		"logging_in": "Connexion...",
+		"login_failed": "Échec de la connexion!",
+		"skip": "Passer",
+		"text": "Connectez-vous à Game Jolt pour obtenir des succès et soumettre des scores élevés.",
+		"username": "Nom d'utilisateur",
+		"welcome": "Bienvenue"
+	},
+	"how_to_play": {
+		"text_1": "Contrôlez votre personnage avec les flèches ou WASD. Marchez et sautez.",
+		"text_1_mobile": "Contrôlez votre personnage avec les flèches. Marchez et sautez.",
+		"text_2": "Attention aux couteaux. Sautez par-dessus ou passez en dessous. Ne touchez pas la pointe du couteau!",
+		"text_3": "Obtenez des points pour avoir esquivé avec succès les couteaux.",
+		"text_4": "Devenez en colère et... mordez Caroline!",
+		"text_5": "Augmentez votre multiplicateur de score en mordant Caroline!",
+		"text_6": "Un multiplicateur plus élevé signifie plus de points et plus de dégâts accumulés.",
+		"text_7": "Le multiplicateur diminue en recevant des dégâts.",
+		"text_8": "Si votre santé atteint zéro, vous perdrez.",
+		"text_9": "Battez Caroline!"
+	},
+	"language": {
+		"name": "Français"
+	},
+	"main_menu": {
+		"back": "Retour",
+		"community": "Communauté GKProduction",
+		"credits": "Crédits",
+		"misc": "Divers",
+		"more_games": "Plus de jeux",
+		"no": "Non",
+		"play_game": "Jouer",
+		"quit_game": "Quitter le jeu",
+		"quit_to_menu": "Quitter pour aller à l'écran titre",
+		"select": "Sélectionner",
+		"settings": "Paramètres",
+		"shop": "Boutique",
+		"yes": "Oui"
+	},
+	"select_character": {
+		"random": "Aléatoire",
+		"thank_you": "Merci pour votre achat !",
+		"title": "Sélectionner un personnage"
+	},
+	"settings": {
+		"change_language": "Changer de langue",
+		"error": "Une erreur est survenue.",
+		"functional_keys": "F11 - Basculer en mode plein écran\nF1 - Masquer/Afficher le HUD",
+		"game_progress": "Progression du jeu",
+		"reset_progress": "Réinitialiser la progression",
+		"restore_failed": "Échec de la restauration de la progression.",
+		"restore_progress": "Restaurer la progression",
+		"restore_successfully": "La progression a été restaurée.",
+		"save_failed": "Échec de l'enregistrement de la progression.",
+		"save_progress": "Enregistrer la progression",
+		"save_successfully": "La progression a été enregistrée avec succès."
+	},
+	"shop": {
+		"about_coins_purchases": "(Tout achat supprime les publicités)",
+		"buy": "Acheter",
+		"coming_soon": "Attendez-vous à des chapeaux et tenues dans la version 3.0 !",
+		"free": "Gratuit",
+		"free_full": "Gratuit",
+		"how_to_get_free_coins": "Regardez la vidéo et obtenez 100 pièces.",
+		"more_coins": "Acheter des pièces",
+		"need_coins": "Besoin de pièces?",
+		"restoring_coins": "Collection de pièces...",
+		"section_bonuses": "Bonus",
+		"section_characters": "Personnages",
+		"section_hats": "Chapeaux",
+		"section_upgrades": "Améliorations",
+		"sold_out": "Épuisé",
+		"video_loading": "Chargement de la vidéo...",
+		"video_loading_error": "Échec de l'affichage de la vidéo.",
+		"video_rejected": "La vidéo a été rejetée.",
+		"wait": "Attendez...",
+		"you_got_coins": "Vous avez reçu %coins% pièces !"
+	},
+	"update_teaser": {
+		"expect": "À venir dans la mise à jour 3.0",
+		"features": "- Campagne scénarisée;  \n- Nouveaux modes de jeu;  \n- Chapeaux;  \n- Tenues;  \n- Plus de bonus;  \n- Plus de couteaux.  "
+	}
+}

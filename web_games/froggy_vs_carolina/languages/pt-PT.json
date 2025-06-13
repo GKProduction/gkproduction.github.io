@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Permitir",
+		"birthday": "Indique a sua data de nascimento",
+		"confirm": "Confirmar",
+		"description": "Os seguintes dados podem ser recolhidos:\n- Estatísticas de utilização;\n- Análises;\n- Informações do dispositivo;\n- Dados sobre temas de publicidade e cliques.",
+		"not_allow": "Não permitir",
+		"privacy_policy": "Política de Privacidade",
+		"question": "Permitir que a rede de publicidade recolha informações para personalizar os anúncios?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Froggy Dourado",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Um crocodilo feito de plástico e corpulento. Ama roer e rosnar.\n\nHabilidades:\n- Comer facas enquando salta;\n- Atirar facas ao receber dano.",
+		"froggy": "Um Sapo de Brinquedo que perdeu um olho. Por alguma razão, Carolina Voitekhovna, a sogra e Dom Froggold II, não gosta dele.\n\nHabilidades:\n- Salto duplo;\n- Ganho de raiva ao receber dano.",
+		"golden_froggy": "A imagem assustadora do Froggy criada pelo medo de alguém.\n\nHabilidades:\n- Gravidade reduzida;\n- Invencibilidade temporária após receber dano.",
+		"kitty": "Pantufa caseira em forma de gato. Sempre usa um chapéu de Ano Novo e gosta de borboletas.\n\nAbilities:\n- Deflexão de facas por rotação;\n- Posição deitada."
+	},
+	"discord": {
+		"game_over": "Game Over",
+		"gameplay": "Salta sobre facas",
+		"how_to_play": "Aprende informação em como jogar",
+		"in_game": "No jogo",
+		"in_main_menu": "Na menu principal",
+		"prologue": "Prólogo",
+		"results": "A ver os resultados",
+		"victory": "Vitória"
+	},
+	"game": {
+		"bite": "Morder!",
+		"continue": "Continuar",
+		"highscore": "Pontuação maior",
+		"hint": "Saltar sobre as facas!",
+		"mega_rage": "MEGA-RAIVA!!",
+		"pause": "Pausa",
+		"rage": "Raiva!",
+		"respawn_offer": "Resnascer sem perder a pontuação?",
+		"score": "Pontuação"
+	},
+	"gamejolt": {
+		"achievement": "Recebeste uma recompensa!",
+		"game_token": "Ficha de jogo",
+		"log_in": "Fazer log in",
+		"logging_in": "Fazendo o log in...",
+		"login_failed": "Falha ao fazer o log in!",
+		"skip": "Saltar",
+		"text": "Faz sign in no Game Jolt para receber recompensas e submeter pontuações maiores.",
+		"username": "Nome de usuário",
+		"welcome": "Bem-vindo"
+	},
+	"how_to_play": {
+		"text_1": "Controla a tua personagem ao usar as setas ou WASD. Anda e pula.",
+		"text_1_mobile": "Controla a tua personagem ao usar as setas. Anda e pula.",
+		"text_2": "Cuidado com as facas. Salta ou vai por baixo delas. Não levas da ponta duma faca!",
+		"text_3": "Obtenha pontos por esquivar das facas.",
+		"text_4": "Fica zangado e... Morde a Carolina!",
+		"text_5": "Aumenta o seu multiplicador de pontos mordendo a Carolina!",
+		"text_6": "Quanto maior seu multiplicador, obtens mais pontos e dano acumulado.",
+		"text_7": "O multiplicador diminui ao receber dano.",
+		"text_8": "Se a sua saúde chega ao Zero, então perdes.",
+		"text_9": "Derrote a Carolina!"
+	},
+	"language": {
+		"name": "Português"
+	},
+	"main_menu": {
+		"back": "Voltar",
+		"community": "Comunidade GKProduction",
+		"credits": "Créditos",
+		"misc": "Diversos",
+		"more_games": "Mais jogos",
+		"no": "Não",
+		"play_game": "Jogar",
+		"quit_game": "Sair do jogo",
+		"quit_to_menu": "Sair para a menu",
+		"select": "Selecionar",
+		"settings": "Definições",
+		"shop": "Loja",
+		"yes": "Sim"
+	},
+	"select_character": {
+		"random": "Aleatório",
+		"thank_you": "Obrigado pela sua compra!",
+		"title": "Selecionar o Personagem"
+	},
+	"settings": {
+		"change_language": "Mudar a Língua",
+		"error": "Ocorreu algum erro.",
+		"functional_keys": "F11 - Ativar ou Desativar modo Fullscreen\nF1 - Esconder ou Mostrar HUD",
+		"game_progress": "Progresso de Jogo",
+		"reset_progress": "Reiniciar o Progresso",
+		"restore_failed": "Falhou restaurar o Progresso.",
+		"restore_progress": "Restaurar o Progresso",
+		"restore_successfully": "O Progresso foi restaurado com sucesso.",
+		"save_failed": "Falha ao salvar o Progresso.",
+		"save_progress": "Salvar o Progresso",
+		"save_successfully": "O Progresso foi restaurado com sucesso."
+	},
+	"shop": {
+		"about_coins_purchases": "(Qualquer compra remove anúncios)",
+		"buy": "Compra",
+		"coming_soon": "Esperem por chapéus e trajes na versão 3.0!",
+		"free": "Grátis",
+		"free_full": "Grátis",
+		"how_to_get_free_coins": "Veja o vídeo e ganhe 100 moedas.",
+		"more_coins": "Buy coins",
+		"need_coins": "Comprar Moedas?",
+		"restoring_coins": "A recolher moedas...",
+		"section_bonuses": "Bónus",
+		"section_characters": "Personagens",
+		"section_hats": "Chapéus",
+		"section_upgrades": "Melhorias",
+		"sold_out": "Vendido",
+		"video_loading": "A carregar vídeo...",
+		"video_loading_error": "Falha ao mostrar o vídeo.",
+		"video_rejected": "O vídeo foi rejeitado.",
+		"wait": "Aguarde...",
+		"you_got_coins": "Recebeu %coins% moedas!"
+	},
+	"update_teaser": {
+		"expect": "Brevemente na atualização 3.0",
+		"features": "- Campanha de história;  \n- Novos modos de jogo;  \n- Chapéus;  \n- Fatos;  \n- Mais bónus;  \n- Mais facas.  "
+	}
+}

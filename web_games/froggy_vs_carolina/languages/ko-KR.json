@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "허용",
+		"birthday": "생년월일을 입력하세요",
+		"confirm": "확인",
+		"description": "다음 데이터가 수집될 수 있습니다:\n- 사용 통계;\n- 분석;\n- 기기 정보;\n- 광고 주제 및 클릭 데이터.",
+		"not_allow": "허용 안 함",
+		"privacy_policy": "개인정보 처리방침",
+		"question": "광고 네트워크가 광고를 개인화하기 위해 정보를 수집하도록 허용하시겠습니까?"
+	},
+	"character": {
+		"crocco": "악어",
+		"froggy": "개구리",
+		"golden_froggy": "황금개구리",
+		"kitty": "고양이 새끼"
+	},
+	"character_description": {
+		"crocco": "플라스틱이고 서투른 악어. 으르렁거리고 씹는 것을 좋아합니다.\n\n기능:\n- 점프하면서 칼을 먹는 행위\n- 칼날은 데미지를 받으면 버려집니다.",
+		"froggy": "눈을 잃은 장난감 개구리. 프로골드 2세 왕의 시어머니인 카롤리나 보이테초브나가 뭔가 마음에 들지 않아요.\n\n능력:\n- 두 배 점프;\n- 피해를 받으면 분노가 증가합니다.",
+		"golden_froggy": "누군가의 두려움으로 인해 떠오른 무서운 개구리의 이미지입니다.\n\n능력:\n- 중력 감소;\n- 피해를 받은 후 일시적으로 무적 상태가 됩니다.",
+		"kitty": "고양이 모양의 수제 슬리퍼. 항상 크리스마스 모자를 쓰고 나비를 좋아합니다.\n\n능력:\n- 칼을 돌려서 자릅니다;\n- 누워있는 자세."
+	},
+	"discord": {
+		"game_over": "게임 끝",
+		"gameplay": "칼 위로 점프",
+		"how_to_play": "플레이 방법에 대한 정보를 알아보세요.",
+		"in_game": "게임 내",
+		"in_main_menu": "메인 메뉴에서",
+		"prologue": "프롤로그",
+		"results": "결과 보기",
+		"victory": "승리"
+	},
+	"game": {
+		"bite": "깨물다!",
+		"continue": "계속하다",
+		"highscore": "높은 점수",
+		"hint": "칼을 뛰어넘어라!",
+		"mega_rage": "메가레이지!!",
+		"pause": "정지시키다",
+		"rage": "격노!",
+		"respawn_offer": "점수를 잃지 않고 부활하시겠습니까?",
+		"score": "점수"
+	},
+	"gamejolt": {
+		"achievement": "업적을 받았습니다!",
+		"game_token": "게임토큰",
+		"log_in": "로그인",
+		"logging_in": "로그인 중...",
+		"login_failed": "로그인 실패!",
+		"skip": "건너뛰다",
+		"text": "Game Jolt에 로그인하여 업적을 달성하고 최고 점수를 제출하세요.",
+		"username": "사용자 이름",
+		"welcome": "환영"
+	},
+	"how_to_play": {
+		"text_1": "화살표나 WASD를 사용하여 캐릭터를 제어하세요. ",
+		"text_1_mobile": "화살표를 사용하여 캐릭터를 제어합니다. ",
+		"text_2": "칼을 조심하세요. 그들을 뛰어넘거나 아래로 가세요. 칼끝을 치지 마세요!",
+		"text_3": "칼을 성공적으로 피하면 점수를 얻을 수 있습니다.",
+		"text_4": "화를 내고... 캐롤라인을 물어뜯으세요!",
+		"text_5": "Carolina를 물어뜯어 점수 배율을 높이세요!",
+		"text_6": "승수가 클수록 더 많은 포인트와 더 많은 누적 피해를 의미합니다.",
+		"text_7": "피해를 입으면 배수가 떨어집니다.",
+		"text_8": "체력이 0이 되면 패배하게 됩니다.",
+		"text_9": "캐롤라이나를 이겨라!"
+	},
+	"language": {
+		"name": "영어"
+	},
+	"main_menu": {
+		"back": "뒤쪽에",
+		"community": "GK프로덕션 커뮤니티",
+		"credits": "크레딧",
+		"misc": "여러 가지 잡다한",
+		"more_games": "더 많은 게임",
+		"no": "아니요",
+		"play_game": "놀다",
+		"quit_game": "게임 종료",
+		"quit_to_menu": "타이틀 화면으로 나가기",
+		"select": "선택하다",
+		"settings": "설정",
+		"shop": "가게",
+		"yes": "예"
+	},
+	"select_character": {
+		"random": "무작위의",
+		"thank_you": "구매해 주셔서 감사합니다!",
+		"title": "캐릭터 선택"
+	},
+	"settings": {
+		"change_language": "언어 변경",
+		"error": "오류가 발생했습니다.",
+		"functional_keys": "F11 - 전체 화면 모드 전환\nF1 - 인터페이스 숨기기/표시",
+		"game_progress": "게임 진행",
+		"reset_progress": "진행 상황 재설정",
+		"restore_failed": "진행 상황을 복원하지 못했습니다.",
+		"restore_progress": "복원 진행 상황",
+		"restore_successfully": "진행 상황이 복원되었습니다.",
+		"save_failed": "진행 상황을 저장하지 못했습니다.",
+		"save_progress": "진행 상황 저장",
+		"save_successfully": "진행 상황이 성공적으로 저장되었습니다."
+	},
+	"shop": {
+		"about_coins_purchases": "(모든 구매는 광고를 제거합니다)",
+		"buy": "구입하다",
+		"coming_soon": "3.0 버전에서 모자와 의상을 기대해 주세요!",
+		"free": "무료",
+		"free_full": "무료",
+		"how_to_get_free_coins": "영상을 시청하고 100코인을 받으세요.",
+		"more_coins": "코인 구매",
+		"need_coins": "동전이 필요하신가요?",
+		"restoring_coins": "동전을 모으는 중...",
+		"section_bonuses": "보너스",
+		"section_characters": "캐릭터",
+		"section_hats": "모자",
+		"section_upgrades": "업그레이드",
+		"sold_out": "매진",
+		"video_loading": "동영상 로드 중...",
+		"video_loading_error": "동영상을 표시하지 못했습니다.",
+		"video_rejected": "동영상이 거부되었습니다.",
+		"wait": "기다려 주세요...",
+		"you_got_coins": "%coins% 동전을 받았습니다!"
+	},
+	"update_teaser": {
+		"expect": "3.0 업데이트에서 만나요",
+		"features": "- 스토리 캠페인;  \n- 새로운 게임 모드;  \n- 모자;  \n- 의상;  \n- 더 많은 보너스;  \n- 더 많은 칼.  "
+	}
+}

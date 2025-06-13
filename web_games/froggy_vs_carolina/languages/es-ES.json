@@ -1,0 +1,128 @@
+{
+	"ads_settings": {
+		"allow": "Permitir",
+		"birthday": "Indica tu fecha de nacimiento",
+		"confirm": "Confirmar",
+		"description": "Se pueden recopilar los siguientes datos:\n- Estadísticas de uso;\n- Análisis;\n- Información del dispositivo;\n- Datos sobre temas publicitarios y clics.",
+		"not_allow": "No permitir",
+		"privacy_policy": "Política de privacidad",
+		"question": "¿Permitir que la red publicitaria recopile información para personalizar los anuncios?"
+	},
+	"character": {
+		"crocco": "Crocco",
+		"froggy": "Froggy",
+		"golden_froggy": "Froggy Dorado",
+		"kitty": "Kitty"
+	},
+	"character_description": {
+		"crocco": "Cocodrilo de plástico grande. Le encanta gruñir y morder.\n\nHabilidades:\n- Se come los cuchillos mientras salta;\n- Tira los cuchillos cuando recibe daño",
+		"froggy": "Una rana de juguete que perdió un ojo. Por alguna razón, Caroline Voitekhovna, la suegra del rey Froggold II, no le agrada.\n\nHabilidades:\n- Doble salto;\n- Gana furia cuando recibe daño.",
+		"golden_froggy": "Una imagen aterradora de Froggy creada por los miedos de alguien.\n\nHabilidades:\n- Gravedad reducida;\n- Invencibilidad temporal tras recibir daño.",
+		"kitty": "Una zapatilla casera con forma de gato. Siempre lleva un gorro de Año Nuevo y le gustan las mariposas.\n\nHabilidades:\n- Desvia los cuchillos rotandon;\n- Puede tumbarse."
+	},
+	"discord": {
+		"game_over": "Fin de la partida",
+		"gameplay": "Salta sobre los cuchillos",
+		"how_to_play": "Aprende como jugar",
+		"in_game": "En el juego",
+		"in_main_menu": "En el menú principal",
+		"prologue": "Prólogo",
+		"results": "Ver resultados",
+		"victory": "Victoria"
+	},
+	"game": {
+		"bite": "¡Muerde!",
+		"continue": "Continuar",
+		"highscore": "Puntuación",
+		"hint": "¡Salta los cuchillos!",
+		"mega_rage": "¡¡GIGA-FURIA!!",
+		"pause": "Pausa",
+		"rage": "¡Furia!",
+		"respawn_offer": "¿Reintentar sin perder puntos?",
+		"score": "Puntos"
+	},
+	"gamejolt": {
+		"achievement": "¡Logro desbloqueado!",
+		"game_token": "Ficha de juego",
+		"log_in": "Iniciar sesión",
+		"logging_in": "Iniciando sesión...",
+		"login_failed": "¡Inicio de sesión fallido!",
+		"skip": "Omitir",
+		"text": "Regístrate en Gamejolt para ganar logros y para guardar las puntuaciones.",
+		"username": "Nombre de usuario",
+		"welcome": "Bienvenido"
+	},
+	"how_to_play": {
+		"text_1": "Mueve a tu personaje usando las flechas de dirección o el WASD. Muevete y salta.",
+		"text_1_mobile": "Mueve a tu personaje usando las flechas. Muevete y salta.",
+		"text_2": "Atento a los cuchillos. Saltalos o pasa por debajo de ellos. ¡No te choques con la punta del cuchillo!",
+		"text_3": "Gana puntos por esquivar los cuchillos.",
+		"text_4": "¡Encolerízate y... muerde a Caroline!",
+		"text_5": "¡Incrementa tu multiplicador de puntos mordiendo a Caroline!",
+		"text_6": "Un gran multiplicador equivale a más puntos y daño acumulado.",
+		"text_7": "El multiplicador desaparece cuando recibes daño.",
+		"text_8": "Si tu salud llega a cero, perderás.",
+		"text_9": "¡Dale una paliza a Carolina!"
+	},
+	"language": {
+		"name": "Español"
+	},
+	"main_menu": {
+		"back": "Atrás",
+		"community": "Comunidad de GKProduction",
+		"credits": "Créditos",
+		"misc": "Miscelánea",
+		"more_games": "Más juegos",
+		"no": "No",
+		"play_game": "Jugar",
+		"quit_game": "Salir del juego",
+		"quit_to_menu": "Volver a la pantalla del título",
+		"select": "Seleccionar",
+		"settings": "Opciones",
+		"shop": "Tienda",
+		"yes": "Sí"
+	},
+	"select_character": {
+		"random": "Aleatorio",
+		"thank_you": "¡Gracias por su compra!",
+		"title": "Selección de personaje"
+	},
+	"settings": {
+		"change_language": "Cambiar el idioma",
+		"error": "Ha ocurrido un error.",
+		"functional_keys": "F11 - Pantalla completa\nF1 - Desactivar/Activar HUD",
+		"game_progress": "Progreso del juego",
+		"reset_progress": "Reiniciar progreso",
+		"restore_failed": "Fallo al restaurar el progreso.",
+		"restore_progress": "Restaurar progreso",
+		"restore_successfully": "El progreso ha sido restaurado.",
+		"save_failed": "Fallo al guardar el progreso.",
+		"save_progress": "Guardar progreso",
+		"save_successfully": "El progreso se guardó exitosamente."
+	},
+	"shop": {
+		"about_coins_purchases": "(Cualquier compra desactiva los anuncios)",
+		"buy": "Comprar",
+		"coming_soon": "¡Espera sombreros y trajes en la versión 3.0!",
+		"free": "Gratis",
+		"free_full": "Gratis",
+		"how_to_get_free_coins": "Mira el vídeo y consigue 100 monedas.",
+		"more_coins": "Comprar monedas",
+		"need_coins": "¿Necesitas monedas?",
+		"restoring_coins": "Recolectando monedas...",
+		"section_bonuses": "Extras",
+		"section_characters": "Personajes",
+		"section_hats": "Sombreros",
+		"section_upgrades": "Mejoras",
+		"sold_out": "Vendido",
+		"video_loading": "Cargando video...",
+		"video_loading_error": "Fallo al mostrar el vídeo.",
+		"video_rejected": "El video fue rechazado.",
+		"wait": "Espere...",
+		"you_got_coins": "¡Has recibido %coins% monedas!"
+	},
+	"update_teaser": {
+		"expect": "Próximamente en la actualización 3.0",
+		"features": "- Campaña de historia;  \n- Nuevos modos de juego;  \n- Sombreros;  \n- Trajes;  \n- Más bonificaciones;  \n- Más cuchillos.  "
+	}
+}

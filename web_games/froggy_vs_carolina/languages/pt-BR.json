@@ -1,82 +1,86 @@
 {
 	"ads_settings": {
-		"allow": "Permitir",
-		"birthday": "Informe sua data de nascimento",
-		"confirm": "Confirmar",
-		"description": "Os seguintes dados podem ser coletados:\n- Estatísticas de uso;\n- Análises;\n- Informações do dispositivo;\n- Dados sobre tópicos de anúncios e cliques.",
-		"not_allow": "Não permitir",
-		"privacy_policy": "Política de Privacidade",
-		"question": "Permitir que a rede de anúncios colete informações para personalizar os anúncios?"
+		"allow": "",
+		"birthday": "",
+		"confirm": "",
+		"description": "",
+		"not_allow": "",
+		"privacy_policy": "",
+		"question": ""
 	},
 	"character": {
 		"crocco": "Crocco",
 		"froggy": "Froggy",
-		"golden_froggy": "Golden Froggy",
+		"golden_froggy": "Froggy Dourado",
 		"kitty": "Kitty"
 	},
 	"character_description": {
-		"crocco": "Um crocodilo de plástico destemido. Adora Rosnar e Roer.\n\nHabilidades:\n- Come facas enquanto estiver no ar;\n- Ao tomar dano, Todas as facas na tela sumirão.",
-		"froggy": "Um sapo de brinquedo que perdeu um de seus olhos, por algum motivo, Carolina Voitekhovna, Sogra do Rei Froggold II, não vai com a cara dele.\n\nHabilidades:\n- Pulo duplo;\n- Ganha Fúria ao tomar dano.",
-		"golden_froggy": "A imagem assustadora de Froggy criada pelo terror de alguém.\n\nHabilidades:\n- Gravidade reduzida;\n- Após ser atingindo, fica temporariamente imune a danos.",
-		"kitty": "Um chinelo caseiro em formado de um gato, Ela sempre usa um chapéu de ano novo e gosta muito de borboletas.\n\nHabilidades:\n- Desvia de facas enquanto gira;\n- Consegue deitar."
+		"crocco": "Crocodilo de plástico grandão. Adora rosnar e morder.\n\nHabilidades:\n- Comer facas enquanto pula;\n- Jogar facas longe ao levar dano.",
+		"froggy": "Um sapo de brinquedo que perdeu um olho. Por algum motivo, Carolina Voitekhovna, a sogra do Rei Froggold II, não gosta dele.\n\nHabilidades:\n- Pulo duplo;\n- Ganho de raiva ao levar dano.",
+		"golden_froggy": "A imagem assustadora do Froggy criada pelo medo de alguém.\n\nHabilidades:\n- Gravidade reduzida;\n- Invencibilidade temporária após levar dano.",
+		"kitty": "Chinelo caseiro em forma de gato. Ela sempre usa um chapéu de Ano Novo e adora borboletas.\n\nHabilidades:\n- Desviar facas girando;\n- Posição deitada."
 	},
 	"discord": {
 		"game_over": "Fim de Jogo",
-		"gameplay": "Pulando por cima das facas",
-		"how_to_play": "Lendo informações de como jogar",
+		"gameplay": "Pulando sobre facas",
+		"how_to_play": "Aprendendo como jogar",
 		"in_game": "No jogo",
 		"in_main_menu": "No menu principal",
+		"pause": "Pausa",
 		"prologue": "Prólogo",
 		"results": "Vendo os resultados",
 		"victory": "Vitória"
 	},
 	"game": {
 		"bite": "Morda!",
+		"coming_soon": "Em breve",
 		"continue": "Continuar",
-		"highscore": "Pontuação Máxima",
-		"hint": "Pule por cima das facas!",
-		"mega_rage": "MEGA-FÚRIA!!",
-		"pause": "Pause",
-		"rage": "Fúria!",
-		"respawn_offer": "Voltar sem perder sua pontuação?",
-		"score": "Pontuação"
+		"highscore": "Recorde",
+		"hint": "Pule sobre as facas!",
+		"mega_rage": "MEGA-RAIVA!!",
+		"pause": "Pausa",
+		"rage": "Raiva!",
+		"respawn_offer": "Renascer sem perder pontuação?",
+		"restart": "",
+		"score": "Pontuação",
+		"video_load_error": "Falha ao mostrar vídeo."
 	},
 	"gamejolt": {
-		"achievement": "Conquista recebida!",
-		"game_token": "Token de jogo",
+		"achievement": "Conquista desbloqueada!",
+		"game_token": "",
 		"log_in": "Entrar",
 		"logging_in": "Entrando...",
-		"login_failed": "Falha no login!",
+		"login_failed": "Falha ao entrar!",
 		"skip": "Pular",
-		"text": "Entre com sua conta Game Jolt para ganhar e registrar suas conquistas.",
-		"username": "Nome de usuário",
-		"welcome": "Bem-vindo"
+		"text": "Entre no Game Jolt para desbloquear conquistas e enviar recordes.",
+		"username": "",
+		"welcome": "Bem-vindo "
 	},
 	"how_to_play": {
-		"text_1": "Controle o Personagem usando as setas ou WASD. Ande e pule.",
-		"text_1_mobile": "Controle o Personagem usando as setas. Ande e pule.",
-		"text_2": "Cuidado com as facas. Pule por cima delas ou passe por baixo. Não bata na ponta da faca!",
-		"text_3": "Ganhe pontos por desviar de facas corretamente.",
-		"text_4": "Fique irritado e... Morda Carolina!",
-		"text_5": "Seu multiplicador de pontos aumenta cada vez que você morde a Carolina.",
-		"text_6": "Um multiplicador maior significa mais pontos e dano acumulado.",
-		"text_7": "O multiplicador diminui quando se toma dano.",
-		"text_8": "Se não tiver mais corações, você irá perder.",
-		"text_9": "Derrote Carolina!"
+		"text_1": "Controle seu personagem usando setas ou WASD. Ande e pule.",
+		"text_1_mobile": "Controle seu personagem usando setas. Ande e pule.",
+		"text_2": "Cuidado com as facas. Pule sobre elas ou passe por baixo. Não acerte a ponta da faca!",
+		"text_3": "Ganhe pontos por desviar das facas com sucesso.",
+		"text_4": "Fique com raiva e... morda a Carolina!",
+		"text_5": "Aumente seu multiplicador de pontos mordendo a Carolina!",
+		"text_6": "Um multiplicador maior significa mais pontos e mais dano acumulado.",
+		"text_7": "O multiplicador diminui ao levar dano.",
+		"text_8": "Se sua vida chegar a zero, você perde.",
+		"text_9": "Derrote a Carolina!"
 	},
 	"language": {
 		"name": "Português (Brasil)"
 	},
 	"main_menu": {
 		"back": "Voltar",
-		"community": "Comunidade de GKProduction",
+		"community": "Comunidade GKProduction",
 		"credits": "Créditos",
 		"misc": "Diversos",
 		"more_games": "Mais jogos",
 		"no": "Não",
 		"play_game": "Jogar",
 		"quit_game": "Sair do Jogo",
-		"quit_to_menu": "Voltar para o menu",
+		"quit_to_menu": "Sair para o Menu Inicial",
 		"select": "Selecionar",
 		"settings": "Configurações",
 		"shop": "Loja",
@@ -84,45 +88,45 @@
 	},
 	"select_character": {
 		"random": "Aleatório",
-		"thank_you": "Obrigado pela compra!",
-		"title": "Selecionar Personagem"
+		"thank_you": "",
+		"title": "Selecionar personagem"
 	},
 	"settings": {
 		"change_language": "Mudar idioma",
-		"error": "Houve um erro.",
-		"functional_keys": "F11 - Habilitar tela cheia\nF1 - Esconder/Mostrar Interface (HUD)",
-		"game_progress": "Progresso do Jogo",
-		"reset_progress": "Reiniciar Progresso",
-		"restore_failed": "Erro ao restaurar progresso",
+		"error": "Ocorreu um erro.",
+		"functional_keys": "F11 - Alternar tela cheia\nF3 - Ocultar/Mostrar HUD",
+		"game_progress": "Progresso do jogo",
+		"reset_progress": "Resetar progresso",
+		"restore_failed": "Falha ao restaurar progresso.",
 		"restore_progress": "Restaurar progresso",
-		"restore_successfully": "O progresso foi restaurado",
-		"save_failed": "Erro ao salvar progresso",
+		"restore_successfully": "Progresso restaurado.",
+		"save_failed": "Falha ao salvar progresso.",
 		"save_progress": "Salvar progresso",
-		"save_successfully": "O progresso foi salvo com sucesso"
+		"save_successfully": "Progresso salvo com sucesso."
 	},
 	"shop": {
-		"about_coins_purchases": "(Qualquer compra removerá os anúncios)",
-		"buy": "Compre",
-		"coming_soon": "Aguardem chapéus e roupas na versão 3.0!",
+		"about_coins_purchases": "(Qualquer compra remove anúncios)",
+		"buy": "Comprar",
+		"coming_soon": "",
 		"free": "Grátis",
-		"free_full": "Grátis",
-		"how_to_get_free_coins": "Assista ao vídeo e ganhe 100 moedas.",
+		"free_full": "",
+		"how_to_get_free_coins": "",
 		"more_coins": "Comprar moedas",
 		"need_coins": "Precisa de moedas?",
-		"restoring_coins": "Coletando moedas...",
+		"restoring_coins": "",
 		"section_bonuses": "Bônus",
 		"section_characters": "Personagens",
 		"section_hats": "Chapéus",
 		"section_upgrades": "Melhorias",
-		"sold_out": "Vendido",
-		"video_loading": "Carregando vídeo...",
-		"video_loading_error": "Erro ao carregar o vídeo.",
-		"video_rejected": "O vídeo foi rejeitado.",
-		"wait": "Aguarde...",
-		"you_got_coins": "Você recebeu %coins% moedas!"
+		"sold_out": "Esgotado",
+		"video_loading": "",
+		"video_loading_error": "",
+		"video_rejected": "",
+		"wait": "",
+		"you_got_coins": ""
 	},
 	"update_teaser": {
-		"expect": "Chegando na atualização 3.0",
-		"features": "- Campanha de história;  \n- Novos modos de jogo;  \n- Chapéus;  \n- Roupas;  \n- Mais bônus;  \n- Mais facas.  "
+		"expect": "",
+		"features": ""
 	}
 }

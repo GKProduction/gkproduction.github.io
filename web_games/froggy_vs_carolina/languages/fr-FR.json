@@ -26,12 +26,14 @@
 		"how_to_play": "Apprenez à jouer",
 		"in_game": "En jeu",
 		"in_main_menu": "Dans le menu principal",
+		"pause": "Pause",
 		"prologue": "Prologue",
 		"results": "Regarder les résultats",
 		"victory": "Victoire"
 	},
 	"game": {
 		"bite": "Mords!",
+		"coming_soon": "",
 		"continue": "Continuer",
 		"highscore": "Meilleur score",
 		"hint": "Saute par-dessus les couteaux!",
@@ -39,7 +41,9 @@
 		"pause": "Pause",
 		"rage": "Rage!",
 		"respawn_offer": "Ressusciter sans perdre de score?",
-		"score": "Score"
+		"restart": "",
+		"score": "Score",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "Succès obtenu!",

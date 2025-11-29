@@ -26,12 +26,14 @@
 		"how_to_play": "Aprende informação em como jogar",
 		"in_game": "No jogo",
 		"in_main_menu": "Na menu principal",
+		"pause": "Pausa",
 		"prologue": "Prólogo",
 		"results": "A ver os resultados",
 		"victory": "Vitória"
 	},
 	"game": {
 		"bite": "Morder!",
+		"coming_soon": "",
 		"continue": "Continuar",
 		"highscore": "Pontuação maior",
 		"hint": "Saltar sobre as facas!",
@@ -39,7 +41,9 @@
 		"pause": "Pausa",
 		"rage": "Raiva!",
 		"respawn_offer": "Resnascer sem perder a pontuação?",
-		"score": "Pontuação"
+		"restart": "",
+		"score": "Pontuação",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "Recebeste uma recompensa!",

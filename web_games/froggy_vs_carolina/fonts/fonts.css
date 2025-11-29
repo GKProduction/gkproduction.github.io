@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'BalsamiqSans';
-    src: url('BalsamiqSans-Regular.woff2') format('woff2'),
-        url('BalsamiqSans-Regular.woff') format('woff');
+    font-family: 'Balsamiq Sans';
+    src: url('BalsamiqSans.woff2') format('woff2'),
+        url('BalsamiqSans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'BalsamiqSans Bold';
+    font-family: 'Balsamiq Sans Bold';
     src: url('BalsamiqSans-Bold.woff2') format('woff2'),
         url('BalsamiqSans-Bold.woff') format('woff');
     font-weight: normal;

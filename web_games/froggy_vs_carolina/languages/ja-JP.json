@@ -26,12 +26,14 @@
 		"how_to_play": "プレイする方法",
 		"in_game": "プレイ中に",
 		"in_main_menu": "メインメニューの中で",
+		"pause": "一時停止",
 		"prologue": "プロローグ",
 		"results": "リザルト",
 		"victory": "勝利"
 	},
 	"game": {
 		"bite": "噛みつけ！",
+		"coming_soon": "",
 		"continue": "コンティニュー",
 		"highscore": "ハイスコア",
 		"hint": "ヒント",
@@ -39,7 +41,9 @@
 		"pause": "一時停止",
 		"rage": "怒り！",
 		"respawn_offer": "スコアを失わず、スポーンしますか？",
-		"score": "スコア"
+		"restart": "",
+		"score": "スコア",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "実績",

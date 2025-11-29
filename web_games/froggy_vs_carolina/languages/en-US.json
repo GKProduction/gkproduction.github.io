@@ -26,12 +26,14 @@
 		"how_to_play": "Learn information about how to play",
 		"in_game": "In game",
 		"in_main_menu": "In the main menu",
+		"pause": "Pause",
 		"prologue": "Prologue",
 		"results": "Watching the results",
 		"victory": "Victory"
 	},
 	"game": {
 		"bite": "Bite!",
+		"coming_soon": "",
 		"continue": "Continue",
 		"highscore": "Highscore",
 		"hint": "Jump over the knives!",
@@ -39,7 +41,9 @@
 		"pause": "Pause",
 		"rage": "Rage!",
 		"respawn_offer": "Respawn without losing score?",
-		"score": "Score"
+		"restart": "Restart",
+		"score": "Score",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "Achievement received!",

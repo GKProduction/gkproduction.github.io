@@ -26,12 +26,14 @@
 		"how_to_play": "Вывучае інфармацыю аб тым, як граць",
 		"in_game": "У гульні",
 		"in_main_menu": "У галоўным меню",
+		"pause": "Паўза",
 		"prologue": "Пралог",
 		"results": "Праглядвае рэзультаты",
 		"victory": "Перамога"
 	},
 	"game": {
 		"bite": "Кусай!",
+		"coming_soon": "",
 		"continue": "Працягнуць",
 		"highscore": "Рэкорд",
 		"hint": "Скачы праз нажы!",
@@ -39,7 +41,9 @@
 		"pause": "Паўза",
 		"rage": "Лютасць!",
 		"respawn_offer": "Адрадзіцца без страты рахунку?",
-		"score": "Рахунак"
+		"restart": "",
+		"score": "Рахунак",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "Дасягненне атрымана!",

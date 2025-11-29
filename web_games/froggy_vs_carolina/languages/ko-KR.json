@@ -26,12 +26,14 @@
 		"how_to_play": "플레이 방법에 대한 정보를 알아보세요.",
 		"in_game": "게임 내",
 		"in_main_menu": "메인 메뉴에서",
+		"pause": "정지시키다",
 		"prologue": "프롤로그",
 		"results": "결과 보기",
 		"victory": "승리"
 	},
 	"game": {
 		"bite": "깨물다!",
+		"coming_soon": "",
 		"continue": "계속하다",
 		"highscore": "높은 점수",
 		"hint": "칼을 뛰어넘어라!",
@@ -39,7 +41,9 @@
 		"pause": "정지시키다",
 		"rage": "격노!",
 		"respawn_offer": "점수를 잃지 않고 부활하시겠습니까?",
-		"score": "점수"
+		"restart": "",
+		"score": "점수",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "업적을 받았습니다!",

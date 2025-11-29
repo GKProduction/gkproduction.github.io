@@ -26,12 +26,14 @@
 		"how_to_play": "Вивчає інформацію про те, як грати",
 		"in_game": "У грі",
 		"in_main_menu": "У головному меню",
+		"pause": "Пауза",
 		"prologue": "Пролог",
 		"results": "Дивиться результати",
 		"victory": "Перемога"
 	},
 	"game": {
 		"bite": "Кусай!",
+		"coming_soon": "",
 		"continue": "Продовжити",
 		"highscore": "Рекорд",
 		"hint": "Стрибай через ножі!",
@@ -39,7 +41,9 @@
 		"pause": "Пауза",
 		"rage": "Лють!",
 		"respawn_offer": "Відродитися без втрати очок?",
-		"score": "Очки"
+		"restart": "",
+		"score": "Очки",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "Досягнення отримано!",

@@ -26,12 +26,14 @@
 		"how_to_play": "了解有关如何玩的信息",
 		"in_game": "在游戏中",
 		"in_main_menu": "在主菜单中",
+		"pause": "暂停",
 		"prologue": "序幕",
 		"results": "观察结果",
 		"victory": "胜利"
 	},
 	"game": {
 		"bite": "咬！",
+		"coming_soon": "",
 		"continue": "继续",
 		"highscore": "高分",
 		"hint": "跳过刀！",
@@ -39,7 +41,9 @@
 		"pause": "暂停",
 		"rage": "愤怒！",
 		"respawn_offer": "重生不失分？",
-		"score": "分数"
+		"restart": "",
+		"score": "分数",
+		"video_load_error": ""
 	},
 	"gamejolt": {
 		"achievement": "成果已收到！",

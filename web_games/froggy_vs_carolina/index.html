@@ -98,6 +98,9 @@
 	// Do nothing for other keys
 	break;}
 	});
+	
+	// Disable mouse wheel scrolling
+	window.addEventListener("wheel", e => e.preventDefault(), { passive:false });
 	</script>
 
 	<!-- Возвращение ответов функций для модуля Collection of API -->

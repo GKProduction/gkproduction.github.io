@@ -3,7 +3,7 @@
 		"allow": "Allow",
 		"birthday": "Enter your date of birth",
 		"confirm": "Confirm",
-		"description": "The following data may be collected:\n- Usage statistics;\n- Analytics;\n- Device information;\n- Advertising topic and click data.",
+		"description": "The following data may be collected:\n- Usage statistics;\n- Analytics;\n- Device information;\n- Advertising topic and visiting data.",
 		"not_allow": "Don’t allow",
 		"privacy_policy": "Privacy Policy",
 		"question": "Allow the ad network to collect information to personalize ads?"
@@ -16,15 +16,15 @@
 	},
 	"character_description": {
 		"crocco": "Plastic and hulking crocodile. Loves to growl and gnaw.\n\nAbilities:\n- Eating knives while jumping;\n- Throwing away knives when receiving damage.",
-		"froggy": "A toy frog that has lost an eye. For some reason, Carolina Voitekhovna, the mother-in-law of King Froggold II, doesn’t like him.\n\nAbilities:\n- Double jump;\n- Rage gain from taking damage.",
-		"golden_froggy": "Froggy's frightening image created by someone's fear.\n\nAbilities:\n- Reduced gravity;\n- Temporary invincibility after taking damage.",
-		"kitty": "Homemade slipper in the shape of a cat. She always wears a New Year's hat and is fond of butterflies.\n\nAbilities:\n- Deflection of knives by rotation;\n- Lying position."
+		"froggy": "A toy frog that lost an eye. For some reason, Carolina Voitekhovna, the mother-in-law of King Froggold II, doesn’t like him.\n\nAbilities:\n- Double jump;\n- Rage gain from taking damage.",
+		"golden_froggy": "Froggy's frightening image made by someone's fear.\n\nAbilities:\n- Reduced gravity;\n- Temporary invincibility after taking damage.",
+		"kitty": "Homemade cat-shaped slipper. She always wears a New Year's hat and is fond of butterflies.\n\nAbilities:\n- Deflection of knives by rotation;\n- Lying position."
 	},
 	"discord": {
 		"game_over": "Game Over",
 		"gameplay": "Jumps over knives",
-		"how_to_play": "Learn information about how to play",
-		"in_game": "In game",
+		"how_to_play": "Learns how to play",
+		"in_game": "In-Game",
 		"in_main_menu": "In the main menu",
 		"pause": "Pause",
 		"prologue": "Prologue",
@@ -33,7 +33,7 @@
 	},
 	"game": {
 		"bite": "Bite!",
-		"coming_soon": "",
+		"coming_soon": "Coming soon",
 		"continue": "Continue",
 		"highscore": "Highscore",
 		"hint": "Jump over the knives!",
@@ -43,10 +43,10 @@
 		"respawn_offer": "Respawn without losing score?",
 		"restart": "Restart",
 		"score": "Score",
-		"video_load_error": ""
+		"video_load_error": "Video loading error"
 	},
 	"gamejolt": {
-		"achievement": "Achievement received!",
+		"achievement": "Achievement unlocked!",
 		"game_token": "Game Token",
 		"log_in": "Log in",
 		"logging_in": "Logging in...",
@@ -61,10 +61,10 @@
 		"text_1_mobile": "Control your character using arrows. Walk and jump.",
 		"text_2": "Beware of knives. Jump over them or go under them. Don't hit the tip of the knife!",
 		"text_3": "Get points for successfully dodging knives.",
-		"text_4": "Get angry and... bite Caroline!",
+		"text_4": "Accumulate rage and... bite Caroline!",
 		"text_5": "Increase your score multiplier by biting Carolina!",
-		"text_6": "A larger multiplier means more points and more accumulated damage.",
-		"text_7": "The multiplier drops when taking damage.",
+		"text_6": "Bigger multiplier - more points and damage stacking up.",
+		"text_7": "The multiplier drops down when taking damage.",
 		"text_8": "If your health reaches zero, you will lose.",
 		"text_9": "Beat Carolina!"
 	},
@@ -73,17 +73,22 @@
 	},
 	"main_menu": {
 		"back": "Back",
-		"community": "GKProduction Community",
+		"community": "Community",
+		"community_gk": "GKProduction Community",
 		"credits": "Credits",
-		"misc": "Miscellaneous",
+		"extras": "Extras",
+		"misc": "Other",
 		"more_games": "More games",
 		"no": "No",
 		"play_game": "Play",
-		"quit_game": "Quit Game",
-		"quit_to_menu": "Quit to Title Screen",
+		"quick_game": "Quick Game",
+		"quit_game": "Quit",
+		"quit_to_menu": "Quit to the main menu",
+		"scenes": "Scenes",
 		"select": "Select",
 		"settings": "Settings",
 		"shop": "Shop",
+		"stats": "Statistics",
 		"yes": "Yes"
 	},
 	"select_character": {
@@ -94,7 +99,7 @@
 	"settings": {
 		"change_language": "Change language",
 		"error": "An error has occurred.",
-		"functional_keys": "F11 - Toggle fullscreen mode\nF1 - Hide/Show HUD",
+		"functional_keys": "F11 - Toggle fullscreen mode\nF1 - Hide/Show HUD\nR - Restart",
 		"game_progress": "Game progress",
 		"reset_progress": "Reset progress",
 		"restore_failed": "Failed to restore progress.",
@@ -107,7 +112,7 @@
 	"shop": {
 		"about_coins_purchases": "(Any purchase removes ads)",
 		"buy": "Buy",
-		"coming_soon": "Look forward to hats and outfits in version 3.0!",
+		"coming_soon": "Await hats and outfits in version 3.0!",
 		"free": "Free",
 		"free_full": "Free",
 		"how_to_get_free_coins": "Watch the video and get 100 coins.",
@@ -121,9 +126,28 @@
 		"sold_out": "Sold out",
 		"video_loading": "Loading video...",
 		"video_loading_error": "Failed to show video.",
-		"video_rejected": "The video was rejected.",
-		"wait": "Wait...",
+		"video_rejected": "The video was rejected",
+		"wait": "Please wait...",
 		"you_got_coins": "You received %coins% coins!"
+	},
+	"stats": {
+		"bites": "Bites",
+		"coins_collected": "Coins collected",
+		"damage_taken": "Damage obtained",
+		"game_time": "In-Game time",
+		"hearts_collected": "Hearts collected",
+		"jumps": "Jumps made",
+		"loses": "Losses",
+		"max_damage": "Most damage dealt",
+		"max_multiplier": "Largest multiplier",
+		"peppers_collected": "Peppers collected",
+		"sessions_count": "Games played",
+		"springs_used": "Springs used",
+		"stars_collected": "Stars collected",
+		"total_damage": "Damage dealt",
+		"total_purchases": "Purchases made",
+		"total_score": "Points scored",
+		"wins": "Wins"
 	},
 	"update_teaser": {
 		"expect": "Coming in update 3.0",

@@ -33,7 +33,7 @@
 	},
 	"game": {
 		"bite": "Кусай!",
-		"coming_soon": "",
+		"coming_soon": "Скоро",
 		"continue": "Продолжить",
 		"highscore": "Рекорд",
 		"hint": "Прыгай через ножи!",
@@ -43,7 +43,7 @@
 		"respawn_offer": "Возродиться без потери счёта?",
 		"restart": "Перезапуск",
 		"score": "Счёт",
-		"video_load_error": ""
+		"video_load_error": "Ошибка загрузки видео"
 	},
 	"gamejolt": {
 		"achievement": "Достижение получено!",
@@ -73,17 +73,22 @@
 	},
 	"main_menu": {
 		"back": "Назад",
-		"community": "Сообщество GKProduction",
+		"community": "Сообщество",
+		"community_gk": "Сообщество GKProduction",
 		"credits": "Авторы",
+		"extras": "Дополнительно",
 		"misc": "Разное",
 		"more_games": "Больше игр",
 		"no": "Нет",
 		"play_game": "Играть",
+		"quick_game": "Быстрая игра",
 		"quit_game": "Выход из игры",
 		"quit_to_menu": "Выход в меню",
+		"scenes": "Сцены",
 		"select": "Выбрать",
 		"settings": "Настройки",
 		"shop": "Магазин",
+		"stats": "Статистика",
 		"yes": "Да"
 	},
 	"select_character": {
@@ -94,7 +99,7 @@
 	"settings": {
 		"change_language": "Сменить язык",
 		"error": "Произошла ошибка.",
-		"functional_keys": "F11 - Переключить полноэкранный режим\nF3 - Скрыть/Показать интерфейс\nR - Перезапуск",
+		"functional_keys": "F11 - Переключить полноэкранный режим\nF1 - Скрыть/Показать интерфейс\nR - Перезапуск",
 		"game_progress": "Игровой прогресс",
 		"reset_progress": "Сбросить прогресс",
 		"restore_failed": "Не удалось восстановить прогресс.",
@@ -124,6 +129,25 @@
 		"video_rejected": "Видео было отклонено",
 		"wait": "Подождите...",
 		"you_got_coins": "Вы получили %coins% монет!"
+	},
+	"stats": {
+		"bites": "Укусов",
+		"coins_collected": "Монет собрано",
+		"damage_taken": "Урона получено",
+		"game_time": "Время в игре",
+		"hearts_collected": "Сердец собрано",
+		"jumps": "Прыжков сделано",
+		"loses": "Проигрышей",
+		"max_damage": "Наибольший урон",
+		"max_multiplier": "Наибольший множитель",
+		"peppers_collected": "Перцев собрано",
+		"sessions_count": "Игр сыграно",
+		"springs_used": "Пружин использовано",
+		"stars_collected": "Звёзд собрано",
+		"total_damage": "Урона нанесено",
+		"total_purchases": "Покупок сделано",
+		"total_score": "Очков набрано",
+		"wins": "Побед"
 	},
 	"update_teaser": {
 		"expect": "Ожидайте в обновлении 3.0",

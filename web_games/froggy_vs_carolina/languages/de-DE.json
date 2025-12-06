@@ -73,17 +73,22 @@
 	},
 	"main_menu": {
 		"back": "Zurück",
-		"community": "GKProduction Gemeinschaft",
+		"community": "Gemeinschaft",
+		"community_gk": "GKProduction Gemeinschaft",
 		"credits": "Credits",
+		"extras": "",
 		"misc": "Verschiedenes",
 		"more_games": "Mehr Spiele",
 		"no": "Nein",
 		"play_game": "Spielen",
+		"quick_game": "",
 		"quit_game": "Spiel verlassen",
 		"quit_to_menu": "Zum Titelbildschirm zurückkehren",
+		"scenes": "",
 		"select": "Wählen",
 		"settings": "Einstellungen",
 		"shop": "Geschäft",
+		"stats": "",
 		"yes": "Ja"
 	},
 	"select_character": {
@@ -94,7 +99,7 @@
 	"settings": {
 		"change_language": "Sprache ändern",
 		"error": "Ein Fehler ist aufgetreten.",
-		"functional_keys": "F11 - Vollbildmodus umschalten\nF3 - Verstecken/Anzeigen HUD",
+		"functional_keys": "F11 - Vollbildmodus umschalten\nF1 - Verstecken/Anzeigen HUD",
 		"game_progress": "Spielverlauf",
 		"reset_progress": "Fortschritt zurücksetzen",
 		"restore_failed": "Der Fortschritt könnte nicht wiederhergestellt werden.",
@@ -124,6 +129,25 @@
 		"video_rejected": "",
 		"wait": "",
 		"you_got_coins": ""
+	},
+	"stats": {
+		"bites": "",
+		"coins_collected": "",
+		"damage_taken": "",
+		"game_time": "",
+		"hearts_collected": "",
+		"jumps": "",
+		"loses": "",
+		"max_damage": "",
+		"max_multiplier": "",
+		"peppers_collected": "",
+		"sessions_count": "",
+		"springs_used": "",
+		"stars_collected": "",
+		"total_damage": "",
+		"total_purchases": "",
+		"total_score": "",
+		"wins": ""
 	},
 	"update_teaser": {
 		"expect": "",

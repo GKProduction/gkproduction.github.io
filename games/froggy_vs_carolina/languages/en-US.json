@@ -1,0 +1,13 @@
+{
+	"description.about1": "The game is about the eternal confrontation between the mother-in-law of King Froggold II, Carolina Voitekhovna, and the toy frog Froggy.",
+	"description.about2": "Jump, run, dodge, do everything possible to avoid getting a kitchen knife in your side. Caroline is determined against Froggy.",
+	"description.about_title": "About the game",
+	"images.logo": "logo_en_cut.png",
+	"images.logo_mobile": "logo_en_cut.png",
+	"images.logo_pc": "logo_en.png",
+	"play_game.android": "📱 Play on Android",
+	"play_game.web": "🌐 Play on browser",
+	"play_game.windows": "🖥️ Play on Windows",
+	"soon": "Soon",
+	"source.title": "Source code"
+}

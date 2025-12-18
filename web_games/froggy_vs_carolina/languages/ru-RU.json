@@ -43,7 +43,7 @@
 		"respawn_offer": "Возродиться без потери счёта?",
 		"restart": "Перезапуск",
 		"score": "Счёт",
-		"video_load_error": "Ошибка загрузки видео"
+		"video_load_error": "Ошибка загрузки видео."
 	},
 	"gamejolt": {
 		"achievement": "Достижение получено!",
@@ -126,7 +126,7 @@
 		"sold_out": "Продано",
 		"video_loading": "Загрузка видео...",
 		"video_loading_error": "Не удалось показать видео.",
-		"video_rejected": "Видео было отклонено",
+		"video_rejected": "Видео было отклонено.",
 		"wait": "Подождите...",
 		"you_got_coins": "Вы получили %coins% монет!"
 	},

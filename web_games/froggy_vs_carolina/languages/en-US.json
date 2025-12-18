@@ -43,7 +43,7 @@
 		"respawn_offer": "Respawn without losing score?",
 		"restart": "Restart",
 		"score": "Score",
-		"video_load_error": "Video loading error"
+		"video_load_error": "Video loading error."
 	},
 	"gamejolt": {
 		"achievement": "Achievement unlocked!",
@@ -126,7 +126,7 @@
 		"sold_out": "Sold out",
 		"video_loading": "Loading video...",
 		"video_loading_error": "Failed to show video.",
-		"video_rejected": "The video was rejected",
+		"video_rejected": "The video was rejected.",
 		"wait": "Please wait...",
 		"you_got_coins": "You received %coins% coins!"
 	},

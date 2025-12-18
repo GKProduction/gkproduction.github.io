@@ -33,7 +33,7 @@
 	},
 	"game": {
 		"bite": "깨물다!",
-		"coming_soon": "",
+		"coming_soon": "곧 출시 예정",
 		"continue": "계속하다",
 		"highscore": "높은 점수",
 		"hint": "칼을 뛰어넘어라!",
@@ -41,9 +41,9 @@
 		"pause": "정지시키다",
 		"rage": "격노!",
 		"respawn_offer": "점수를 잃지 않고 부활하시겠습니까?",
-		"restart": "",
+		"restart": "재시작",
 		"score": "점수",
-		"video_load_error": ""
+		"video_load_error": "동영상 로딩 오류입니다."
 	},
 	"gamejolt": {
 		"achievement": "업적을 받았습니다!",
@@ -69,26 +69,26 @@
 		"text_9": "캐롤라이나를 이겨라!"
 	},
 	"language": {
-		"name": "영어"
+		"name": "한국인"
 	},
 	"main_menu": {
 		"back": "뒤쪽에",
 		"community": "커뮤니티",
 		"community_gk": "GKProduction 커뮤니티",
 		"credits": "크레딧",
-		"extras": "",
+		"extras": "추가 기능",
 		"misc": "여러 가지 잡다한",
 		"more_games": "더 많은 게임",
 		"no": "아니요",
 		"play_game": "놀다",
-		"quick_game": "",
+		"quick_game": "빠른 게임",
 		"quit_game": "게임 종료",
 		"quit_to_menu": "타이틀 화면으로 나가기",
-		"scenes": "",
+		"scenes": "장면들",
 		"select": "선택하다",
 		"settings": "설정",
 		"shop": "가게",
-		"stats": "",
+		"stats": "통계",
 		"yes": "예"
 	},
 	"select_character": {
@@ -131,23 +131,23 @@
 		"you_got_coins": "%coins% 동전을 받았습니다!"
 	},
 	"stats": {
-		"bites": "",
-		"coins_collected": "",
-		"damage_taken": "",
-		"game_time": "",
-		"hearts_collected": "",
-		"jumps": "",
-		"loses": "",
-		"max_damage": "",
-		"max_multiplier": "",
-		"peppers_collected": "",
-		"sessions_count": "",
-		"springs_used": "",
-		"stars_collected": "",
-		"total_damage": "",
-		"total_purchases": "",
-		"total_score": "",
-		"wins": ""
+		"bites": "물기",
+		"coins_collected": "수집한 코인",
+		"damage_taken": "입은 피해",
+		"game_time": "게임 내 시간",
+		"hearts_collected": "수집한 하트",
+		"jumps": "점프 횟수",
+		"loses": "패배 횟수",
+		"max_damage": "최대 피해량",
+		"max_multiplier": "최대 배율",
+		"peppers_collected": "수집한 고추",
+		"sessions_count": "진행한 게임",
+		"springs_used": "사용한 스프링",
+		"stars_collected": "수집한 별",
+		"total_damage": "총 피해량",
+		"total_purchases": "구매 횟수",
+		"total_score": "총 점수",
+		"wins": "승리 횟수"
 	},
 	"update_teaser": {
 		"expect": "3.0 업데이트에서 만나요",

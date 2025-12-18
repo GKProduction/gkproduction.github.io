@@ -33,7 +33,7 @@
 	},
 	"game": {
 		"bite": "Тісте!",
-		"coming_soon": "",
+		"coming_soon": "Жақында",
 		"continue": "Жалғастіру",
 		"highscore": "Рекорд",
 		"hint": "Пішақтардан секір!",
@@ -41,9 +41,9 @@
 		"pause": "Кідірту",
 		"rage": "Ашулану!",
 		"respawn_offer": "Қайта туылу шотты жоғалтпай?",
-		"restart": "",
+		"restart": "Қайтадан қосу",
 		"score": "Шот",
-		"video_load_error": ""
+		"video_load_error": "Бейнені жүктеу кезінде қате пайда болды."
 	},
 	"gamejolt": {
 		"achievement": "Жетістік алынды!",
@@ -52,7 +52,7 @@
 		"logging_in": "Кіру...",
 		"login_failed": "Кіруне қате!",
 		"skip": "Өту",
-		"text": "Game Jolt-қа кіріңіз, Жетістікке жету және рекорд жіберу .",
+		"text": "Game Jolt-қа кіріңіз, Жетістікке жету және рекорд жіберу.",
 		"username": "Қолданушының аты",
 		"welcome": "Қош келдіңіз"
 	},
@@ -76,19 +76,19 @@
 		"community": "Қағымдастық",
 		"community_gk": "GKProduction Қағымдастық",
 		"credits": "Авторлар",
-		"extras": "",
+		"extras": "Қосымша",
 		"misc": "Әртүрлі",
 		"more_games": "Көп ойындар",
 		"no": "Жоқ",
 		"play_game": "Ойынды бастау",
-		"quick_game": "",
+		"quick_game": "Жылдам ойын",
 		"quit_game": "Ойынан шығу",
 		"quit_to_menu": "Мәзірге қайтару",
-		"scenes": "",
+		"scenes": "Көріністер",
 		"select": "Тандау",
 		"settings": "Параметрлер",
 		"shop": "Дүкен",
-		"stats": "",
+		"stats": "Статистика",
 		"yes": "Иә"
 	},
 	"select_character": {
@@ -98,7 +98,7 @@
 	},
 	"settings": {
 		"change_language": "Тілді жөндеу",
-		"error": "Қате.",
+		"error": "Қате орын алды.",
 		"functional_keys": "F11 - Толық экран режимін ауыстыру\nF1 - Интерфейсті жасыру/көрсету",
 		"game_progress": "Ойын баптау",
 		"reset_progress": "Прогресс тастау",
@@ -107,7 +107,7 @@
 		"restore_successfully": "Прогресс қалпына келтірілді.",
 		"save_failed": "Прогресс қалпына келтірілмеді.",
 		"save_progress": "Прогресс сақтау",
-		"save_successfully": "Прогресс сақталған."
+		"save_successfully": "Прогресс сәтті сақталды."
 	},
 	"shop": {
 		"about_coins_purchases": "(Кез-келген сатып алу жарнаманы жояды)",
@@ -131,23 +131,23 @@
 		"you_got_coins": "Сіз %coins% монета алдыңыз!"
 	},
 	"stats": {
-		"bites": "",
-		"coins_collected": "",
-		"damage_taken": "",
-		"game_time": "",
-		"hearts_collected": "",
-		"jumps": "",
-		"loses": "",
-		"max_damage": "",
-		"max_multiplier": "",
-		"peppers_collected": "",
-		"sessions_count": "",
-		"springs_used": "",
-		"stars_collected": "",
-		"total_damage": "",
-		"total_purchases": "",
-		"total_score": "",
-		"wins": ""
+		"bites": "Қақтығулар",
+		"coins_collected": "Жиналған тиындар",
+		"damage_taken": "Алынған зақым",
+		"game_time": "Ойындағы уақыт",
+		"hearts_collected": "Жиналған жүректер",
+		"jumps": "Секірістер",
+		"loses": "Жеңіліс",
+		"max_damage": "Ең үлкен зақым",
+		"max_multiplier": "Ең үлкен көбейткіш",
+		"peppers_collected": "Жиналған бұрыштар",
+		"sessions_count": "Ойналған ойындар",
+		"springs_used": "Қолданылған серіппелер",
+		"stars_collected": "Жиналған жұлдыздар",
+		"total_damage": "Жасалған зақым",
+		"total_purchases": "Сатып алулар",
+		"total_score": "Жиналған ұпай",
+		"wins": "Жеңіс"
 	},
 	"update_teaser": {
 		"expect": "3.0 жаңартуында күтіңіз",

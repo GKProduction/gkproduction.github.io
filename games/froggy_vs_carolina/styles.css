@@ -12,6 +12,15 @@ p, .footer-content {
     font-size: 16px;
     color: white;
 }
+.game-page-link {
+    font-family: 'Balsamiq Sans';
+    font-size: 24px;
+    color: rgba(255, 192, 0, 1);
+}
+
+.game-page-link:hover {
+    color: yellow;
+}
 
 body {
     margin: 0;
@@ -32,6 +41,14 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+.game-pages-panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.4);
 }
@@ -103,7 +120,7 @@ body {
 }
 
 #play_game_title,#source_title {
-	font-size: 52px;
+	font-size: 42px;
 }
 
 /* Только на смартфоне */
@@ -198,6 +215,11 @@ ul.custom-list {
     text-decoration: none;
     cursor: pointer;
     transition: filter 0s ease;
+}
+
+.game-link-icon{
+    width: auto;
+    height: 32px;
 }
 
 .button-icon {
@@ -485,3 +507,12 @@ ul.custom-list {
     #language-button:hover {
         opacity: 1;
     }
+
+.game-link-icon {margin-right: 8px;}
+
+.game-pages-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+    .game-pages-list li { margin-bottom: 15px; }
+    .game-pages-list li:last-child { margin-bottom: 0; }

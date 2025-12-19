@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Changer de langue",
 		"error": "Une erreur est survenue.",
-		"functional_keys": "F11 - Basculer en mode plein écran\nF1 - Masquer/Afficher le HUD",
+		"functional_keys": "F11 - Basculer en mode plein écran\nF1 - Masquer/Afficher le HUD\nR - Redémarrage",
 		"game_progress": "Progression du jeu",
 		"reset_progress": "Réinitialiser la progression",
 		"restore_failed": "Échec de la restauration de la progression.",

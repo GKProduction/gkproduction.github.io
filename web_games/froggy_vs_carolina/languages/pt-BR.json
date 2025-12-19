@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Mudar idioma",
 		"error": "Ocorreu um erro.",
-		"functional_keys": "F11 - Alternar tela cheia\nF1 - Ocultar/Mostrar HUD",
+		"functional_keys": "F11 - Alternar tela cheia\nF1 - Ocultar/Mostrar HUD\nR - Reiniciar",
 		"game_progress": "Progresso do jogo",
 		"reset_progress": "Resetar progresso",
 		"restore_failed": "Falha ao restaurar progresso.",

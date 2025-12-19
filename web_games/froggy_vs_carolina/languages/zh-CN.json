@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "改变语言",
 		"error": "发生了错误。",
-		"functional_keys": "F11 - 切换全屏模式 F3 - 隐藏/显示 HUD\nF1 - 隐藏/显示界面",
+		"functional_keys": "F11 - 切换全屏模式\nF1 - 隐藏/显示界面\nR - 重启",
 		"game_progress": "游戏进度",
 		"reset_progress": "重置进度",
 		"restore_failed": "无法恢复进度。",

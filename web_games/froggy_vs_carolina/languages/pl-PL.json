@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Zmień język",
 		"error": "Wystąpił błąd.",
-		"functional_keys": "F11 - Przełącz tryb pełnoekranowy\nF1 - Ukryj/Pokaż HUD",
+		"functional_keys": "F11 - Przełącz tryb pełnoekranowy\nF1 - Ukryj/Pokaż HUD\nR - Uruchom ponownie",
 		"game_progress": "Postęp gry",
 		"reset_progress": "Zresetuj postęp",
 		"restore_failed": "Nie udało się przywrócić postępu.",

@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Cambiar idioma",
 		"error": "Ha ocurrido un error.",
-		"functional_keys": "F11 - Activar/desactivar pantalla completa\nF1 - Ocultar/mostrar HUD",
+		"functional_keys": "F11 - Activar/desactivar pantalla completa\nF1 - Ocultar/mostrar HUD\nR - Reiniciar",
 		"game_progress": "Progreso del juego",
 		"reset_progress": "Reiniciar progreso",
 		"restore_failed": "Error al restaurar el progreso.",

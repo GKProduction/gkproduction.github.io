@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "言語の変更",
 		"error": "エラー発生",
-		"functional_keys": "F11 - フルスクリーンにする。\nF1 - スコアやお金等の値を表示の切り替えできる",
+		"functional_keys": "F11 - フルスクリーンにする。\nF1 - スコアやお金等の値を表示の切り替えできる\nR - 再起動",
 		"game_progress": "ゲームデータ",
 		"reset_progress": "ゲームデータをリセット",
 		"restore_failed": "ゲームデータのロードに失敗しました。",

@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "언어 변경",
 		"error": "오류가 발생했습니다.",
-		"functional_keys": "F11 - 전체 화면 모드 전환\nF1 - 인터페이스 숨기기/표시",
+		"functional_keys": "F11 - 전체 화면 모드 전환\nF1 - 인터페이스 숨기기/표시\nR - 재시작",
 		"game_progress": "게임 진행",
 		"reset_progress": "진행 상황 재설정",
 		"restore_failed": "진행 상황을 복원하지 못했습니다.",

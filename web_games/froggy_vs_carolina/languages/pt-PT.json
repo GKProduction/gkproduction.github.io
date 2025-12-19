@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Mudar a Língua",
 		"error": "Ocorreu algum erro.",
-		"functional_keys": "F11 - Ativar ou Desativar modo Fullscreen\nF1 - Esconder ou Mostrar HUD",
+		"functional_keys": "F11 - Ativar ou Desativar modo Fullscreen\nF1 - Esconder ou Mostrar HUD\nR - Reiniciar",
 		"game_progress": "Progresso de Jogo",
 		"reset_progress": "Reiniciar o Progresso",
 		"restore_failed": "Falhou restaurar o Progresso.",

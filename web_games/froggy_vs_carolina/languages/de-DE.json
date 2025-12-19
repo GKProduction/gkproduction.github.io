@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Sprache ändern",
 		"error": "Ein Fehler ist aufgetreten.",
-		"functional_keys": "F11 - Vollbildmodus umschalten\nF1 - Verstecken/Anzeigen HUD",
+		"functional_keys": "F11 - Vollbildmodus umschalten\nF1 - Verstecken/Anzeigen HUD\nR - Neustart",
 		"game_progress": "Spielverlauf",
 		"reset_progress": "Fortschritt zurücksetzen",
 		"restore_failed": "Der Fortschritt könnte nicht wiederhergestellt werden.",

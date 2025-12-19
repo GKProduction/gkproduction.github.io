@@ -99,7 +99,7 @@
 	"settings": {
 		"change_language": "Cambia lingua",
 		"error": "Si è verificato un errore.",
-		"functional_keys": "F11 - Attiva/disattiva schermo intero\nF1 - Mostra/Nascondi HUD",
+		"functional_keys": "F11 - Attiva/disattiva schermo intero\nF1 - Mostra/Nascondi HUD\nR - Ricomincia",
 		"game_progress": "Progressi di gioco",
 		"reset_progress": "Resetta progressi",
 		"restore_failed": "Ripristino dei progressi fallito.",

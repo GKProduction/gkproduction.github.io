@@ -6,7 +6,7 @@
 		"description": "Les données suivantes peuvent être collectées :\n- Statistiques d'utilisation;\n- Analytique;\n- Informations sur l'appareil;\n- Données sur les thèmes publicitaires et les clics.",
 		"not_allow": "Ne pas autoriser",
 		"privacy_policy": "Politique de confidentialité",
-		"question": "Autoriser le réseau publicitaire à collecter des informations pour personnaliser les publicités ?"
+		"question": "Autoriser le réseau publicitaire à collecter des informations pour personnaliser les publicités?"
 	},
 	"character": {
 		"crocco": "Crocco",

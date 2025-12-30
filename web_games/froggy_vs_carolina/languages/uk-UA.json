@@ -43,7 +43,7 @@
 		"respawn_offer": "Відродитися без втрати очок?",
 		"restart": "Перезапуск",
 		"score": "Очки",
-		"video_load_error": "Помилка при завантаженні відео."
+		"video_load_error": "Помилка завантаження відео"
 	},
 	"gamejolt": {
 		"achievement": "Досягнення отримано!",
@@ -113,7 +113,7 @@
 		"about_coins_purchases": "(Будь-яка покупка прибирає рекламу)",
 		"buy": "Отримати",
 		"coming_soon": "Очікуйте капелюхи та наряди у версії 3.0!",
-		"free": "Даром",
+		"free": "Безп.",
 		"free_full": "Безкоштовно",
 		"how_to_get_free_coins": "Подивіться відео та отримайте 100 монет.",
 		"more_coins": "Більше монет",
@@ -133,18 +133,18 @@
 	"stats": {
 		"bites": "Укусів",
 		"coins_collected": "Монет зібрано",
-		"damage_taken": "Шкоди отримано",
+		"damage_taken": "Отримано шкоди",
 		"game_time": "Час у грі",
 		"hearts_collected": "Сердець зібрано",
 		"jumps": "Стрибків зроблено",
-		"loses": "Поразок",
+		"loses": "Програшів",
 		"max_damage": "Найбільша шкода",
 		"max_multiplier": "Найбільший множник",
 		"peppers_collected": "Перців зібрано",
-		"sessions_count": "Ігор зіграно",
+		"sessions_count": "Зіграно ігор",
 		"springs_used": "Пружин використано",
 		"stars_collected": "Зірок зібрано",
-		"total_damage": "Шкоди завдано",
+		"total_damage": "Завдано шкоди",
 		"total_purchases": "Покупок здійснено",
 		"total_score": "Очок набрано",
 		"wins": "Перемог"

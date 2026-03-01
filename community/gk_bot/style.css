@@ -1,0 +1,194 @@
+/* @font-face { */
+    /* font-family: 'Nunito'; */
+    /* src: url('resources/Nunito-VariableFont_wght.ttf') format('truetype'); */
+    /* font-weight: normal; */
+    /* font-style: normal; */
+/* } */
+
+body {
+    background: linear-gradient(to bottom, #98a8b9, #dddddd, #98a8b9) no-repeat fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-family: 'Nunito';
+    padding: 60px 0px;
+}
+
+.branch-title {
+    color: #002265;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 20px;
+    box-sizing: border-box;
+    /* background-color: rgba(255, 255, 255); */
+    background-color: #fcfcfc;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: clamp(20px, 5vw, 40px);
+    padding-top: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Лого теперь адаптивное. На смартфоне 65vw */
+.logo-img {
+    width: 65vw;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Если ПК пользователь, то 500px */
+@media (min-width: 768px) {
+    .logo-img {
+        width: 500px;
+    }
+}
+
+/* Адаптивный текст под логотипом */
+.sub-text {
+    color: #002265;
+    font-size: clamp(1rem, 3.3vw, 1.4rem);
+    margin-top: 0;
+}
+
+/* Адаптивный футер */
+h1 {
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    color: #002265;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-weight: 600;
+    width: 100%;
+}
+
+.info-card {
+    /* background-color: #f3f3f3; */
+    background-color: rgba(255, 255, 255);
+    border-radius: 16px;
+    padding: 30px 45px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #d1d5db;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+}
+
+.info-card ul {
+    margin: 8px 0;
+    font-size: 1.25rem;
+    color: #000000;
+    line-height: 1.5;
+    list-style-position: outside;
+    padding-left: 25px;
+    margin: 0;
+}
+
+/* Адаптивный заголовок карточек */
+.info-card h2 {
+    margin: 0 0 12px 0;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Адаптивный текст карточек */
+.info-card p {
+    margin: 8px 0;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: #000000;
+    line-height: 1.5;
+}
+
+#language-switcher {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 1000;
+}
+
+#language-button {
+    background: rgba(243, 243, 243, 0.5);
+    border: none;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#language-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#language-button:active {
+    transform: translateY(0);
+}
+
+#language-button:hover #language-flag {
+    opacity: 1;
+}
+
+#language-flag {
+    width: 32px;
+    height: auto;
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+    border-radius: 4px;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #002265;
+    margin: 0;
+    font-weight: 400;
+}
+
+.separator {
+    height: 60px;
+    width: 100%;
+    pointer-events: none;
+}

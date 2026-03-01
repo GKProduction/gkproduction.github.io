@@ -1,0 +1,19 @@
+{
+    "sub_text": "A helper bot for GKProduction Discord servers.",
+    "card1_title": "⭐ Top of the Month",
+    "card1_list1": "Every month the bot publishes the top best works.",
+    "card1_list2": "Posts are collected from different channels/forums and ranked by positive reactions (unique number of people who left positive reactions is counted).",
+    "card2_title": "🧵 Auto-threads",
+    "card2_list1": "Automatic creation of threads under messages in media channels for your comments or discussions.",
+    "card3_title": "🌐 Message Translation",
+    "card3_list1": "Translation of message text.",
+    "card3_list2": "Open the message context menu via RMB or long press, then select \"Apps -> 🌐 Translate / Перевод\", you will receive a translation of the message into your language.",
+    "card4_title": "💡 Statuses",
+    "card4_list1": "The bot writes a random phrase in its status.",
+    "card5_title": "‼️ Ping Reaction",
+    "card5_list1": "The bot reacts to pings with funny and energetic GIFs.",
+    "footer_title": "The bot's functionality can be updated over time.",
+    "update_info1": "Bot version: 1.2.4",
+    "update_info2": "Last update: 2026.03.01",
+    "copyright_info1": "Bot author: veselchak_howdy"
+}

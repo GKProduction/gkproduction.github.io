@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GK-Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="resources/favicon.png">
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
+    
+</head>
+
+<body>
+	<div id="language-switcher">
+		<button id="language-button" title="Сменить язык / Switch language">
+			<img id="language-flag" src="languages/en-US.png" alt="Language" draggable="false">
+		</button>
+	</div>
+
+    <div class="main-container"> 
+        <div class="main-wrapper">
+            <div class="logo-container">
+                <img src="resources/gk-bot.png" alt="bot-icon" class="logo-img">
+            </div>
+            <span class="sub-text" data-key="sub_text"></span>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="info-card">
+            <h2 class="branch-title" data-key="card1_title"></h2>
+            <p data-key="card1_list1"></p>
+            <p data-key="card1_list2"></p>
+        </div>
+
+        <div class="info-card">
+            <h2 class="branch-title" data-key="card2_title"></h2>
+            <p data-key="card2_list1"></p>
+        </div>
+
+        <div class="info-card">
+            <h2 class="branch-title" data-key="card3_title"></h2>
+            <p data-key="card3_list1"></p>
+            <p data-key="card3_list2"></p>
+        </div>
+
+        <div class="info-card">
+            <h2 class="branch-title" data-key="card4_title"></h2>
+            <p data-key="card4_list1"></p>
+        </div>
+
+        <div class="info-card">
+            <h2 class="branch-title" data-key="card5_title"></h2>
+            <p data-key="card5_list1"></p>
+        </div>
+
+        <h1 data-key="footer_title"></h1>
+
+        <div class="footer-bottom">
+            <p data-key="update_info1"></p>
+            <p data-key="update_info2"></p>
+            </br>
+            <p data-key="copyright_info1"></p>
+            <p>© veselchak_howdy, GKProduction, 2026</p>
+        </div>
+    </div>
+
+    <script src="lang.js"></script>
+</body>
+</html>

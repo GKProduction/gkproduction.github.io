@@ -2,12 +2,50 @@ let currentLang = 'en-US';
 let translations = {};
 const supportedLanguages = ['en-US', 'ru-RU'];
 const cisLanguages = ['ru', 'ru-RU', 'uk', 'be'];
+const GIST_URL = 'https://gist.githubusercontent.com/veselchakhappy/03b29d06ca5eea5813257c5a6918bce1/raw/gk-bot-version';
+
+// Загрузка версии и даты
+async function fetchGistData() {
+	try {
+        const response = await fetch(`${GIST_URL}?t=${new Date().getTime()}`);
+        
+        if (!response.ok) {
+			return;
+		}
+
+        const text = await response.text();
+        const lines = text.trim().split('\n');
+        
+        if (lines.length < 2) {
+			return;
+		}
+
+        const version = lines[0].trim();
+        const rawDate = lines[1].trim();
+
+        if (currentLang === 'ru-RU') {
+            translations['update_info1'] = `Версия бота: ${version}`;
+            translations['update_info2'] = `Последнее обновление: ${rawDate}`;
+        } else {
+            const parts = rawDate.split('.');
+            const formattedDate = (parts.length === 3) 
+                ? `${parts[2]}.${parts[1]}.${parts[0]}` 
+                : rawDate;
+
+            translations['update_info1'] = `Bot version: ${version}`;
+            translations['update_info2'] = `Last update: ${formattedDate}`;
+        }
+    } catch (error) {
+        console.warn("Не удалось обработать данные из Gist.");
+    }
+}
 
 // Загрузка перевода
 async function loadTranslations(lang) {
     try {
         const response = await fetch(`languages/${lang}.json`);
         translations = await response.json();
+		await fetchGistData();
         updateContent();
     } catch (error) {
         console.error("Ошибка загрузки перевода:", error);

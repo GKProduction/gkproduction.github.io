@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'KevinRun';
+    src: url('KevinRun.woff2') format('woff2'),
+        url('KevinRun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RUSBoycott';
+    src: url('RUSBoycott.woff2') format('woff2'),
+        url('RUSBoycott.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

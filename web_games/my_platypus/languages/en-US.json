@@ -1,0 +1,36 @@
+{
+	"game": {
+		"loading": "Loading..."
+	},
+	"gameplay": {
+		"age_days": "Age:\nD days",
+		"age_days_dead": "Lived:\nD days",
+		"age_years": "Age:\nY years",
+		"age_years_dead": "Lived:\nY years",
+		"track": "Track: Райбн.mp3\nAuthor: VNGames"
+	},
+	"language": {
+		"name": "English"
+	},
+	"promise": {
+		"change_name_warning": "The name cannot be changed.",
+		"confirm": "Confirm",
+		"next": "Continue",
+		"no": "No",
+		"promise1": "I promise",
+		"promise2": " to care for the creature for the rest of my life.",
+		"text1": "You found an egg. The creature inside is ready to hatch.",
+		"text2": "Do you promise to care for the creature for the rest of your life?",
+		"text3": "Give the creature a name.",
+		"uninteresting": "Not interesting."
+	},
+	"states": {
+		"happiness": "Happiness",
+		"health": "Health",
+		"hydration": "Hydration",
+		"mental_health": "Mental health",
+		"saturation": "Saturation",
+		"sleep": "Sleep",
+		"temperature": "Temperature"
+	}
+}

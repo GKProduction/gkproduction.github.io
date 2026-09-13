@@ -1,0 +1,14 @@
+{
+	"steam":        { "os": "Windows", "icon": "steam.png", "name": "Steam" },
+	"vk_play":       { "os": "Windows", "icon": "vk_play.png", "name": "VK Play" },
+	"game_jolt":     { "os": "Windows",  "icon": "game_jolt.png", "name": "Game Jolt" },
+	"itch_io":       { "os": "Windows", "icon": "itch_io.png", "name": "itch.io" },
+	"github":        { "os": "Windows", "icon": "github.png", "name": "GitHub" },
+	
+	"google_play":   { "os": "Android", "icon": "google_play.png", "name": "Google Play" },
+	"rustore":       { "os": "Android", "icon": "rustore.png", "name": "RuStore" },
+	
+	"newgrounds":    { "os": "HTML5",  "icon": "newground.png", "name": "Newgrounds" },
+	"vkontakte":     { "os": "HTML5",  "icon": "vkontakte.png", "name": "VKontakte" },
+	"yandex_games":  { "os": "HTML5",  "icon": "yandex_games.png", "name": "Yandex Games" }
+}

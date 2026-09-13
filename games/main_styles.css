@@ -1,0 +1,403 @@
+/* ==== Общий файл стилей ==== */
+
+/* ОТЛАДКА. Обводка у элементов */
+/* * {outline: 1px solid red;} */
+
+/* Общие отступы */
+body {
+	margin: 20px;
+}
+
+/* Страница игры */
+.game-page {
+	
+	/* Отступы и размеры */
+	max-width: 900px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding: 20px;
+	
+	/* Подложка */
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 16px;
+}
+
+/* Блоки страницы (отступы) */
+.page-block {
+	margin-bottom: 20px;
+}
+
+/* Логотип игры */
+.logo {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Галерея скриншотов*/
+.gallery-container {
+	position: relative;
+	width: 100%;
+	overflow-x: auto;
+	padding-bottom: 8px;
+}
+
+/* Галерея. Цвет скроллбара*/
+.gallery-container::-webkit-scrollbar {
+	height: 8px;
+}
+.gallery-container::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+}
+.gallery-container::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+}
+.gallery-container::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+/* Галерея */
+.gallery {
+	display: flex;
+	gap: 10px;
+	width: max-content;
+	
+	margin: 0 auto;
+}
+
+/* Скриншот в галерее */
+.gallery img {
+	height: 150px;
+	width: auto;
+	display: block;
+	
+	cursor: pointer;
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	transition: filter 0.2s;
+}
+
+.gallery img:hover {
+	filter: brightness(1.05);
+}
+
+/* Загрузка галереи */
+.gallery-loading {
+	position: absolute;
+	inset: 0;
+	background: rgba(255, 255, 255, 0.3);
+	animation: gallery-pulse 1.5s ease-in-out infinite;
+	pointer-events: none; /* Чтобы клики проходили сквозь */
+}
+
+/* Загрузка галереи. Мерцание */
+@keyframes gallery-pulse {
+	0%, 100% { opacity: 0.3; }
+	50%      { opacity: 0.7; }
+}
+
+/* Текст. Заголовки */
+h1, h2, h3 {
+	/* Толщина шрифта */
+	font-weight: 700;
+	
+	/* Отступы */
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+/* Текст. Заголовки. Размер шрифта*/
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+
+/* Текст. Отступы у абзацев */
+p {
+	margin: 10px 0;
+}
+
+/* Кнопка "Играть сейчас" */
+.play-button {
+	display: block;
+	width: 85%;
+	padding: 16px;
+	margin: 0 auto;
+	
+	/* Шрифт */
+	font-family: inherit;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 20px;
+	
+	/* Фон и рамка */
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 12px;
+	
+	/* Наведение курсора */
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+/* Кнопка "Играть сейчас". Курсор наведён */
+.play-button:hover { 
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* Оверлей модального окна (затемнение) */
+.overlay {
+	display: none;
+	position: fixed;
+	inset: 0;
+	z-index: 100;
+	padding: 16px;         /* отступы от краёв экрана */
+	box-sizing: border-box;
+	
+	align-items: center;
+	justify-content: center;
+	
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay.open {
+	display: flex;
+}
+
+/* Модальное окно */
+.modal {
+	position: relative;
+	width: 100%;
+	max-width: 700px;
+	max-height: 80vh;
+	overflow-y: auto;
+	padding: 24px;
+	
+	background: rgba(30, 30, 30, 0.95);
+	border-radius: 16px;
+}
+
+/* Модальное окно. Крестик */
+.modal-close {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 8px;
+	right: 8px;
+	line-height: 1;
+	margin: 12px;
+	
+	font-size: 32px;
+	color: #ffffff;
+	
+	background: transparent;
+	border: none;
+	
+	cursor: pointer;
+	user-select: none;
+}
+
+.modal-close:hover {
+	color: #ff0000;
+}
+
+/* Модальное окно. Содержимое */
+.modal-content {
+	padding-top: 16px;
+}
+
+/* Просмотр скриншотов */
+.modal-lightbox {
+	width: auto;
+	max-width: none;
+	max-height: none;
+	padding: 32px;
+	overflow: visible;
+	
+	border-radius: 8px;
+}
+
+.lightbox-image {
+	max-width: calc(100vw - 64px);    /* 16px (overlay) + 16px (рамка) с каждой стороны */
+	max-height: calc(100vh - 64px);
+	height: 80vh;
+	display: block;
+	object-fit: contain;
+	
+	width: auto;
+	
+	animation: fade-in 0.2s ease;
+}
+
+.lightbox-video {
+	height: 80vh;
+	aspect-ratio: 16 / 9;
+	max-width: calc(100vw - 64px);
+	border: none;
+	
+	animation: fade-in 0.2s ease;
+}
+
+.lightbox-counter {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 8px;
+	color: #ffffff;
+	font-size: 16px;
+	user-select: none;
+}
+
+.lightbox-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	
+	width: 48px;
+	height: 48px;
+	
+	font-family: inherit;
+	font-size: 32px;
+	line-height: 1;
+	color: #ffffff;
+	
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	border-radius: 50%;
+	
+	cursor: pointer;
+	user-select: none;
+	
+	transition: background 0.2s;
+}
+
+.lightbox-arrow:hover {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-arrow-left {
+	left: -56px;   /* 48px (ширина) + 8px отступ */
+}
+
+.lightbox-arrow-right {
+	right: -56px;
+}
+
+@media (max-width: 768px) {
+	.gallery img {
+		height: 80px;
+	}
+	
+	/* Убрать рамку модального окна */
+	.modal-lightbox {
+		padding: 0;
+		border-radius: 0;
+	}
+	
+	/* Картинка от края до края */
+	.overlay {
+		padding: 0;
+	}
+	
+	.lightbox-image {
+		max-width: 100vw;
+		max-height: 100vh;
+		
+		transition: transform 0.1s;
+	}
+	
+	.lightbox-video {
+		height: auto;
+		width: 100vw;
+		max-width: 100vw;
+		max-height: 100vh;
+		
+		transition: transform 0.1s;
+	}
+	
+	/* Скрыть крестик */
+	.modal-lightbox .modal-close {
+		display: none;
+	}
+	
+	/* Стрелки — поверх картинки */
+	.lightbox-arrow-left  { left: 8px; }
+	.lightbox-arrow-right { right: 8px; }
+}
+
+@keyframes fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.modal-lightbox .modal-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+}
+
+/* Раздел ссылок */
+.links-section {
+	margin-bottom: 20px;
+}
+
+/* Заголовок секции с линией */
+.links-title {
+	display: flex;
+	align-items: center;
+	
+	margin-bottom: 12px;
+	gap: 12px;
+}
+
+.links-title::after {
+	content: "";
+	flex: 1;
+	height: 1px;
+	
+	background: rgba(255, 255, 255, 0.3);
+}
+
+/* Контейнер с иконками */
+.links-icons {
+	display: flex;
+	flex-wrap: wrap;
+	
+	gap: 12px;
+}
+
+/* Кнопка-ссылка */
+.links-icons a {
+	width: 100px;
+	height: 80px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	
+	transition: background 0.2s;
+}
+
+.links-icons a:hover {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.links-icons img {
+	width: 64px;
+	height: 64px;
+	
+	object-fit: contain;
+}
+
+/* Копирайт. Центрировать */
+.copyright {
+	 text-align: center;
+}

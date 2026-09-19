@@ -66,12 +66,13 @@ function update_logo() {
 // == Данные ==
 // Загрузка данных игры
 async function load_data() {
-	// Данные из data.json
-	const response = await fetch(GAME_PATH + "data.json");
-	DATA = await response.json();
-	
-	// Платформы
-	PLATFORMS = await (await fetch("data/platforms.json")).json();
+	// Данные из data.json и platforms.json — параллельно
+	const [data_res, platforms_res] = await Promise.all([
+		fetch(GAME_PATH + "data.json"),
+		fetch("data/platforms.json")
+	]);
+	DATA = await data_res.json();
+	PLATFORMS = await platforms_res.json();
 	
 	// Трейлер
 	if (DATA.trailer) {
@@ -137,10 +138,10 @@ async function change_language(new_lang) {
 
 // Загрузка строк локализации
 async function load_strings() {
-	// Общие строки	"/games/languages/ru-RU.json"
+	// Общие строки	"/game/languages/ru-RU.json"
 	const main_locale = await (await fetch("languages/" + language + ".json")).json();
 	
-	// Строки игры	"/games/data/game_name/languages/ru-RU.json"
+	// Строки игры	"/game/data/game_name/languages/ru-RU.json"
 	const game_locale = await (await fetch(GAME_PATH + "languages/" + language + ".json")).json();
 	
 	// Объединить в одну базу строк
@@ -175,12 +176,15 @@ function update_texts(ids) {
 
 // Загрузка данных при запуске
 async function first_load() {
-	await load_data();	// Загрузить данные игры
-	await load_strings();	// Загрузить строки
-	await update_description();	// Загрузить описание
-	update_texts();		// Обновить строки
+	// Загрузить всё параллельно
+	await Promise.all([
+		load_data(),		// Загрузить данные игры
+		load_strings(),		// Загрузить строки
+		update_description()	// Загрузить описание
+	]);
+	
+	update_texts();			// Обновить тексты
 }
-
 // Создать элементы
 
 // == Скриншоты ==

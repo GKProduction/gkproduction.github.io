@@ -73,7 +73,10 @@ async function load_data() {
 	]);
 	DATA = await data_res.json();
 	PLATFORMS = await platforms_res.json();
-	
+}
+
+// Создать галерею
+function build_gallery() {
 	// Трейлер
 	if (DATA.trailer) {
 		const trailer_img = new Image();
@@ -95,8 +98,10 @@ async function load_data() {
 	
 	// Убрать загрузку галереи
 	gallery_loading.remove();
-	
-	// Копирайт
+}
+
+// Создать копирайт
+function build_copyright() {
 	const copyright = document.createElement("div");
 	copyright.className = "copyright";
 	copyright.textContent = DATA.copyright;
@@ -176,14 +181,22 @@ function update_texts(ids) {
 
 // Загрузка данных при запуске
 async function first_load() {
-	// Загрузить всё параллельно
-	await Promise.all([
-		load_data(),		// Загрузить данные игры
-		load_strings(),		// Загрузить строки
-		update_description()	// Загрузить описание
-	]);
 	
-	update_texts();			// Обновить тексты
+	// 1. Текст
+	await Promise.all([
+		load_data(),			// Загрузить данные игры
+		load_strings(),			// Загрузить строки
+		update_description()		// Загрузить описание
+	]);
+	update_texts();				// Обновить строки
+	
+	// 2. Логотип
+	update_logo();
+	
+	// 3. Галерея и копирайт
+	build_gallery();
+	build_copyright();
+	
 }
 // Создать элементы
 
@@ -337,7 +350,6 @@ play_button.addEventListener("click", show_links);
 
 // === Загрузить данные при запуске ===
 first_load();
-update_logo();		// Обновить логотип
 
 // ====================
 

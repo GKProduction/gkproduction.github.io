@@ -276,7 +276,7 @@ p {
 	line-height: 1;
 	color: #ffffff;
 	
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 	border: none;
 	border-radius: 50%;
 	
@@ -305,8 +305,10 @@ p {
 	
 	/* Убрать рамку модального окна */
 	.modal-lightbox {
+		background: transparent;
 		padding: 0;
 		border-radius: 0;
+		box-shadow: none;
 	}
 	
 	/* Картинка от края до края */
@@ -317,7 +319,7 @@ p {
 	.lightbox-image {
 		max-width: 100vw;
 		max-height: 100vh;
-		
+		height: auto;
 		transition: transform 0.1s;
 	}
 	
@@ -338,6 +340,23 @@ p {
 	/* Стрелки — поверх картинки */
 	.lightbox-arrow-left  { left: 8px; }
 	.lightbox-arrow-right { right: 8px; }
+	
+	/* Счётчик скриншотов */
+	.lightbox-counter {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 8px;
+		
+		color: #ffffff;
+		font-size: 16px;
+		
+		background: rgba(0, 0, 0, 0.7);
+		padding: 4px 10px;
+		border-radius: 6px;
+		
+		user-select: none;
+	}
 }
 
 @keyframes fade-in {

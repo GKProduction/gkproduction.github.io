@@ -1,24 +1,25 @@
 {
-	"page": [
-		"logo",
-		"screenshots",
-		"description",
-		"links",
-		"copyright"
-	],
+	"released": true,
 	
-	"logo": "monolingual",
+	"screenshots": ["1.png", "2.png", "3.png"],
+	"trailer": "https://youtu.be/arVQKk1Y4j4",
 	
-	"links": [
+	"links": {
 		"game_jolt": "https://gamejolt.com/games/my_platypus/1098596",
 		"itch_io": "https://gkproduction.itch.io/my-platypus",
-		"google_play": "https://play.google.com/store/apps/details?id=ru.gkproduction.myplatypus",
+		
+		"_google_play": "https://play.google.com/store/apps/details?id=ru.gkproduction.myplatypus",
 		"rustore": "https://www.rustore.ru/catalog/app/ru.gkproduction.myplatypus",
+		
 		"newgrounds": "https://www.newgrounds.com/portal/view/1051569",
-		"vkontakte": "https://vk.ru/app54763723"
-	],
+		"_vkontakte": "https://vk.com/app54763723",
+		"_yandex_games": ""
+	},
 	
-	"description": [
-		"description.about1", "description.about2"
-	]
+	"_source": {
+		"steam": "",
+		"github": ""
+	},
+		
+	"copyright": "©GKProduction 2026"
 }

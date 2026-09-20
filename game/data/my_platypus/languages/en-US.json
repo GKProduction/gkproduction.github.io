@@ -1,8 +1,3 @@
 {
-	"description.about1": "Get yourself a funny platypus and take care of it... for the rest of your life.",
-	"description.about2": "A big responsibility awaits you. Check on your pet from time to time. Feed, play with, have fun with, or pet your platypus.",
-	"description.about_title": "About game",
-	"play_game.title": "Play game",
-	"source.coming_soon": "Coming soon...",
-	"source.title": "Source code"
+	"game.name": "My Platypus"
 }

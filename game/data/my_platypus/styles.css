@@ -1,8 +1,119 @@
-body {
+/* ==== Файл стилей страницы игры ==== */
 
-    /*Background*/
-    background: linear - gradient(
-        to bottom,
-        rgb(255, 255, 255)0 % ,
-        rgb(255, 219, 178)100 % );
+/* Импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+html {
+	/* Текст. Шрифт */
+	font-family: "Pangolin", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: black;
+	
+	/* Фон страницы*/
+	background-color: rgb(255, 219, 178);
+	background: linear-gradient(
+		to bottom,
+		rgb(255, 255, 255) 0%,
+		rgb(255, 219, 178) 100%
+	);
+	background-attachment: fixed;
+}
+
+/* Ссылки. Цвета */
+a             { color: #66ccff; }	/* Ещё не посещалась */
+a:hover { color: #99ddff; }	/* Наведён курсор */
+a:visited { color: #cc99ff; }	/* Посещена ранее */
+
+.links-button { color: black; } /* Текст в кнопках */
+
+/* Горизонтальная линия */
+hr {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+/* Галерея. Цвет скроллбара*/
+.gallery-container::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+.gallery-container::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.3);
+}
+.gallery-container::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* Подложка страницы игры */
+.game-page {
+	background: rgba(250, 177, 91, 0.5);
+	border-radius: 16px;
+}
+
+/* Модальное окно */
+.modal {
+	/* background: rgba(250, 177, 91, 0.95); */
+	background: rgba(255, 190, 120, 0.95);
+	border-radius: 16px;
+}
+
+/* Модальное окно. Крестик */
+.modal-close {
+	color: black;
+}
+.modal-close:hover {
+	color: red;
+}
+
+/* Счётчик скриншотов */
+.lightbox-counter {
+	color: black;
+}
+
+/* Мобильная версия страницы */
+@media (max-width: 768px) {
+	.lightbox-counter {
+		color: white;
+	}
+	
+	/* Убрать рамку модального окна */
+	.modal-lightbox {
+		background: transparent;
+		padding: 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+}
+
+/* Кнопки с ссылками */
+.links-button {
+	/* Фон и рамка */
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.9);
+	border-radius: 12px;
+}
+
+/* Кнопка. Курсор наведён */
+.links-button:hover { 
+	background: rgba(255, 255, 255, 0.4);
+}
+
+/* Кнопка. Нажата */
+.links-button:active { 
+	background: rgba(255, 255, 255, 0.4);
+}
+
+/* Кнопка-ссылка */
+.links-icons a {
+	background: rgba(255, 255, 255, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.9);
+	border-radius: 8px;
+}
+
+.links-icons a:hover {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+/* Окно с ссылками. Линия после заголовка */
+.links-title::after {
+	background: rgba(0, 0, 0, 0.9);
 }

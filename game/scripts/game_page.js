@@ -22,6 +22,12 @@ style.rel = "stylesheet";
 style.href = GAME_PATH + "styles.css";
 document.head.appendChild(style);
 
+// === Фавикон ===
+const favicon = document.createElement("link");
+favicon.rel = "icon";
+favicon.href = GAME_PATH + "favicon.png";
+document.head.appendChild(favicon);
+
 // === Блоки страницы ===
 const logo_block = document.querySelector(".logo-block");
 const gallery_block = document.querySelector(".gallery-block");
@@ -133,12 +139,23 @@ async function load_data() {
 function build_gallery() {
 	// Трейлер
 	if (DATA.trailer) {
+		const trailer_wrapper = document.createElement("div");
+		trailer_wrapper.className = "trailer-wrapper";
+		
 		const trailer_img = new Image();
 		trailer_img.src = GAME_PATH + "screenshots/trailer.png";
 		trailer_img.draggable = false;
-		trailer_img.addEventListener("click", () => show_lightbox([...gallery.children].indexOf(trailer_img)));
-		trailer_img.dataset.trailer = "true";
-		gallery.appendChild(trailer_img);
+		trailer_img.addEventListener("click", () => show_lightbox([...gallery.children].indexOf(trailer_wrapper)));
+		trailer_wrapper.dataset.trailer = "true";
+		trailer_wrapper.appendChild(trailer_img);
+		
+		// Кнопка поверх
+		const trailer_button = new Image();
+		trailer_button.src = "../images/trailer_button.png";
+		trailer_button.className = "trailer-button";
+		trailer_wrapper.appendChild(trailer_button);
+		
+		gallery.appendChild(trailer_wrapper);
 	}
 	
 	// Скриншоты
@@ -251,7 +268,7 @@ async function first_load() {
 	// Кнопка "Исходный код"
 	if (DATA.source) {
 		const source_button = document.createElement("button");
-		source_button.className = "links-button source-button";
+		source_button.className = "links-button secondary-links-button source-button";
 		source_button.dataset.id = "source.title";
 		source_button.addEventListener("click", show_source);
 		source_links_block.appendChild(source_button);
@@ -265,7 +282,7 @@ async function first_load() {
 	
 	// Кнопка "Сообщество"
 	const community_button = document.createElement("button");
-	community_button.className = "links-button community-button";
+	community_button.className = "links-button secondary-links-button community-button";
 	community_button.dataset.id = "community.title";
 	community_button.addEventListener("click", show_community);
 	community_links_block.appendChild(community_button);
@@ -274,7 +291,7 @@ async function first_load() {
 	
 	// Кнопка "Поддержать"
 	const donate_button = document.createElement("button");
-	donate_button.className = "links-button donate-button";
+	donate_button.className = "links-button secondary-links-button donate-button";
 	donate_button.dataset.id = "donate.title";
 	donate_button.addEventListener("click", show_donate);
 	donate_links_block.appendChild(donate_button);
@@ -317,7 +334,7 @@ container.appendChild(gallery_loading);
 
 // === Кнопка "Играть сейчас" ===
 const play_button = document.createElement("button");
-play_button.className = "links-button play-button";
+play_button.className = "links-button main-links-button play-button";
 play_button.dataset.id = "play_game.play_now";
 game_links_block.appendChild(play_button);
 
@@ -579,6 +596,7 @@ function show_lightbox(index) {
 		const img = new Image();
 		img.className = "lightbox-image";
 		img.src = item.src;
+		img.draggable = false;
 		modal.appendChild(img);
 	}
 		
@@ -620,6 +638,8 @@ let touch_dx = 0;
 let touch_dy = 0;
 
 modal.addEventListener("touchstart", (e) => {
+	if (!modal.classList.contains("modal-lightbox")) return;
+
 	touch_start_x = e.touches[0].clientX;
 	touch_start_y = e.touches[0].clientY;
 	touch_dx = 0;
@@ -629,6 +649,8 @@ modal.addEventListener("touchstart", (e) => {
 modal.addEventListener("touchmove", (e) => {
 	if (!modal.classList.contains("modal-lightbox")) return;
 	
+	e.preventDefault();   // Отменить скролл страницы
+	
 	touch_dx = e.touches[0].clientX - touch_start_x;
 	touch_dy = e.touches[0].clientY - touch_start_y;
 	
@@ -636,7 +658,7 @@ modal.addEventListener("touchmove", (e) => {
 	if (img) {
 		img.style.transform = "translate(" + touch_dx + "px, " + touch_dy + "px)";
 	}
-});
+}, { passive: false });
 
 modal.addEventListener("touchend", () => {
 	const total = gallery.children.length;

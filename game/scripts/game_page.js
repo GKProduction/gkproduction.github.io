@@ -66,11 +66,17 @@ function update_logo() {
 // == Данные ==
 // Загрузка данных игры
 async function load_data() {
-	// Данные из data.json и platforms.json — параллельно
 	const [data_res, platforms_res] = await Promise.all([
 		fetch(GAME_PATH + "data.json"),
 		fetch("data/platforms.json")
 	]);
+	
+	// Игра не найдена
+	if (!data_res.ok) {
+		location.replace("../404.html");
+		throw new Error("Game not found");
+	}
+	
 	DATA = await data_res.json();
 	PLATFORMS = await platforms_res.json();
 }

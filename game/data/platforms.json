@@ -10,5 +10,12 @@
 	
 	"newgrounds":    { "os": "HTML5",  "icon": "newground.png", "name": "Newgrounds" },
 	"vkontakte":     { "os": "HTML5",  "icon": "vkontakte.png", "name": "VKontakte" },
-	"yandex_games":  { "os": "HTML5",  "icon": "yandex_games.png", "name": "Yandex Games" }
+	"yandex_games":  { "os": "HTML5",  "icon": "yandex_games.png", "name": "Yandex Games" },
+	
+	"discord": { "icon": "discord.png", "name": "Discord" },
+	"telegram": { "icon": "telegram.png", "name": "Telegram" },
+	"youtube": { "icon": "youtube.png", "name": "YouTube" },
+	"reddit": { "icon": "reddit.png", "name": "Reddit" },
+	
+	"boosty": { "icon": "boosty.png", "name": "Boosty" }
 }

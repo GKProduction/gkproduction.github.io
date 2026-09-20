@@ -1,9 +1,12 @@
 {
+	"community.title": "Сообщество",
 	"description.about_title": "Об игре",
-	"play_game.android": "📱 Играть на Android",
-	"play_game.html5": "🌐 Играть в браузере",
+	"donate.title": "Поддержать",
+	"play_game.android": "📱 Android",
+	"play_game.html5": "🌐 Браузер",
+	"play_game.not_released": "Следить за игрой",
 	"play_game.play_now": "Играть сейчас",
-	"play_game.windows": "🖥️ Играть на Windows",
+	"play_game.windows": "🖥️ Windows",
 	"soon": "Скоро",
 	"source.title": "Исходный код"
 }

@@ -1,0 +1,25 @@
+/* ==== Файл стилей страницы игры ==== */
+
+/* Импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+	/* Фон страницы*/
+	background: linear-gradient(
+		to bottom,
+		rgb(255, 255, 255) 0%,
+		rgb(0, 0, 0) 100%
+	);
+	background-attachment: fixed;
+	
+	/* Текст. Шрифт */
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+/* Ссылки. Цвета */
+a             { color: #66ccff; }	/* Ещё не посещалась */
+a:hover { color: #99ddff; }	/* Наведён курсор */
+a:visited { color: #cc99ff; }	/* Посещена ранее */

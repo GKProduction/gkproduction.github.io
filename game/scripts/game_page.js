@@ -10,9 +10,11 @@ const GAME_ID = new URLSearchParams(location.search).get("id");
 const GAME_PATH = "data/" + GAME_ID + "/";
 
 // Данные
-let DATA;		// Данные игры
-let PLATFORMS;	// Платформы
-let STRINGS;	// Строки локализации
+let DATA;			// Данные игры
+let PLATFORMS;		// Платформы
+let STRINGS;		// Строки локализации
+let COMMUNITY;	// Ссылки на сообщество
+let DONATE;		// Ссылки на поддержку
 
 // === Стиль страницы ===
 const style = document.createElement("link");
@@ -24,7 +26,10 @@ document.head.appendChild(style);
 const logo_block = document.querySelector(".logo-block");
 const gallery_block = document.querySelector(".gallery-block");
 const description_block = document.querySelector(".description-block");
-const links_block = document.querySelector(".links-block");
+const game_links_block = document.querySelector(".game-links-block");
+const source_links_block = document.querySelector(".source-links-block");
+const community_links_block = document.querySelector(".community-links-block");
+const donate_links_block = document.querySelector(".donate-links-block");
 const copyright_block = document.querySelector(".copyright-block");
 
 //  === Данные игры ===
@@ -64,8 +69,41 @@ function update_logo() {
 }
 
 // == Данные ==
+
+// Разобрать .ini-файл
+function parse_ini(text) {
+	const result = {};
+	let section = null;
+	
+	text.split("\n").forEach(line => {
+		line = line.trim();
+		
+		// Пустая строка или комментарий
+		if (!line || line.startsWith(";") || line.startsWith("#")) return;
+		
+		// Секция
+		if (line.startsWith("[") && line.endsWith("]")) {
+			section = line.slice(1, -1);
+			result[section] = {};
+			return;
+		}
+		
+		// Пара ключ=значение
+		const eq = line.indexOf("=");
+		if (eq !== -1 && section) {
+			const key = line.slice(0, eq).trim();
+			const value = line.slice(eq + 1).trim();
+			result[section][key] = value;
+		}
+	});
+	
+	return result;
+}
+
+
 // Загрузка данных игры
 async function load_data() {
+	// Данные из data.json и platforms.json — параллельно
 	const [data_res, platforms_res] = await Promise.all([
 		fetch(GAME_PATH + "data.json"),
 		fetch("data/platforms.json")
@@ -79,6 +117,16 @@ async function load_data() {
 	
 	DATA = await data_res.json();
 	PLATFORMS = await platforms_res.json();
+	
+	// Сообщество
+	const community_res = await fetch("data/community.ini");
+	const community_text = await community_res.text();
+	COMMUNITY = parse_ini(community_text);
+	
+	// Поддержка
+	const donate_res = await fetch("data/donate.ini");
+	const donate_text = await donate_res.text();
+	DONATE = parse_ini(donate_text);
 }
 
 // Создать галерею
@@ -188,7 +236,7 @@ function update_texts(ids) {
 // Загрузка данных при запуске
 async function first_load() {
 	
-	// 1. Текст
+	// Текст
 	await Promise.all([
 		load_data(),			// Загрузить данные игры
 		load_strings(),			// Загрузить строки
@@ -196,10 +244,47 @@ async function first_load() {
 	]);
 	update_texts();				// Обновить строки
 	
-	// 2. Логотип
+	// Кнопка "Играть сейчас" — текст зависит от released
+	play_button.dataset.id = (DATA.released === false) ? "play_game.not_released" : "play_game.play_now";
+	update_texts([play_button.dataset.id]);
+	
+	// Кнопка "Исходный код"
+	if (DATA.source) {
+		const source_button = document.createElement("button");
+		source_button.className = "links-button source-button";
+		source_button.dataset.id = "source.title";
+		source_button.addEventListener("click", show_source);
+		source_links_block.appendChild(source_button);
+		
+		// Обновить текст кнопки
+		update_texts(["source.title"]);
+	} else {
+		// Если нет исходников — удалить блок
+		source_links_block.remove();
+	}
+	
+	// Кнопка "Сообщество"
+	const community_button = document.createElement("button");
+	community_button.className = "links-button community-button";
+	community_button.dataset.id = "community.title";
+	community_button.addEventListener("click", show_community);
+	community_links_block.appendChild(community_button);
+	
+	update_texts(["community.title"]);
+	
+	// Кнопка "Поддержать"
+	const donate_button = document.createElement("button");
+	donate_button.className = "links-button donate-button";
+	donate_button.dataset.id = "donate.title";
+	donate_button.addEventListener("click", show_donate);
+	donate_links_block.appendChild(donate_button);
+
+	update_texts(["donate.title"]);
+	
+	// Логотип
 	update_logo();
 	
-	// 3. Галерея и копирайт
+	// Галерея и копирайт
 	build_gallery();
 	build_copyright();
 	
@@ -232,9 +317,9 @@ container.appendChild(gallery_loading);
 
 // === Кнопка "Играть сейчас" ===
 const play_button = document.createElement("button");
-play_button.className = "play-button";
+play_button.className = "links-button play-button";
 play_button.dataset.id = "play_game.play_now";
-links_block.appendChild(play_button);
+game_links_block.appendChild(play_button);
 
 // Оверлей модального окна
 const overlay = document.createElement("div");
@@ -270,15 +355,38 @@ function create_close_button() {
 	modal.appendChild(close);
 }
 
-// Показать ссылки
-function show_links() {
+// Подготовить модальное окно (очистить, создать крестик, вернуть контейнер)
+function prepare_modal() {
 	modal.className = "modal";
 	modal.innerHTML = "";
 	create_close_button();
 	
-	// Содержимое модального окна
-	const modal_content = document.createElement("div");
-	modal_content.className = "modal-content";
+	const content = document.createElement("div");
+	content.className = "modal-content";
+	modal.appendChild(content);
+	
+	return content;
+}
+
+// Создать иконку-ссылку
+function create_icon_link(url, platform) {
+	const a = document.createElement("a");
+	a.href = url;
+	a.target = "_blank";
+	
+	const img = new Image();
+	img.src = "../images/platforms/" + PLATFORMS[platform].icon;
+	img.alt = PLATFORMS[platform].name;
+	img.title = PLATFORMS[platform].name;
+	
+	a.appendChild(img);
+	return a;
+}
+
+// Показать ссылки
+function show_links() {
+	// Подготовить окно
+	const modal_content = prepare_modal();
 	
 	// Ссылки по секциям
 	const OS_LIST = ["Windows", "Android", "HTML5"];
@@ -301,17 +409,7 @@ function show_links() {
 		// Иконки для этой ОС
 		for (const platform in DATA.links) {
 			if (PLATFORMS[platform] && PLATFORMS[platform].os === os) {
-				const a = document.createElement("a");
-				a.href = DATA.links[platform];
-				a.target = "_blank";
-				
-				const img = new Image();
-				img.src = "../images/platforms/" + PLATFORMS[platform].icon;
-				img.alt = PLATFORMS[platform].name;
-				img.title = PLATFORMS[platform].name;
-				
-				a.appendChild(img);
-				icons.appendChild(a);
+				icons.appendChild(create_icon_link(DATA.links[platform], platform));
 			}
 		}
 		
@@ -319,12 +417,103 @@ function show_links() {
 		modal_content.appendChild(section);
 	});
 	
-	modal.appendChild(modal_content);
-	
 	// Обновить текст в окне ссылок
 	update_texts(["play_game.windows", "play_game.android", "play_game.html5"]);
 	
 	// Открыть модальное окно
+	open_modal();
+}
+
+// Показать исходники
+function show_source() {
+	// Подготовить окно
+	const modal_content = prepare_modal();
+	
+	// Заголовок
+	const title = document.createElement("h3");
+	title.className = "links-title";
+	title.dataset.id = "source.title";
+	modal_content.appendChild(title);
+	
+	// Контейнер с иконками
+	const icons = document.createElement("div");
+	icons.className = "links-icons";
+	
+	// Иконки
+	for (const platform in DATA.source) {
+		if (PLATFORMS[platform]) {
+			icons.appendChild(create_icon_link(DATA.source[platform], platform));
+		}
+	}
+	
+	modal_content.appendChild(icons);
+	
+	// Обновить текст в окне
+	update_texts(["source.title"]);
+	
+	// Открыть модальное окно
+	open_modal();
+}
+
+// Показать сообщество
+function show_community() {
+	// Подготовить окно
+	const modal_content = prepare_modal();
+	
+	// Заголовок
+	const title = document.createElement("h3");
+	title.className = "links-title";
+	title.dataset.id = "community.title";
+	modal_content.appendChild(title);
+	
+	// Контейнер с иконками
+	const icons = document.createElement("div");
+	icons.className = "links-icons";
+	
+	// Иконки
+	for (const platform in COMMUNITY.community) {
+		if (PLATFORMS[platform]) {
+			icons.appendChild(create_icon_link(COMMUNITY.community[platform], platform));
+		}
+	}
+	
+	modal_content.appendChild(icons);
+	
+	// Обновить текст
+	update_texts(["community.title"]);
+	
+	// Открыть
+	open_modal();
+}
+
+// Показать поддержку
+function show_donate() {
+	// Подготовить окно
+	const modal_content = prepare_modal();
+	
+	// Заголовок
+	const title = document.createElement("h3");
+	title.className = "links-title";
+	title.dataset.id = "donate.title";
+	modal_content.appendChild(title);
+	
+	// Контейнер с иконками
+	const icons = document.createElement("div");
+	icons.className = "links-icons";
+	
+	// Иконки
+	for (const platform in DONATE.donate) {
+		if (PLATFORMS[platform]) {
+			icons.appendChild(create_icon_link(DONATE.donate[platform], platform));
+		}
+	}
+	
+	modal_content.appendChild(icons);
+	
+	// Обновить текст
+	update_texts(["donate.title"]);
+	
+	// Открыть
 	open_modal();
 }
 

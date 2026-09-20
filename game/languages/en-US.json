@@ -1,9 +1,12 @@
 {
+	"community.title": "Community",
 	"description.about_title": "About the game",
-	"play_game.android": "📱 Play on Android",
-	"play_game.html5": "🌐 Play on browser",
+	"donate.title": "Sponsor",
+	"play_game.android": "📱 Android",
+	"play_game.html5": "🌐 Browser",
+	"play_game.not_released": "Follow the game",
 	"play_game.play_now": "Play Now",
-	"play_game.windows": "🖥️ Play on Windows",
+	"play_game.windows": "🖥️ Windows",
 	"soon": "Soon",
 	"source.title": "Source code"
 }

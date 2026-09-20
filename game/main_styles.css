@@ -120,18 +120,18 @@ p {
 	margin: 10px 0;
 }
 
-/* Кнопка "Играть сейчас" */
-.play-button {
+/* Кнопки с ссылками */
+.links-button {
 	display: block;
 	width: 85%;
-	padding: 16px;
+	padding: 14px;
 	margin: 0 auto;
 	
 	/* Шрифт */
 	font-family: inherit;
 	font-weight: 700;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 18px;
 	
 	/* Фон и рамка */
 	background: rgba(255, 255, 255, 0.1);
@@ -140,12 +140,24 @@ p {
 	
 	/* Наведение курсора */
 	cursor: pointer;
-	transition: background 0.2s;
+	transition: background 0.2s, transform 0.2s;
 }
 
-/* Кнопка "Играть сейчас". Курсор наведён */
-.play-button:hover { 
+/* Кнопка. Курсор наведён */
+.links-button:hover { 
 	background: rgba(255, 255, 255, 0.2);
+}
+
+/* Кнопка. Нажата */
+.links-button:active { 
+	background: rgba(255, 255, 255, 0.4);
+	transform: scale(0.98);
+}
+
+/* Кнопка "Играть сейчас" */
+.play-button {
+	padding: 18px;
+	font-size: 24px;
 }
 
 /* Оверлей модального окна (затемнение) */
@@ -352,6 +364,8 @@ p {
 	
 	margin-bottom: 12px;
 	gap: 12px;
+	
+	font-size: 28px;
 }
 
 .links-title::after {

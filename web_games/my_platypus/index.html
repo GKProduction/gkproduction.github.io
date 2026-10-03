@@ -129,9 +129,6 @@
 	{window.open("http://www.clickteam.com/html5-fallback", "_self");}
 	</script>
 
-	<!-- Loads the game runtime -->
-	<script src="data/Runtime.js"></script>
-	
 	<!-- Возвращение ответов функций для модуля Collection of API -->
 	<script src="scripts/CallbackCatcher.js"></script>
 	
@@ -144,8 +141,15 @@
 	<!-- Определение платформы игры -->
 	<script>
 	info_event = "Get platform";
-	info_data = ""; 
+	info_data = "VK Games";
 	</script>
+		
+		<!-- VK Bridge SDK -->
+		<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+		<script src="scripts/VKBridgeSDK.js"></script>
+	
+	<!-- Loads the game runtime -->
+	<script src="data/Runtime.js"></script>
 </head>
 
 <body>

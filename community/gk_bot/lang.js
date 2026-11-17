@@ -6,22 +6,16 @@ const GIST_URL = 'https://gist.githubusercontent.com/veselchakhappy/03b29d06ca5e
 
 // Загрузка версии и даты
 async function fetchGistData() {
-	try {
-        const response = await fetch(`${GIST_URL}?t=${new Date().getTime()}`);
-        
-        if (!response.ok) {
-			return;
-		}
+    try {
+        const response = await fetch(`${GIST_URL}?t=${Date.now()}`);
+        if (!response.ok) return;
 
         const text = await response.text();
         const lines = text.trim().split('\n');
-        
-        if (lines.length < 2) {
-			return;
-		}
+        if (lines.length < 2) return;
 
-        const version = lines[0].trim();
-        const rawDate = lines[1].trim();
+        const version = lines.at(0).trim();
+        const rawDate = lines.at(1).trim();
 
         if (currentLang === 'ru-RU') {
             translations['update_info1'] = `Версия бота: ${version}`;
@@ -35,8 +29,8 @@ async function fetchGistData() {
             translations['update_info1'] = `Bot version: ${version}`;
             translations['update_info2'] = `Last update: ${formattedDate}`;
         }
-    } catch (error) {
-        console.warn("Не удалось обработать данные из Gist.");
+    } catch (e) {
+        console.warn("Не удалось загрузить версию из Gist:", e);
     }
 }
 
